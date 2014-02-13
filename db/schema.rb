@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140202205214) do
+ActiveRecord::Schema.define(version: 20140212210012) do
 
   create_table "answers", force: true do |t|
     t.string "time"
@@ -28,20 +28,27 @@ ActiveRecord::Schema.define(version: 20140202205214) do
 
   create_table "interactions", force: true do |t|
     t.string "user_id"
-    t.string "friend_id"
+    t.string "peer_id"
     t.string "time"
     t.string "duration"
   end
 
   create_table "questions", force: true do |t|
-    t.string "question_id"
     t.string "question_text"
   end
 
-  create_table "schedules", force: true do |t|
-    t.string "time"
-    t.string "question_id"
+  create_table "rules", force: true do |t|
     t.string "user_id"
+    t.string "peer_id"
+    t.string "delay"
+    t.string "question_id"
+  end
+
+  create_table "schedules", force: true do |t|
+    t.string  "time"
+    t.string  "question_id"
+    t.string  "user_id"
+    t.boolean "sent"
   end
 
   create_table "users", force: true do |t|

@@ -11,6 +11,7 @@ Schedule.delete_all
 Question.delete_all
 Choice.delete_all
 Answer.delete_all
+Rule.delete_all
 
 User.create!(user_id: 'nsf1',
   imei: nil,
@@ -33,136 +34,186 @@ User.create!(user_id: 'nsf5',
   is_claimed: false)
 
 Interaction.create!(user_id: 'nsf1',
-  friend_id: 'nsf2',
+  peer_id: 'nsf2',
   time: '2014-02-02 16:42:15 -0500',
   duration: '120')
 
 Interaction.create!(user_id: 'nsf2',
-  friend_id: 'nsf1',
+  peer_id: 'nsf1',
   time: '2014-02-02 16:42:15 -0500',
   duration: '120')
 
 Interaction.create!(user_id: 'nsf4',
-  friend_id: 'nsf5',
+  peer_id: 'nsf5',
   time: '2014-02-02 12:30:26 -0500',
   duration: '265')
 
 Interaction.create!(user_id: 'nsf5',
-  friend_id: 'nsf4',
+  peer_id: 'nsf4',
   time: '2014-02-02 12:30:26 -0500',
   duration: '265')
 
 Schedule.create!(time: '2014-02-03 12:00:00 -0500',
-  question_id: 'q1',
-  user_id: 'nsf1')
+  question_id: '1',
+  user_id: 'nsf1',
+  sent: false)
 
 Schedule.create!(time: '2014-02-03 12:00:00 -0500',
-  question_id: 'q2',
-  user_id: 'nsf2')
+  question_id: '2',
+  user_id: 'nsf2',
+  sent: false)
 
 Schedule.create!(time: '2014-02-03 12:00:00 -0500',
-  question_id: 'q1',
-  user_id: 'nsf3')
+  question_id: '1',
+  user_id: 'nsf3',
+  sent: false)
 
 Schedule.create!(time: '2014-02-03 12:00:00 -0500',
-  question_id: 'q2',
-  user_id: 'nsf4')
+  question_id: '2',
+  user_id: 'nsf4',
+  sent: false)
 
 Schedule.create!(time: '2014-02-03 12:00:00 -0500',
-  question_id: 'q1',
-  user_id: 'nsf5')
+  question_id: '1',
+  user_id: 'nsf5',
+  sent: false)
 
-Question.create!(question_id: "q1",
-  question_text: "Question #1 Content Goes Here")
+Question.create!(question_text: "Question #1 Content Goes Here")
 
-Question.create!(question_id: "q2",
-  question_text: "Question #2 Content Goes Here")
+Question.create!(question_text: "Question #2 Content Goes Here")
 
-Question.create!(question_id: "q3",
-  question_text: "Question #3 Content Goes Here")
+Question.create!(question_text: "Question #3 Content Goes Here")
 
-Choice.create!(question_id: 'q1',
-  choice_id: 'a',
-  choice_text: 'Text for Question 1, Choice A')
+Question.create!(question_text: "Question #4 Content Goes Here")
 
-Choice.create!(question_id: 'q1',
-  choice_id: 'b',
-  choice_text: 'Text for Question 1, Choice B')
+Question.create!(question_text: "Question #5 Content Goes Here")
 
-Choice.create!(question_id: 'q1',
-  choice_id: 'c',
-  choice_text: 'Text for Question 1, Choice C')
+Choice.create!(question_id: '1',
+  choice_id: '1',
+  choice_text: 'Text for Question 1, Choice 1')
 
-Choice.create!(question_id: 'q2',
-  choice_id: 'a',
-  choice_text: 'Text for Question 2, Choice A')
+Choice.create!(question_id: '1',
+  choice_id: '2',
+  choice_text: 'Text for Question 1, Choice 2')
 
-Choice.create!(question_id: 'q2',
-  choice_id: 'b',
-  choice_text: 'Text for Question 2, Choice B')
+Choice.create!(question_id: '1',
+  choice_id: '3',
+  choice_text: 'Text for Question 1, Choice 3')
 
-Choice.create!(question_id: 'q2',
-  choice_id: 'c',
-  choice_text: 'Text for Question 2, Choice C')
+Choice.create!(question_id: '2',
+  choice_id: '1',
+  choice_text: 'Text for Question 2, Choice 1')
 
-Choice.create!(question_id: 'q3',
-  choice_id: 'a',
-  choice_text: 'Text for Question 3, Choice A')
+Choice.create!(question_id: '2',
+  choice_id: '2',
+  choice_text: 'Text for Question 2, Choice 2')
 
-Choice.create!(question_id: 'q3',
-  choice_id: 'b',
-  choice_text: 'Text for Question 3, Choice B')
+Choice.create!(question_id: '2',
+  choice_id: '3',
+  choice_text: 'Text for Question 2, Choice 3')
 
-Choice.create!(question_id: 'q3',
-  choice_id: 'c',
-  choice_text: 'Text for Question 3, Choice C')
+Choice.create!(question_id: '3',
+  choice_id: '1',
+  choice_text: 'Text for Question 3, Choice 1')
+
+Choice.create!(question_id: '3',
+  choice_id: '2',
+  choice_text: 'Text for Question 3, Choice 2')
+
+Choice.create!(question_id: '3',
+  choice_id: '3',
+  choice_text: 'Text for Question 3, Choice 3')
+
+Choice.create!(question_id: '4',
+  choice_id: '1',
+  choice_text: 'Text for Question 4, Choice 1')
+
+Choice.create!(question_id: '4',
+  choice_id: '2',
+  choice_text: 'Text for Question 4, Choice 2')
+
+Choice.create!(question_id: '4',
+  choice_id: '3',
+  choice_text: 'Text for Question 4, Choice 3')
+
+Choice.create!(question_id: '5',
+  choice_id: '1',
+  choice_text: 'Text for Question 5, Choice 1')
+
+Choice.create!(question_id: '5',
+  choice_id: '2',
+  choice_text: 'Text for Question 5, Choice 2')
+
+Choice.create!(question_id: '5',
+  choice_id: '3',
+  choice_text: 'Text for Question 5, Choice 3')
 
 Answer.create!(time: '2014-02-03 12:00:00 -0500',
   user_id: 'nsf1',
-  question_id: 'q1',
-  choice_id: 'a')
+  question_id: '1',
+  choice_id: '1')
 
 Answer.create!(time: '2014-02-03 12:00:00 -0500',
   user_id: 'nsf1',
-  question_id: 'q2',
-  choice_id: 'c')
+  question_id: '2',
+  choice_id: '3')
 
 Answer.create!(time: '2014-02-03 12:00:00 -0500',
   user_id: 'nsf2',
-  question_id: 'q1',
-  choice_id: 'b')
+  question_id: '1',
+  choice_id: '2')
 
 Answer.create!(time: '2014-02-03 12:00:00 -0500',
   user_id: 'nsf2',
-  question_id: 'q2',
-  choice_id: 'a')
+  question_id: '2',
+  choice_id: '1')
 
 Answer.create!(time: '2014-02-03 12:00:00 -0500',
   user_id: 'nsf3',
-  question_id: 'q1',
-  choice_id: 'a')
+  question_id: '1',
+  choice_id: '1')
 
 Answer.create!(time: '2014-02-03 12:00:00 -0500',
   user_id: 'nsf3',
-  question_id: 'q2',
-  choice_id: 'c')
+  question_id: '2',
+  choice_id: '3')
 
 Answer.create!(time: '2014-02-03 12:00:00 -0500',
   user_id: 'nsf4',
-  question_id: 'q1',
-  choice_id: 'b')
+  question_id: '1',
+  choice_id: '2')
 
 Answer.create!(time: '2014-02-03 12:00:00 -0500',
   user_id: 'nsf4',
-  question_id: 'q2',
-  choice_id: 'b')
+  question_id: '2',
+  choice_id: '2')
 
 Answer.create!(time: '2014-02-03 12:00:00 -0500',
   user_id: 'nsf5',
-  question_id: 'q1',
-  choice_id: 'c')
+  question_id: '1',
+  choice_id: '3')
 
 Answer.create!(time: '2014-02-03 12:00:00 -0500',
   user_id: 'nsf5',
-  question_id: 'q2',
-  choice_id: 'a')
+  question_id: '2',
+  choice_id: '1')
+
+Rule.create!(user_id: 'nsf2',
+  peer_id: 'nsf1',
+  delay: '120',
+  question_id: '1')
+
+Rule.create!(user_id: 'nsf1',
+  peer_id: 'nsf3',
+  delay: '120',
+  question_id: '2')
+
+Rule.create!(user_id: 'nsf4',
+  peer_id: 'nsf3',
+  delay: '120',
+  question_id: '3')
+
+Rule.create!(user_id: 'nsf3',
+  peer_id: 'nsf5',
+  delay: '120',
+  question_id: '2')

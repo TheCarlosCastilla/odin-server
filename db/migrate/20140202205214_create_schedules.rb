@@ -4,6 +4,7 @@ class CreateSchedules < ActiveRecord::Migration
       t.string :time
       t.string :question_id
       t.string :user_id
+      t.boolean :sent
     end
   end
 end
