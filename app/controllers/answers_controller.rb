@@ -20,22 +20,31 @@ class AnswersController < ApplicationController
 
     time_offset = server_time - phone_time
 
-    params[:answer].each do |answer|
-      print "\n~~~\n#{answer}\n~~~\n"
+    if params[:answer].empty?
+      render text: "No Answers To Save" and return
+    else
+      params[:answer].each do |answer|
+        @success = false
 
-      @answer = Answer.new(answer)
+        @answer = Answer.new(answer)
 
-      new_time = Time.parse(@answer.time) + time_offset
-      @answer.time = new_time.in_time_zone.to_s
+        new_time = Time.parse(@answer.time) + time_offset
+        @answer.time = new_time.in_time_zone.to_s
 
-      if @answer.save
-        print "Successfully saved answer!"
-      else
-        print "Unable to save answer!"
+        if @answer.save
+          @success = true
+          print "Saved Answer"
+        else
+          @success = false
+          print "Unable To Save Answer!" and return
+        end
       end
     end
 
-    render :text => "All answers were successfully saved"
+    if @success == true
+      render text: "Data Arrived Successfully"
+    else
+      render text: "Unable to save all data"
+    end
   end
-
 end

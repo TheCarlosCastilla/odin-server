@@ -21,23 +21,33 @@ class InteractionsController < ApplicationController
 
     time_offset = server_time - phone_time
 
-    params[:interaction].each do |interaction|
-      print "\n~~~\n#{interaction}\n~~~\n"
+
+    if params[:interaction].empty?
+      render text: "No Interactions To Save" and return
+    else
+      params[:interaction].each do |interaction|
+        print "\n~~~\n#{interaction}\n~~~\n"
 
 
-      @interaction = Interaction.new(interaction)
+        @interaction = Interaction.new(interaction)
 
-      new_time = Time.parse(@interaction.time) + time_offset
-      @interaction.time = new_time.in_time_zone.to_s
+        new_time = Time.parse(@interaction.time) + time_offset
+        @interaction.time = new_time.in_time_zone.to_s
 
-      if @interaction.save
-        print "Successfully saved interaction!"
-      else
-        print "Unable to save interactions! Please Try Again"
-        return
+        if @interaction.save
+          @success = true
+          print "Saved Interaction"
+        else
+          @success = false
+          print "Unable To Save Interaction!" and return
+        end
       end
     end
 
-    render :text => "All interactions were successfully saved"
+    if @success == true
+      render text: "Data Arrived Successfully"
+    else
+      render text: "Unable to save all data"
+    end
   end
 end

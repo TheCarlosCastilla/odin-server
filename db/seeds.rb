@@ -53,27 +53,32 @@ Interaction.create!(user_id: 'nsf5',
   time: '2014-02-02 12:30:26 -0500',
   duration: '265')
 
-Schedule.create!(time: '2014-02-03 12:00:00 -0500',
+Schedule.create!(date: '2014-02-03',
+  time:  '12:00:00 -0500',
   question_id: '1',
   user_id: 'nsf1',
   sent: false)
 
-Schedule.create!(time: '2014-02-03 12:00:00 -0500',
+Schedule.create!(date: '2014-02-03',
+  time:  '12:00:00 -0500',
   question_id: '2',
   user_id: 'nsf2',
   sent: false)
 
-Schedule.create!(time: '2014-02-03 12:00:00 -0500',
+Schedule.create!(date: '2014-02-03',
+  time:  '12:00:00 -0500',
   question_id: '1',
   user_id: 'nsf3',
   sent: false)
 
-Schedule.create!(time: '2014-02-03 12:00:00 -0500',
+Schedule.create!(date: '2014-02-03',
+  time:  '12:00:00 -0500',
   question_id: '2',
   user_id: 'nsf4',
   sent: false)
 
-Schedule.create!(time: '2014-02-03 12:00:00 -0500',
+Schedule.create!(date: '2014-02-03',
+  time:  '12:00:00 -0500',
   question_id: '1',
   user_id: 'nsf5',
   sent: false)

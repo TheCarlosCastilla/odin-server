@@ -45,6 +45,7 @@ ActiveRecord::Schema.define(version: 20140212210012) do
   end
 
   create_table "schedules", force: true do |t|
+    t.string  "date"
     t.string  "time"
     t.string  "question_id"
     t.string  "user_id"
