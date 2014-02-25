@@ -16,5 +16,10 @@ class QuestionsController < ApplicationController
       format.json { render :json => @response }
     end
   end
+
+  # GET /questions/new
+  def new
+    # Automatically calles view called new
+  end
     
 end
