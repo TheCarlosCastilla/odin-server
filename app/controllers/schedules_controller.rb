@@ -42,4 +42,8 @@ class SchedulesController < ApplicationController
     @schedule = Schedule.new
   end
 
+  def create
+    
+  end
+
 end
