@@ -15,7 +15,7 @@ class SchedulesController < ApplicationController
     end
   end
 
-  #GET /schedules/user
+  #GET /schedules/:user
   def get_schedule_by_user
   	@user = params[:user]
 
@@ -39,7 +39,7 @@ class SchedulesController < ApplicationController
 
   #GET /schedules/new
   def new
-
+    # supposed to automatically call view called new
   end
 
 end

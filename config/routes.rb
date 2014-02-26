@@ -8,9 +8,9 @@ Nsfproject::Application.routes.draw do
 
   get '/questions' => 'questions#index'
 
-  get '/schedules/:user' => 'schedules#get_schedule_by_user'
   get '/schedules' => 'schedules#index'
   get '/schedules/new' => 'schedules#new'
+  get '/schedules/:user' => 'schedules#get_schedule_by_user'
 
   get '/rules/:user' => 'rules#get_rules_by_user'
   get '/rules' => 'rules#index'
