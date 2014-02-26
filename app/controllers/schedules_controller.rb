@@ -43,7 +43,10 @@ class SchedulesController < ApplicationController
   end
 
   def create
-    render text: params[:schedule].inspect
+    @schedule = Schedule.new(params[@schedule])
+    @schedule.save
+
+    redirect_to @schedule
   end
 
 end
