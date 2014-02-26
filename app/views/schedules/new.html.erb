@@ -3,9 +3,33 @@
 	<title>New Schedule</title>
 </head>
 <body>
-<h1 align="center">Welcome to the New Schedule Submission Form</h1>
-<h3>This will be a form to input new schedules into the database</h3>
+<h1>New Schedule</h1>
 
+<%= form_for :@schedule do |f| %>
+	<p>
+		<%= f.label :date %><br>
+		<%= f.text_field :date %>
+	</p>
+
+	<p>
+		<%= f.label :time %><br>
+		<%= f.text_field :time %>
+	</p>
+
+	<p>
+		<%= f.label :question_id %><br>
+		<%= f.text_field :question_id %>
+	</p>
+
+	<p>
+		<%= f.label :user_id %><br>
+		<%= f.text_field :user_id %>
+	</p>
+
+	<p>
+		<%= f.submit %>
+	</p>
+<% end %>
 
 </body>
 </html>

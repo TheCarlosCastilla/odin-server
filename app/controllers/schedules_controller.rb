@@ -39,7 +39,7 @@ class SchedulesController < ApplicationController
 
   #GET /schedules/new
   def new
-    # supposed to automatically call view called new
+    @schedule = Schedule.new
   end
 
 end
