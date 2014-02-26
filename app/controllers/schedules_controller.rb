@@ -43,7 +43,7 @@ class SchedulesController < ApplicationController
   end
 
   def create
-    
+    render text: params[:schedule].inspect
   end
 
 end
