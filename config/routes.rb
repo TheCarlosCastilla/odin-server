@@ -10,6 +10,7 @@ Nsfproject::Application.routes.draw do
 
   get '/schedules' => 'schedules#index'
   get '/schedules/new' => 'schedules#new'
+  post '/schedules/new' => 'schedules#create'
   get '/schedules/:user' => 'schedules#get_schedule_by_user'
 
   get '/rules/:user' => 'rules#get_rules_by_user'
