@@ -44,10 +44,6 @@ class SchedulesController < ApplicationController
 
   def create
     @new_schedule = Schedule.new(schedule_params)
-#    @new_schedule.date = params["@schedule"]["date"]
-#    @new_schedule.time = params["@schedule"]["time"]
-#    @new_schedule.question_id = params["@schedule"]["question_id"]
-#    @new_schedule.user_id = params["@schedule"]["user_id"]
     @new_schedule.sent = false
     @new_schedule.save
 
