@@ -46,7 +46,7 @@ class SchedulesController < ApplicationController
     @schedule = Schedule.new(params[@schedule])
     @schedule.save
 
-    redirect_to @schedule
+    render text: @schedule
   end
 
 end
