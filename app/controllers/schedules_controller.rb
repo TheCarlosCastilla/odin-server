@@ -43,7 +43,7 @@ class SchedulesController < ApplicationController
   end
 
   def create
-    @new_schedule = Schedule.new("@schedule")
+    @new_schedule = Schedule.new(params["@schedule"])
 #    @new_schedule.date = params["@schedule"]["date"]
 #    @new_schedule.time = params["@schedule"]["time"]
 #    @new_schedule.question_id = params["@schedule"]["question_id"]
