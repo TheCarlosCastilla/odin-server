@@ -37,4 +37,9 @@ class SchedulesController < ApplicationController
     #end
   end
 
+  #GET /schedules/new
+  def new
+
+  end
+
 end
