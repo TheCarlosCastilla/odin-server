@@ -43,10 +43,11 @@ class SchedulesController < ApplicationController
   end
 
   def create
-    @schedule = Schedule.new(params[@schedule])
-    @schedule.save
+    @new_schedule = Schedule.new(params[@schedule])
+    @new_schedule.sent = false
+    @new_schedule.save
 
-    render text: @schedule
+    render text: @new_schedule
   end
 
 end
