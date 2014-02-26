@@ -47,7 +47,7 @@ class SchedulesController < ApplicationController
     @new_schedule.sent = false
     @new_schedule.save
 
-    render text: @new_schedule
+    render text: @new_schedule.to_json
   end
 
 end
