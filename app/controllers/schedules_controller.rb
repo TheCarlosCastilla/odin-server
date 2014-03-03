@@ -43,18 +43,26 @@ class SchedulesController < ApplicationController
   end
 
   def create
-    @new_schedule = Schedule.new(schedule_params)
-    @new_schedule.sent = false
-    @new_schedule.save
 
-    render text: @new_schedule.to_json
+    @time = Time.new(params[:time][:year].to_i, params[:time][:month].to_i, params[:time][:day].to_i, params[:time][:hour].to_i, params[:time][:minute].to_i, params[:time][:second], "-05:00" )
+
+    @schedule = Schedule.new()
+
+    @schedule.time = @time.to_s
+    @schedule.question_id = params[:schedule][:question_id]
+    @schedule.user_id = params[:schedule][:user_id]
+    @schedule.sent = false
+
+    @schedule.save
+
+    render text: @schedule.to_json
   end
 
 
 
   private
     def schedule_params
-      params.require("@schedule").permit("date", "time", "question_id", "user_id")
+      params.require(:schedule).permit(:question_id, :user_id)
     end
 
 end

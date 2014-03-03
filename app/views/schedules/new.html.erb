@@ -5,25 +5,20 @@
 <body>
 <h1>New Schedule</h1>
 
-<%= form_for :@schedule, url: {action: "create"} do |f| %>
-	<p>
-		<%= f.label :date %><br>
-		<%= f.text_field :date %>
-	</p>
-
+<%= form_for @schedule, url: {action: "create"} do |f| %>
 	<p>
 		<%= f.label :time %><br>
-		<%= f.text_field :time %>
+		<%= select_datetime(Time.now, prefix: :time, ampm: true, include_seconds: true ) %>
 	</p>
 
 	<p>
 		<%= f.label :question_id %><br>
-		<%= f.text_field :question_id %>
+		<%= f.collection_select(:question_id, Question.all, :id, :question_text) %>
 	</p>
 
 	<p>
 		<%= f.label :user_id %><br>
-		<%= f.text_field :user_id %>
+		<%= f.collection_select(:user_id, User.all, :id, :user_id) %>
 	</p>
 
 	<p>
