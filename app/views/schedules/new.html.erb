@@ -8,7 +8,8 @@
 <%= form_for @schedule, url: {action: "create"} do |f| %>
 	<p>
 		<%= f.label :time %><br />
-		<%= select_datetime(Time.now, prefix: :time, ampm: true, include_seconds: true ) %>
+		<%= select_datetime(Time.now.in_time_zone, prefix: :time, ampm: true, include_seconds: true ) %>
+		<%= time_zone_select(Time.zone, 'time_zone', ActiveSupport::TimeZone.us_zones, default: Time.zone.name, selected: Time.zone.name ) %>
 	</p>
 
 	<p>
@@ -18,7 +19,7 @@
 
 	<p>
 	<%= f.label "Select Users" %><br />
-	<% User.all.each do |user| %>
+	<% User.where(is_claimed: true).each do |user| %>
 		<%= check_box_tag("users[]", user.user_id) %>
 		<%= label_tag(:users, user.user_id) %> <br />
 	<% end %>
