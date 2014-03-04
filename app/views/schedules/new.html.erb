@@ -7,18 +7,21 @@
 
 <%= form_for @schedule, url: {action: "create"} do |f| %>
 	<p>
-		<%= f.label :time %><br>
+		<%= f.label :time %><br />
 		<%= select_datetime(Time.now, prefix: :time, ampm: true, include_seconds: true ) %>
 	</p>
 
 	<p>
-		<%= f.label :question_id %><br>
-		<%= f.collection_select(:question_id, Question.all, :id, :question_text) %>
+		<%= f.label :"question_id" %><br />
+		<%= f.collection_select(:question_id, Question.all, :id, :question_text, prompt: "Please Select a Question") %>
 	</p>
 
 	<p>
-		<%= f.label :user_id %><br>
-		<%= f.collection_select(:user_id, User.all, :id, :user_id) %>
+	<%= f.label "Select Users" %><br />
+	<% User.all.each do |user| %>
+		<%= check_box_tag("users[]", user.user_id) %>
+		<%= label_tag(:users, user.user_id) %> <br />
+	<% end %>
 	</p>
 
 	<p>

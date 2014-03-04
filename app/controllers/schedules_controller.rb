@@ -46,23 +46,30 @@ class SchedulesController < ApplicationController
 
     @time = Time.new(params[:time][:year].to_i, params[:time][:month].to_i, params[:time][:day].to_i, params[:time][:hour].to_i, params[:time][:minute].to_i, params[:time][:second], "-05:00" )
 
-    @schedule = Schedule.new()
 
-    @schedule.time = @time.to_s
-    @schedule.question_id = params[:schedule][:question_id]
-    @schedule.user_id = params[:schedule][:user_id]
-    @schedule.sent = false
+    if params[:users].nil?
+      render text: "No users selected" and return
+    elsif params[:schedule][:question_id].empty?
+      render text: "No questions selected" and return
+    else
+      @users = params[:users]
 
-    @schedule.save
+      @users.each do |user|
 
-    render text: @schedule.to_json
-  end
+        @schedule = Schedule.new()
 
+        @schedule.time = @time.to_s
+        @schedule.question_id = params[:schedule][:question_id]
+        @schedule.user_id = user
+        @schedule.sent = false
 
-
-  private
-    def schedule_params
-      params.require(:schedule).permit(:question_id, :user_id)
+        if !@schedule.save
+          render text: "Unable to save schedule" and return
+        end
+      end
     end
+
+    render text: "All schedules saved"
+  end
 
 end
