@@ -53,32 +53,27 @@ Interaction.create!(user_id: 'nsf5',
   time: '2014-02-02 12:30:26 -0500',
   duration: '265')
 
-Schedule.create!(date: '2014-02-03',
-  time:  '12:00:00 -0500',
+Schedule.create!(time:  '2014-02-03 12:00:00 -0500',
   question_id: '1',
   user_id: 'nsf1',
   sent: false)
 
-Schedule.create!(date: '2014-02-03',
-  time:  '12:00:00 -0500',
+Schedule.create!(time:  '2014-02-03 12:00:00 -0500',
   question_id: '2',
   user_id: 'nsf2',
   sent: false)
 
-Schedule.create!(date: '2014-02-03',
-  time:  '12:00:00 -0500',
+Schedule.create!(time:  '2014-02-03 12:00:00 -0500',
   question_id: '1',
   user_id: 'nsf3',
   sent: false)
 
-Schedule.create!(date: '2014-02-03',
-  time:  '12:00:00 -0500',
+Schedule.create!(time:  '2014-02-03 12:00:00 -0500',
   question_id: '2',
   user_id: 'nsf4',
   sent: false)
 
-Schedule.create!(date: '2014-02-03',
-  time:  '12:00:00 -0500',
+Schedule.create!(time:  '2014-02-03 12:00:00 -0500',
   question_id: '1',
   user_id: 'nsf5',
   sent: false)
@@ -94,6 +89,10 @@ Question.create!(question_text: "Question #4 Content Goes Here")
 Question.create!(question_text: "Question #5 Content Goes Here")
 
 Choice.create!(question_id: '1',
+  choice_id: '-1',
+  choice_text: 'Refuse to Answer')
+
+Choice.create!(question_id: '1',
   choice_id: '1',
   choice_text: 'Text for Question 1, Choice 1')
 
@@ -104,6 +103,10 @@ Choice.create!(question_id: '1',
 Choice.create!(question_id: '1',
   choice_id: '3',
   choice_text: 'Text for Question 1, Choice 3')
+
+Choice.create!(question_id: '2',
+  choice_id: '-1',
+  choice_text: 'Refuse to Answer')
 
 Choice.create!(question_id: '2',
   choice_id: '1',
@@ -118,6 +121,10 @@ Choice.create!(question_id: '2',
   choice_text: 'Text for Question 2, Choice 3')
 
 Choice.create!(question_id: '3',
+  choice_id: '-1',
+  choice_text: 'Refuse to Answer')
+
+Choice.create!(question_id: '3',
   choice_id: '1',
   choice_text: 'Text for Question 3, Choice 1')
 
@@ -130,6 +137,10 @@ Choice.create!(question_id: '3',
   choice_text: 'Text for Question 3, Choice 3')
 
 Choice.create!(question_id: '4',
+  choice_id: '-1',
+  choice_text: 'Refuse to Answer')
+
+Choice.create!(question_id: '4',
   choice_id: '1',
   choice_text: 'Text for Question 4, Choice 1')
 
@@ -140,6 +151,10 @@ Choice.create!(question_id: '4',
 Choice.create!(question_id: '4',
   choice_id: '3',
   choice_text: 'Text for Question 4, Choice 3')
+
+Choice.create!(question_id: '5',
+  choice_id: '-1',
+  choice_text: 'Refuse to Answer')
 
 Choice.create!(question_id: '5',
   choice_id: '1',
