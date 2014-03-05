@@ -4,9 +4,33 @@
 </head>
 <body>
 <h1 align="center">Welcome to the list of Odin Schedules</h1>
-<h3><u><b>TODO:</b></u></h3>
-	<li>Display All the Schedules</li>
-	<li>Create form to enter new schedules and place link</li>
+
+<p>
+  <%= link_to "New Schedule", "/schedules/new" %>
+</p>
+
+<table>
+  <tr>
+    <th>Time</th>
+    <th>User</th>
+    <th>Question</th>
+    <th>Sent?</th>
+  </tr>
+
+  <% @schedules.each do |schedule| %>
+    <tr>
+      <td><%= schedule.time %></td>
+      <td><%= schedule.user_id %></td>
+      <td>Question #<%= schedule.question_id %></td>
+      <td><%= if schedule.sent then "Yes" else "No" end %></td>
+    </tr>
+  <% end %>
+</table>
+
+<p>
+  <%= link_to "Home", controller: "pages" %>
+</p>
+
 
 
 </body>

@@ -10,7 +10,7 @@ class SchedulesController < ApplicationController
     }
 
     respond_to do |format|
-      format.html
+      format.html { @schedules }
       format.json { render :json => @response }
     end
   end
@@ -56,7 +56,7 @@ class SchedulesController < ApplicationController
 
       @users.each do |user|
 
-        @schedule = Schedule.new()
+        @schedule = Schedule.new
 
         @schedule.time = @time.to_s
         @schedule.question_id = params[:schedule][:question_id]
