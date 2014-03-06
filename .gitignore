@@ -15,9 +15,6 @@
 /log/*.log
 /tmp
 
-# Ignore database config file
-/config/database.yml
-
 # Ruby IDE stuff
 .idea/workspace.xml
 .idea/tasks.xml
