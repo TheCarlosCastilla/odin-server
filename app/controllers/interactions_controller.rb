@@ -7,7 +7,7 @@ class InteractionsController < ApplicationController
     @interactions = Interaction.all
     
     respond_to do |format|
-      format.html
+      format.html { @interactions }
       format.csv { send_data @interactions.to_csv}
       format.json { render :json => @interactions.to_json }
     end

@@ -1,0 +1,33 @@
+<html>
+<head>
+	<title>Users</title>
+</head>
+<body>
+<h1>Welcome to the list of Odin Users</h1>
+
+<table>
+  <tr>
+    <th>Row ID</th>
+    <th>User ID</th>
+    <th>IMEI</th>
+    <th>Claimed?</th>
+  </tr>
+
+  <% @users.each do |user| %>
+    <tr>
+      <td><%= user.id %></td>
+      <td><%= user.user_id %></td>
+      <td><%= user.imei %></td>
+      <td><%= if user.is_claimed then "Yes" else "No" end %></td>
+    </tr>
+  <% end %>
+</table>
+
+<p>
+  <%= link_to "Home", controller: "pages" %>
+</p>
+
+
+
+</body>
+</html>

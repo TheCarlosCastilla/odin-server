@@ -6,7 +6,7 @@ class AnswersController < ApplicationController
   def index
     @answers = Answer.all
     respond_to do |format|
-      format.html
+      format.html { @answers }
       format.csv { send_data @answers.to_csv }
       format.json { render :json => @answers.to_json }
     end

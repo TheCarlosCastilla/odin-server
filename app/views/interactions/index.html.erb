@@ -1,0 +1,35 @@
+<html>
+<head>
+	<title>Interactions</title>
+</head>
+<body>
+<h1>Welcome to the list of Odin Interactions</h1>
+
+<table>
+  <tr>
+    <th>Row ID</th>
+    <th>User ID</th>
+    <th>Peer ID</th>
+    <th>Time</th>
+    <th>Duration</th>
+  </tr>
+
+  <% @interactions.each do |interaction| %>
+    <tr>
+      <td><%= interaction.id %></td>
+      <td><%= interaction.user_id %></td>
+      <td><%= interaction.peer_id %></td>
+      <td><%= interaction.time %></td>
+      <td><%= interaction.duration %></td>
+    </tr>
+  <% end %>
+</table>
+
+<p>
+  <%= link_to "Home", controller: "pages" %>
+</p>
+
+
+
+</body>
+</html>
