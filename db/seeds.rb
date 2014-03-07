@@ -33,6 +33,26 @@ User.create!(user_id: 'nsf5',
   imei: nil,
   is_claimed: false)
 
+User.create!(user_id: 'nsf6',
+  imei: nil,
+  is_claimed: false)
+
+User.create!(user_id: 'nsf7',
+  imei: nil,
+  is_claimed: false)
+
+User.create!(user_id: 'nsf8',
+  imei: nil,
+  is_claimed: false)
+
+User.create!(user_id: 'nsf9',
+  imei: nil,
+  is_claimed: false)
+
+User.create!(user_id: 'ns10',
+  imei: nil,
+  is_claimed: false)
+
 Interaction.create!(user_id: 'nsf1',
   peer_id: 'nsf2',
   time: '2014-02-02 16:42:15 -0500',
