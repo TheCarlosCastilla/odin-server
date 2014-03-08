@@ -1,37 +1,26 @@
 <html>
 <head>
-	<title>Schedules</title>
+	<title>Questions</title>
 </head>
 <body>
-<h1 align="center">Welcome to the list of Odin Schedules</h1>
+<h1>Welcome to the list of Odin Questions</h1>
 
-<p>
-  <%= link_to "New Schedule", "/schedules/new" %>
-</p>
-
-<table>
-  <tr>
-    <th>Time</th>
-    <th>User</th>
-    <th>Question</th>
-    <th>Sent?</th>
-  </tr>
-
-  <% @schedules.each do |schedule| %>
-    <tr>
-      <td><%= schedule.time %></td>
-      <td><%= schedule.user_id %></td>
-      <td>Question #<%= schedule.question_id %></td>
-      <td><%= if schedule.sent then "Yes" else "No" end %></td>
-    </tr>
+<ol>
+  <% @questions.each do |question| %>
+  <li><b>Row/Question ID: </b><%= question.id %>, <b>Text: </b><%= question.question_text %>
+    <ol type="a">
+    <% question.choices.each do |choice| %>
+      <li>
+        <i>Row ID: </i><b><%= choice.id %></b>
+        <i>Question ID: </i><b><%= choice.question_id %></b>
+        <i>Choice ID: </i><b><%= choice.choice_id %></b>
+        <i>Choice Text: </i><b><%= choice.choice_text %></b>
+      </li>
+    <% end %>
+    </ol>
+  </li>
   <% end %>
-</table>
-
-<p>
-  <%= link_to "Home", controller: "pages" %>
-</p>
-
-
+</ol>
 
 </body>
 </html>
