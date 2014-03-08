@@ -7,12 +7,12 @@
 <h3>Select something to do below:</h3>
 
 <ul>
-	<li>View Interactions: <%= link_to "All Interactions", controller: "interactions" %> | <%= link_to "Download as CSV", "interactions.csv" %></li>
-	<li>View <a href="/questions.json">All Questions(JSON)</a></li>
-	<li>View Answers: <%= link_to "All Answers", controller: "answers" %> | <%= link_to "Download as CSV", "answers.csv" %></li>
+	<li>Interactions: <%= link_to "All Interactions", controller: "interactions" %> | <%= link_to "Download as CSV", "interactions.csv" %></li>
+	<li>Questions: <%= link_to "All Questions and Choices", controller: "questions" %> | <%= link_to "New Question", "/questions/new" %></li>
+	<li>Answers: <%= link_to "All Answers", controller: "answers" %> | <%= link_to "Download as CSV", "answers.csv" %></li>
 	<li>Schedules: <%= link_to "All Schedules", controller: "schedules" %> | <%= link_to "New Schedule", "/schedules/new" %></li>
-	<li>View <a href="/rules.json">All Rules(JSON)</a></li>
-	<li>View <%= link_to "All Users", controller: "users" %></li>
+	<li>Rules: <%= link_to "All Users", "/rules.json" %></li>
+	<li>Users: <%= link_to "All Users", controller: "users" %></li>
 </ul>
 
 </body>

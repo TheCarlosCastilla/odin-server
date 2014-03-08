@@ -7,7 +7,7 @@ Nsfproject::Application.routes.draw do
   post '/answers' => 'answers#create'
 
   get '/questions' => 'questions#index'
-  #get '/questions/new' => 'questions#new'
+  get '/questions/new' => 'questions#new'
 
   get '/schedules' => 'schedules#index'
   get '/schedules/new' => 'schedules#new'
