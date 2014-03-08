@@ -12,7 +12,7 @@ class QuestionsController < ApplicationController
     }
 
     respond_to do |format|
-      format.html
+      format.html { @questions }
       format.json { render :json => @response }
     end
   end

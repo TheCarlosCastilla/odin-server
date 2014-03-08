@@ -3,11 +3,24 @@
 	<title>Questions</title>
 </head>
 <body>
-<h1 align="center">Welcome to the list of Odin Questions</h1>
-<h3><u><b>TODO:</b></u></h3>
-	<li>Display All the Questions and their choices on this page.</li>
-	<li>Create form to enter new questions and place link</li>
+<h1>Welcome to the list of Odin Questions</h1>
 
+<ol>
+  <% @questions.each do |question| %>
+  <li><b>Row/Question ID: </b><%= question.id %>, <b>Text: </b><%= question.question_text %>
+    <ol type="a">
+    <% question.choices.each do |choice| %>
+      <li>
+        <i>Row ID: </i><b><%= choice.id %></b>
+        <i>Question ID: </i><b><%= choice.question_id %></b>
+        <i>Choice ID: </i><b><%= choice.choice_id %></b>
+        <i>Choice Text: </i><b><%= choice.choice_text %></b>
+      </li>
+    <% end %>
+    </ol>
+  </li>
+  <% end %>
+</ol>
 
 </body>
 </html>
