@@ -1,27 +1,43 @@
 <h1>New Schedule</h1>
 
-<%= form_for @schedule, url: {action: "create"} do |f| %>
+<%= form_for @schedule, url: {action: "create"}, html: { class: "form-inline", role: "form" } do |f| %>
 	<p>
-		<%= f.label :time %><br />
-		<%= select_datetime(Time.now.in_time_zone, prefix: :time, ampm: true, include_seconds: true ) %>
-		<%= time_zone_select(Time.zone, 'time_zone', ActiveSupport::TimeZone.us_zones, default: Time.zone.name, selected: Time.zone.name ) %>
+    <div class="form-group">
+      <%= f.label :time %><br />
+      <%= select_datetime(Time.now.in_time_zone, {prefix: :time, ampm: true, include_seconds: true}, {class: "form-control cols-xs-2"} ) %>
+      <%= time_zone_select(Time.zone, 'time_zone', ActiveSupport::TimeZone.us_zones, {default: Time.zone.name, selected: Time.zone.name},
+                             {class: "form-control cols-xs-2"}) %> <br />
+    </div>
 	</p>
 
 	<p>
-		<%= f.label :"question_id" %><br />
-		<%= f.collection_select(:question_id, Question.all, :id, :question_text, prompt: "Please Select a Question") %>
+    <div class="form-group">
+    <%= f.label :"question_id" %><br />
+    <%= f.collection_select(:question_id, Question.all, :id, :question_text, {prompt: "Please Select a Question"},
+                            {class: "form-control"} ) %>
+    </div>
 	</p>
 
 	<p>
-	<%= f.label "Select Users" %><br />
-	<% User.where(is_claimed: true).each do |user| %>
-		<%= check_box_tag("users[]", user.user_id) %>
-		<%= label_tag(:users, user.user_id) %> <br />
-	<% end %>
+    <div class="form-group">
+      <%= f.label "Select Users" %><br />
+      <% User.where(is_claimed: true).each do |user| %>
+      <div class="checkbox">
+        <%= check_box_tag("users[]", user.user_id) %>
+        <%= label_tag(:users, user.user_id) %> <br />
+      </div>
+      <% end %>
+    </div>
 	</p>
 
 	<p>
-		<%= f.submit "Submit Schedule" %> <br />
-    <%= link_to "Back to all schedules", controller: "schedules" %>
+    <div class="form-group">
+		  <%= f.submit "Submit Schedule", class: "btn btn-success" %>
+      <%= link_to 'Cancel', '/schedules', class: 'btn' %>
+    </div>
 	</p>
+
+  <p>
+    <%= link_to 'Home', '/', class: 'btn btn-large btn-primary' %>
+  </p>
 <% end %>

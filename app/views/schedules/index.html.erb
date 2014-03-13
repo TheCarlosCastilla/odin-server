@@ -1,10 +1,6 @@
 <h1>Welcome to the list of Odin Schedules</h1>
 
-<p>
-  <%= link_to "New Schedule", "/schedules/new" %>
-</p>
-
-<table>
+<table class="table table-hover">
   <tr>
     <th>Row ID</th>
     <th>Time</th>
@@ -25,5 +21,6 @@
 </table>
 
 <p>
-  <%= link_to "Home", controller: "pages" %>
+  <%= link_to 'Home', '/', class: 'btn btn-primary' %>
+  <%= link_to "New Schedule", "/schedules/new", class: "btn" %>
 </p>
