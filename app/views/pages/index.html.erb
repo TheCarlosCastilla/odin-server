@@ -1,19 +1,11 @@
-<html>
-<head>
-	<title>Project Test Page</title>
-</head>
-<body>
 <h1>Welcome to the Test Page for the NSF Cellphone Project Thing</h1>
 <h3>Select something to do below:</h3>
 
 <ul>
-	<li>Interactions: <%= link_to "All Interactions", controller: "interactions" %> | <%= link_to "Download as CSV", "interactions.csv" %></li>
-	<li>Questions: <%= link_to "All Questions and Choices", controller: "questions" %> | <%= link_to "New Question", "/questions/new" %></li>
-	<li>Answers: <%= link_to "All Answers", controller: "answers" %> | <%= link_to "Download as CSV", "answers.csv" %></li>
-	<li>Schedules: <%= link_to "All Schedules", controller: "schedules" %> | <%= link_to "New Schedule", "/schedules/new" %></li>
+	<li>Interactions: <%= link_to "All Interactions", "/interactions" %> | <%= link_to "Download as CSV", "/interactions.csv" %></li>
+	<li>Questions: <%= link_to "All Questions and Choices", "/questions" %> | <%= link_to "New Question", "/questions/new" %></li>
+	<li>Answers: <%= link_to "All Answers", "/answers" %> | <%= link_to "Download as CSV", "answers.csv" %></li>
+	<li>Schedules: <%= link_to "All Schedules", "/schedules" %> | <%= link_to "New Schedule", "/schedules/new" %></li>
 	<li>Rules: <%= link_to "All Rules", "/rules.json" %></li>
-	<li>Users: <%= link_to "All Users", controller: "users" %></li>
+	<li>Users: <%= link_to "All Users", "/users" %></li>
 </ul>
-
-</body>
-</html>

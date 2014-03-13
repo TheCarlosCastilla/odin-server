@@ -1,26 +1,35 @@
-<html>
-<head>
-	<title>Questions</title>
-</head>
-<body>
 <h1>Welcome to the list of Odin Questions</h1>
 
-<ol>
+<ul class="list-group">
   <% @questions.each do |question| %>
-  <li><b>Row/Question ID: </b><%= question.id %>, <b>Text: </b><%= question.question_text %>
-    <ol type="a">
-    <% question.choices.each do |choice| %>
-      <li>
-        <i>Row ID: </i><b><%= choice.id %></b>
-        <i>Question ID: </i><b><%= choice.question_id %></b>
-        <i>Choice ID: </i><b><%= choice.choice_id %></b>
-        <i>Choice Text: </i><b><%= choice.choice_text %></b>
-      </li>
-    <% end %>
-    </ol>
+  <li class="list-group-item">
+    <div class="panel panel-primary">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <b>Q#<%= question.id %>: <%= question.question_text %></b>
+        </h4>
+      </div>
+      <table class="table table-striped">
+        <tr>
+          <th>Row ID</th>
+          <th>Question ID</th>
+          <th>Choice ID</th>
+          <th>Choice Text</th
+        </tr>
+      <% question.choices.each do |choice| %>
+        <tr>
+          <td><%= choice.id %></td>
+          <td>Question #<%= choice.question_id %></td>
+          <td>Choice #<%= choice.choice_id %></td>
+          <td><%= choice.choice_text %></td>
+        </tr>
+      <% end %>
+      </table>
+      </div>
   </li>
   <% end %>
-</ol>
+</ul>
 
-</body>
-</html>
+<p>
+  <%= link_to 'Home', '/', class: 'btn btn-primary' %>
+</p>
