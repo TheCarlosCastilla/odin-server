@@ -8,17 +8,20 @@ Nsfproject::Application.routes.draw do
 
   get '/questions' => 'questions#index'
   get '/questions/new' => 'questions#new'
+  post '/questions/new' => 'questions#create'
 
   get '/schedules' => 'schedules#index'
   get '/schedules/new' => 'schedules#new'
   post '/schedules/new' => 'schedules#create'
   get '/schedules/:user' => 'schedules#get_schedule_by_user'
 
-  get '/rules/:user' => 'rules#get_rules_by_user'
   get '/rules' => 'rules#index'
+  get '/rules/new' => 'rules#new'
+  post '/rules/new' => 'rules#create'
+  get '/rules/:user' => 'rules#get_rules_by_user'
 
-  get '/users/:uuid' => 'users#request_user_id'
   get '/users' => 'users#index'
+  get '/users/:uuid' => 'users#request_user_id'
 
   get '/index' => 'pages#index'
 

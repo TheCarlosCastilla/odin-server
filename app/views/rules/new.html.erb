@@ -1,0 +1,45 @@
+<h1>New Rule</h1>
+
+<%= form_for @rule, url: {action: "create"}, html: { class: "form-inline", role: "form" } do |f| %>
+
+	<p>
+    <div class="form-group">
+    <%= f.label :user_id %><br />
+    <%= f.collection_select(:user_id, User.where(is_claimed: true), :user_id, :user_id, {prompt: "Please Select a User"},
+                            {class: "form-control"} ) %>
+    </div>
+	</p>
+
+  <p>
+  <div class="form-group">
+    <%= f.label :peer_id %><br />
+    <%= f.collection_select(:peer_id, User.where(is_claimed: true), :user_id, :user_id, {prompt: "Please Select a Peer"},
+                            {class: "form-control"} ) %>
+  </div>
+  </p>
+
+  <p>
+  <div class="form-group">
+    <%= f.label :delay %><br />
+    <%= f.text_field :delay, {class: "form-control"} %>
+  </div>
+  </p>
+
+  <p>
+  <div class="form-group">
+    <%= f.label :question_id %><br />
+    <%= f.collection_select(:question_id, Question.all, :id, :question_text, {prompt: "Please Select a Question"}, {class: "form-control"} ) %>
+  </div>
+  </p>
+
+	<p>
+    <div class="form-group">
+		  <%= f.submit "Submit Rule", class: "btn btn-success" %>
+      <%= link_to 'Cancel', '/rules', class: 'btn' %>
+    </div>
+	</p>
+
+  <p>
+    <%= link_to 'Home', '/', class: 'btn btn-large btn-primary' %>
+  </p>
+<% end %>

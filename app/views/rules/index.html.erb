@@ -1,0 +1,26 @@
+<h1>Welcome to the list of Odin Rules</h1>
+
+<table class="table table-hover">
+  <tr>
+    <th>Row ID</th>
+    <th>User</th>
+    <th>Peer</th>
+    <th>Delay</th>
+    <th>Question</th>
+  </tr>
+
+  <% @rules.each do |rule| %>
+    <tr>
+      <td><%= rule.id %></td>
+      <td><%= rule.user_id %></td>
+      <td><%= rule.peer_id %></td>
+      <td><%= rule.delay %> Seconds</td>
+      <td>Question #<%= rule.question_id %></td>
+    </tr>
+  <% end %>
+</table>
+
+<p>
+  <%= link_to 'Home', '/', class: 'btn btn-primary' %>
+  <%= link_to "New Rule", "/rules/new", class: "btn" %>
+</p>

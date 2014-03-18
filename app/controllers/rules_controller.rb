@@ -10,7 +10,7 @@ class RulesController < ApplicationController
     }
 
     respond_to do |format|
-      format.html
+      format.html { @rules }
       format.json { render :json => @response }
     end
   end
@@ -31,6 +31,26 @@ class RulesController < ApplicationController
     #  format.html
     #  format.json { render :json => @response }
     #end
+  end
+
+  #GET /rules/new
+  def new
+    @rule = Rule.new
+  end
+
+  def create
+    @rule = Rule.new
+
+    @rule.user_id = params[:rule][:user_id]
+    @rule.peer_id = params[:rule][:peer_id]
+    @rule.delay = params[:rule][:delay]
+    @rule.question_id = params[:rule][:question_id]
+
+    if !@rule.save
+      render text: "Unable to save rule" and return
+    end
+
+    render text: "All rules saved"
   end
 
 end

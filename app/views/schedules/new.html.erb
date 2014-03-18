@@ -12,7 +12,7 @@
 
 	<p>
     <div class="form-group">
-    <%= f.label :"question_id" %><br />
+    <%= f.label :question_id %><br />
     <%= f.collection_select(:question_id, Question.all, :id, :question_text, {prompt: "Please Select a Question"},
                             {class: "form-control"} ) %>
     </div>
@@ -20,7 +20,24 @@
 
 	<p>
     <div class="form-group">
-      <%= f.label "Select Users" %><br />
+      <%= f.label "Select Users" %>
+      <div class="checkbox">
+        <%= check_box_tag("selectAll", {class: "selectAll"}) %>
+        <script>
+          $('#selectAll').click(function() {
+            if (this.checked) {
+              $(':checkbox').each(function() {
+                this.checked = true;
+              });
+            } else {
+              $(':checkbox').each(function() {
+                this.checked = false;
+              });
+            }
+          });
+        </script>
+        <%= label_tag("Select/Deselect All") %>
+      </div><br />
       <% User.where(is_claimed: true).each do |user| %>
       <div class="checkbox">
         <%= check_box_tag("users[]", user.user_id) %>

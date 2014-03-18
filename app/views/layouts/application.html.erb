@@ -7,7 +7,7 @@
   <![endif]-->
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <!-- "data-turbolinks-track" => true -->
-  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "jquery", "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
@@ -22,6 +22,15 @@
     <ul class="dropdown-menu">
       <li><%= link_to "All", "/schedules" %></li>
       <li><%= link_to "New", "/schedules/new" %></li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+      Rules <span class="caret"></span>
+    </a>
+    <ul class="dropdown-menu">
+      <li><%= link_to "All", "/rules" %></li>
+      <li><%= link_to "New", "/rules/new" %></li>
     </ul>
   </li>
   <li><%= link_to "Interactions", "/interactions" %></li>

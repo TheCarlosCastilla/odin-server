@@ -44,7 +44,8 @@ class SchedulesController < ApplicationController
 
   def create
 
-    @time = Time.new(params[:time][:year].to_i, params[:time][:month].to_i, params[:time][:day].to_i, params[:time][:hour].to_i, params[:time][:minute].to_i, params[:time][:second], "-05:00" )
+    @time = Time.new(params[:time][:year].to_i, params[:time][:month].to_i, params[:time][:day].to_i, params[:time][:hour].to_i,
+                     params[:time][:minute].to_i, params[:time][:second], "-04:00" )
 
 
     if params[:users].nil?
