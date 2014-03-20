@@ -49,7 +49,7 @@ User.create!(user_id: 'nsf9',
   imei: nil,
   is_claimed: false)
 
-User.create!(user_id: 'nsf10',
+User.create!(user_id: 'ns10',
   imei: nil,
   is_claimed: false)
 
