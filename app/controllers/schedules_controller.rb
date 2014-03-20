@@ -1,7 +1,7 @@
 class SchedulesController < ApplicationController
 
   # GET /schedules
-  # GET /schedules.json!
+  # GET /schedules.json
   def index
     @schedules = Schedule.all
 
@@ -20,7 +20,7 @@ class SchedulesController < ApplicationController
   	@user = params[:user]
     @maxRow = params[:max]
 
-    if !@max.nil?
+    if !@maxRow.nil?
       @schedules = Schedule.where("user_id = ? AND sent = ? AND id >= ?", @user, false, @maxRow)
     else
       @schedules = Schedule.where(user_id: @user, sent: 'false')
