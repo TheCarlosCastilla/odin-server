@@ -18,8 +18,15 @@ class RulesController < ApplicationController
   #GET /rules/user
   def get_rules_by_user
     @user = params[:user]
+    @maxRow = params[:max]
 
     @rules = Rule.where(user_id: @user)
+
+    if !@max.nil?
+      @rules = Schedule.where("user_id = ? AND id >= ?", @user, @maxRow)
+    else
+      @rules = Rule.where(user_id: @user)
+    end
 
     @response = {
       rules: @rules
