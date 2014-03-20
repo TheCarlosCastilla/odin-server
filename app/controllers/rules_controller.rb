@@ -23,7 +23,7 @@ class RulesController < ApplicationController
     @rules = Rule.where(user_id: @user)
 
     if !@maxRow.nil?
-      @rules = Schedule.where("user_id = ? AND id >= ?", @user, @maxRow)
+      @rules = Rule.where("user_id = ? AND id >= ?", @user, @maxRow)
     else
       @rules = Rule.where(user_id: @user)
     end
