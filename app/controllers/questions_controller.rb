@@ -27,6 +27,7 @@ class QuestionsController < ApplicationController
     @question = Question.new
     @question.question_text = params[:question][:question_text]
 
+    @question.choices.new(choice_id: "-2", choice_text: "Question was Lost/Unseen/Unanswered")
     @question.choices.new(choice_id: "-1", choice_text: "Refuse to Answer")
 
     params[:question][:choices_attributes].each do |choice|
