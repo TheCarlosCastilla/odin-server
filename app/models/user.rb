@@ -5,14 +5,16 @@ class User < ActiveRecord::Base
     valid = ValidUser.where(imei: input)
 
 		if valid.empty?
-			return "IMEI is not authorized!"
+			puts "IMEI is not authorized!"
     elsif valid.first.is_registered
-      return "IMEI is already registered!"
+      puts "IMEI is already registered!"
+      return valid.first.user.user_id
 		else
 			if self.where(is_claimed: 'false').empty?
-        valid.first.user  = self.create(user_id: SecureRandom.uuid, valid_user_id: nil, is_claimed: true)
+        user = valid.first.user  = self.create(user_id: SecureRandom.uuid, valid_user_id: nil, is_claimed: true)
 			  valid.first.update(is_registered: true)
         valid.first.save
+        return valid.first.user.user_id
 			end
 		end
 	end
