@@ -2,18 +2,18 @@
 
 <table class="table table-hover">
   <tr>
-    <th>Row ID</th>
-    <th>User ID</th>
     <th>IMEI</th>
-    <th>Claimed?</th>
+    <th>Phone Registered?</th>
+    <th>User ID</th>
+    <th>User ID Claimed?</th>
   </tr>
 
   <% @users.each do |user| %>
     <tr>
-      <td><%= user.id %></td>
-      <td><%= user.user_id %></td>
       <td><%= user.imei %></td>
-      <td><%= if user.is_claimed then "Yes" else "No" end %></td>
+      <td><%= if user.is_registered then "Yes" else "No" end %></td>
+      <td><%= if user.user.nil? then "No User ID Generated" else user.user.user_id end %></td>
+      <td><%= if user.user.nil? then "No" else (if user.user.is_claimed then "Yes" else "No" end) end %></td>
     </tr>
   <% end %>
 </table>

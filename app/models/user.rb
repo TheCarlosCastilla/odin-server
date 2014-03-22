@@ -1,18 +1,18 @@
 class User < ActiveRecord::Base
+  belongs_to :valid_user
 
-	# TODO: Figure out what is causing this weird type error/ how to access specific model attributes.
 	def self.next(input)
-		user = self.where(imei: input)
+    valid = ValidUser.where(imei: input)
 
-		if !user.empty?
-			return user[0].user_id
+		if valid.empty?
+			return "IMEI is not authorized!"
+    elsif valid.first.is_registered
+      return "IMEI is already registered!"
 		else
-			if self.where(is_claimed: 'false').count == 0
-				return "There are no more available users"
-			else
-				user = self.where(is_claimed: 'false').first
-				user.update(imei: input, is_claimed: 'true')
-				return user.user_id
+			if self.where(is_claimed: 'false').empty?
+        valid.first.user  = self.create(user_id: SecureRandom.uuid, valid_user_id: nil, is_claimed: true)
+			  valid.first.update(is_registered: true)
+        valid.first.save
 			end
 		end
 	end
