@@ -21,7 +21,7 @@ class SchedulesController < ApplicationController
     @maxRow = params[:max]
 
     if !@maxRow.nil?
-      @schedules = Schedule.where("user_id = ? AND sent = ? AND id >= ?", @user, false, @maxRow)
+      @schedules = Schedule.where("user_id = ? AND sent = ? AND id > ?", @user, false, @maxRow)
     else
       @schedules = Schedule.where(user_id: @user, sent: 'false')
     end
