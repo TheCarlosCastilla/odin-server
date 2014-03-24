@@ -3,6 +3,8 @@ class QuestionsController < ApplicationController
   # GET /questions
   # GET /questions.json
   def index
+    log_request("Show All Questions")
+
     @questions = Question.all
     @choices = Choice.all
 
@@ -19,11 +21,15 @@ class QuestionsController < ApplicationController
 
   # GET /questions/new
   def new
+    log_request("New Question Form")
+
     @question = Question.new
     3.times {@question.choices.build}
   end
 
   def create
+    log_request("Creating Question")
+
     @question = Question.new
     @question.question_text = params[:question][:question_text]
 
@@ -35,10 +41,29 @@ class QuestionsController < ApplicationController
     end
 
     if !@question.save
-      render text: "Unable to save schedule" and return
+      flash[:alert] = "Unable to save question"
+      redirect_to action: :new and return
     end
 
-    render text: "All Questions and Choices Saved!"
+    flash[:notice] = "Successfully Saved New Question!"
+    redirect_to action: :index
+  end
+
+  def log_request(message = "")
+    file = File.open('log/test.log', File::WRONLY | File::APPEND)
+    file.sync = true
+    logger = Logger.new(file, 'daily')
+
+    request_info = "#{request.method},#{request.original_url},source: #{request.ip},Query Params: #{request
+    .query_parameters},Request Params: #{request.request_parameters}"
+
+    logger.formatter = proc do |severity, datetime, progname, msg|
+      "#{datetime.strftime("%B %d %H:%M:%S")} #{Socket.gethostname}, [#{$$}]:, #{severity} ODIN, #{msg}\n#{request_info}\n***\n"
+    end
+
+    logger.info("Test")
+
+    logger.close
   end
     
 end

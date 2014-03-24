@@ -3,6 +3,8 @@ class RulesController < ApplicationController
   # GET /rules
   # GET /rules.json
   def index
+    log_request("Show All Rules")
+
     @rules = Rule.all
 
     @response = {
@@ -17,6 +19,8 @@ class RulesController < ApplicationController
 
   #GET /rules/user
   def get_rules_by_user
+    log_request("Show Schedule for: " + params[:user].to_s)
+
     @user = params[:user]
     @maxRow = params[:max]
 
@@ -42,10 +46,13 @@ class RulesController < ApplicationController
 
   #GET /rules/new
   def new
+    log_request("New Rule Form")
+
     @rule = Rule.new
   end
 
   def create
+    log_request("Creating New Rule")
     @rule = Rule.new
 
     @rule.user_id = params[:rule][:user_id]
@@ -54,10 +61,29 @@ class RulesController < ApplicationController
     @rule.question_id = params[:rule][:question_id]
 
     if !@rule.save
-      render text: "Unable to save rule" and return
+      flash[:alert] = "Unable to save rule"
+      redirect_to action: :new and return
     end
 
-    render text: "All rules saved"
+    flash[:notice] = "Successfully Saved New Rule!"
+    redirect_to action: :index
+  end
+
+  def log_request(message = "")
+    file = File.open('log/test.log', File::WRONLY | File::APPEND)
+    file.sync = true
+    logger = Logger.new(file, 'daily')
+
+    request_info = "#{request.method},#{request.original_url},source: #{request.ip},Query Params: #{request
+    .query_parameters},Request Params: #{request.request_parameters}"
+
+    logger.formatter = proc do |severity, datetime, progname, msg|
+      "#{datetime.strftime("%B %d %H:%M:%S")} #{Socket.gethostname}, [#{$$}]:, #{severity} ODIN, #{msg}\n#{request_info}\n***\n"
+    end
+
+    logger.info("Test")
+
+    logger.close
   end
 
 end

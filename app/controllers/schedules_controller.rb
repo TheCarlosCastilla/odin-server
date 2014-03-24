@@ -3,6 +3,8 @@ class SchedulesController < ApplicationController
   # GET /schedules
   # GET /schedules.json
   def index
+    log_request("Show All Schedules")
+
     @schedules = Schedule.all
 
     @response = {
@@ -17,6 +19,8 @@ class SchedulesController < ApplicationController
 
   #GET /schedules/:user
   def get_schedule_by_user
+    log_request("Show Schedule For: " + params[:user].to_s)
+
   	@user = params[:user]
     @maxRow = params[:max]
 
@@ -44,19 +48,24 @@ class SchedulesController < ApplicationController
 
   #GET /schedules/new
   def new
+    log_request("New Schedule Form")
+
     @schedule = Schedule.new
   end
 
   def create
+    log_request("Creating Schedule")
 
     @time = Time.new(params[:time][:year].to_i, params[:time][:month].to_i, params[:time][:day].to_i, params[:time][:hour].to_i,
                      params[:time][:minute].to_i, params[:time][:second], "-04:00" )
 
 
     if params[:users].nil?
-      render text: "No users selected" and return
+      flash[:alert] = "Please select at least one user"
+      redirect_to action: :new and return
     elsif params[:schedule][:question_id].empty?
-      render text: "No questions selected" and return
+      flash[:alert] = "Please select a question"
+      redirect_to action: :new and return
     else
       @users = params[:users]
 
@@ -70,12 +79,31 @@ class SchedulesController < ApplicationController
         @schedule.sent = false
 
         if !@schedule.save
-          render text: "Unable to save schedule" and return
+          flash[:alert] = "Unable to save schedule"
+          redirect_to action: :new and return
         end
       end
     end
 
-    render text: "All schedules saved"
+    flash[:notice] = "Successfully Saved New Schedule!"
+    redirect_to action: :index
+  end
+
+  def log_request(message = "")
+    file = File.open('log/test.log', File::WRONLY | File::APPEND)
+    file.sync = true
+    logger = Logger.new(file, 'daily')
+
+    request_info = "#{request.method},#{request.original_url},source: #{request.ip},Query Params: #{request
+    .query_parameters},Request Params: #{request.request_parameters}"
+
+    logger.formatter = proc do |severity, datetime, progname, msg|
+      "#{datetime.strftime("%B %d %H:%M:%S")} #{Socket.gethostname}, [#{$$}]:, #{severity} ODIN, #{msg}\n#{request_info}\n***\n"
+    end
+
+    logger.info("Test")
+
+    logger.close
   end
 
 end
