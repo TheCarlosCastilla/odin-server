@@ -1,5 +1,6 @@
 class InteractionsController < ApplicationController
-
+  include MyModule
+  
   # GET /interactions
   # GET /interactions.csv
   # GET /interactions.json
@@ -27,12 +28,10 @@ class InteractionsController < ApplicationController
 
 
     if params[:interaction].empty?
+      log_request("No Interactions to save")
       render text: "No Interactions To Save" and return
     else
       params[:interaction].each do |interaction|
-        print "\n~~~\n#{interaction}\n~~~\n"
-
-
         @interaction = Interaction.new(interaction)
 
         new_time = Time.parse(@interaction.time) + time_offset
@@ -40,36 +39,23 @@ class InteractionsController < ApplicationController
 
         if @interaction.save
           @success = true
+          log_request("Saved an interaction")
           print "Saved Interaction"
         else
           @success = false
+          log_request("Unable to save an interaction")
           print "Unable To Save Interaction!" and return
         end
       end
     end
 
     if @success == true
+      log_request("All data arrived successfully")
       render text: "Data Arrived Successfully"
     else
+      log_request("Unable to save all data")
       render text: "Unable to save all data"
     end
-  end
-
-  def log_request(message = "")
-    file = File.open('log/test.log', File::WRONLY | File::APPEND)
-    file.sync = true
-    logger = Logger.new(file, 'daily')
-
-    request_info = "#{request.method},#{request.original_url},source: #{request.ip},Query Params: #{request
-    .query_parameters},Request Params: #{request.request_parameters}"
-
-    logger.formatter = proc do |severity, datetime, progname, msg|
-      "#{datetime.strftime("%B %d %H:%M:%S")} #{Socket.gethostname}, [#{$$}]:, #{severity} ODIN, #{msg}\n#{request_info}\n***\n"
-    end
-
-    logger.info("Test")
-
-    logger.close
   end
 
 end

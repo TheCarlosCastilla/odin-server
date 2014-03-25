@@ -1,5 +1,6 @@
 class QuestionsController < ApplicationController
-
+  include MyModule
+  
   # GET /questions
   # GET /questions.json
   def index
@@ -41,29 +42,15 @@ class QuestionsController < ApplicationController
     end
 
     if !@question.save
+      log_request("Unable to save a question")
       flash[:alert] = "Unable to save question"
       redirect_to action: :new and return
     end
 
+    log_request("Successfully save a new question")
     flash[:notice] = "Successfully Saved New Question!"
     redirect_to action: :index
   end
 
-  def log_request(message = "")
-    file = File.open('log/test.log', File::WRONLY | File::APPEND)
-    file.sync = true
-    logger = Logger.new(file, 'daily')
-
-    request_info = "#{request.method},#{request.original_url},source: #{request.ip},Query Params: #{request
-    .query_parameters},Request Params: #{request.request_parameters}"
-
-    logger.formatter = proc do |severity, datetime, progname, msg|
-      "#{datetime.strftime("%B %d %H:%M:%S")} #{Socket.gethostname}, [#{$$}]:, #{severity} ODIN, #{msg}\n#{request_info}\n***\n"
-    end
-
-    logger.info("Test")
-
-    logger.close
-  end
     
 end

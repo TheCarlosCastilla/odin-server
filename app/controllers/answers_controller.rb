@@ -1,4 +1,5 @@
 class AnswersController < ApplicationController
+  include MyModule
 
   # GET /answers
   # GET /answers.csv
@@ -25,6 +26,7 @@ class AnswersController < ApplicationController
     time_offset = server_time - phone_time
 
     if params[:answer].empty?
+      log_request("No Answers To Save")
       render text: "No Answers To Save" and return
     else
       params[:answer].each do |answer|
@@ -37,36 +39,24 @@ class AnswersController < ApplicationController
 
         if @answer.save
           @success = true
+          log_request("Saved an answer")
           print "Saved Answer"
         else
           @success = false
+          log_request("Unable to save an answer")
           print "Unable To Save Answer!" and return
         end
       end
     end
 
     if @success == true
+      log_request("All data arrived successfully")
       render text: "Data Arrived Successfully"
     else
+      log_request("Unable to save all data")
       render text: "Unable to save all data"
     end
   end
 
-  def log_request(message = "")
-    file = File.open('log/test.log', File::WRONLY | File::APPEND)
-    file.sync = true
-    logger = Logger.new(file, 'daily')
-
-    request_info = "#{request.method},#{request.original_url},source: #{request.ip},Query Params: #{request
-    .query_parameters},Request Params: #{request.request_parameters}"
-
-    logger.formatter = proc do |severity, datetime, progname, msg|
-      "#{datetime.strftime("%B %d %H:%M:%S")} #{Socket.gethostname}, [#{$$}]:, #{severity} ODIN, #{msg}\n#{request_info}\n***\n"
-    end
-
-    logger.info("Test")
-
-    logger.close
-  end
 
 end

@@ -1,5 +1,6 @@
 class UsersController < ApplicationController
-
+  include MyModule
+  
 	# GET /users
   # GET /users.json
   def index
@@ -22,21 +23,5 @@ class UsersController < ApplicationController
 		render :text => @user
   end
 
-  def log_request(message = "")
-    file = File.open('log/test.log', File::WRONLY | File::APPEND)
-    file.sync = true
-    logger = Logger.new(file, 'daily')
-
-    request_info = "#{request.method},#{request.original_url},source: #{request.ip},Query Params: #{request
-    .query_parameters},Request Params: #{request.request_parameters}"
-
-    logger.formatter = proc do |severity, datetime, progname, msg|
-      "#{datetime.strftime("%B %d %H:%M:%S")} #{Socket.gethostname}, [#{$$}]:, #{severity} ODIN, #{msg}\n#{request_info}\n***\n"
-    end
-
-    logger.info("Test")
-
-    logger.close
-  end
 	
 end

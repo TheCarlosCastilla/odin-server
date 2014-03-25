@@ -1,5 +1,6 @@
 class RulesController < ApplicationController
-
+  include MyModule
+  
   # GET /rules
   # GET /rules.json
   def index
@@ -26,10 +27,11 @@ class RulesController < ApplicationController
 
     @rules = Rule.where(user_id: @user)
 
-    if !@maxRow.nil?
-      @rules = Rule.where("user_id = ? AND id > ?", @user, @maxRow)
-    else
+    if @maxRow.nil?
+      log_request("No MaxRow provided")
       @rules = Rule.where(user_id: @user)
+    else
+      @rules = Rule.where("user_id = ? AND id > ?", @user, @maxRow)
     end
 
     @response = {
@@ -61,29 +63,15 @@ class RulesController < ApplicationController
     @rule.question_id = params[:rule][:question_id]
 
     if !@rule.save
+      log_request("Unable to save a rule")
       flash[:alert] = "Unable to save rule"
       redirect_to action: :new and return
     end
 
+    log_request("Successfully save a new rule.")
     flash[:notice] = "Successfully Saved New Rule!"
     redirect_to action: :index
   end
 
-  def log_request(message = "")
-    file = File.open('log/test.log', File::WRONLY | File::APPEND)
-    file.sync = true
-    logger = Logger.new(file, 'daily')
-
-    request_info = "#{request.method},#{request.original_url},source: #{request.ip},Query Params: #{request
-    .query_parameters},Request Params: #{request.request_parameters}"
-
-    logger.formatter = proc do |severity, datetime, progname, msg|
-      "#{datetime.strftime("%B %d %H:%M:%S")} #{Socket.gethostname}, [#{$$}]:, #{severity} ODIN, #{msg}\n#{request_info}\n***\n"
-    end
-
-    logger.info("Test")
-
-    logger.close
-  end
 
 end
