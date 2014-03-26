@@ -6,8 +6,16 @@ class QuestionsController < ApplicationController
   def index
     log_request("Show All Questions")
 
-    @questions = Question.all
-    @choices = Choice.all
+    @maxRow = params[:max]
+
+    if @maxRow.nil?
+      log_request("No MaxRow provided")
+      @questions  = Question.all
+      @choices = Choice.all
+    else
+      @questions = Question.where("id > ?", @maxRow)
+      @choices = Choice.where("question_id > ?", @maxRow)
+    end
 
     @response = {
     	questions: @questions,

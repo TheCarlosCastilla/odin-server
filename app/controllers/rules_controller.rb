@@ -20,7 +20,7 @@ class RulesController < ApplicationController
 
   #GET /rules/user
   def get_rules_by_user
-    log_request("Show Schedule for: " + params[:user].to_s)
+    log_request("Show Rules for: " + params[:user].to_s)
 
     @user = params[:user]
     @maxRow = params[:max]

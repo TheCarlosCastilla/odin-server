@@ -50,10 +50,10 @@ class AnswersController < ApplicationController
     end
 
     if @success == true
-      log_request("All data arrived successfully")
+      log_request("All answers arrived successfully")
       render text: "Data Arrived Successfully"
     else
-      log_request("Unable to save all data")
+      log_request("Unable to save all answers")
       render text: "Unable to save all data"
     end
   end
