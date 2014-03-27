@@ -1,4 +1,6 @@
 class QuestionsController < ApplicationController
+  skip_before_action :authorize
+  
   include MyModule
   
   # GET /questions

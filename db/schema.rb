@@ -11,7 +11,14 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140322051836) do
+ActiveRecord::Schema.define(version: 20140327021548) do
+
+  create_table "admins", force: true do |t|
+    t.string   "name"
+    t.string   "password_digest"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "answers", force: true do |t|
     t.string "time"
@@ -52,11 +59,9 @@ ActiveRecord::Schema.define(version: 20140322051836) do
   end
 
   create_table "users", force: true do |t|
-    t.string   "user_id"
-    t.integer  "valid_user_id"
-    t.boolean  "is_claimed"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.string  "user_id"
+    t.string  "imei"
+    t.boolean "is_claimed"
   end
 
   create_table "valid_users", force: true do |t|

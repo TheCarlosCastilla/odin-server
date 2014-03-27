@@ -6,7 +6,7 @@
     <div class="form-group">
     <%= f.label :user_id %><br />
     <%= f.collection_select(:user_id, User.where(is_claimed: true), :user_id, :user_id, {prompt: "Please Select a User"},
-                            {class: "form-control"} ) %>
+                            {class: "form-control", type: "text"} ) %>
     </div>
 	</p>
 
@@ -21,7 +21,7 @@
   <p>
   <div class="form-group">
     <%= f.label :delay %><br />
-    <%= f.text_field :delay, {class: "form-control"} %>
+    <%= f.text_field :delay, {class: "form-control", type: "text"} %>
   </div>
   </p>
 

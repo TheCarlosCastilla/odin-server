@@ -1,0 +1,26 @@
+<h1>Please Log In</h1>
+
+<%= form_tag do %>
+<div class="form-inline" role: "form">
+  <p>
+    <div class="form-group">
+      <%= label_tag :name, "Name:" %>
+      <%= text_field_tag :name, params[:name], { class: "form-control", type: "text" } %>
+    </div>
+  </p>
+
+  <p>
+    <div class="form-group">
+      <%= label_tag :password, "Password:" %>
+      <%= password_field_tag :password, params[:password], { class: "form-control", type: "password" } %>
+    </div>
+  </p>
+
+  <p>
+    <div class="form-group">
+      <%= submit_tag "Login", class: "btn btn-success" %>
+      <%= link_to 'Register', '/admins/new', class: 'btn' %>
+    </div>
+  </p>
+</div>
+<% end %>

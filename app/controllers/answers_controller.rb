@@ -1,4 +1,6 @@
 class AnswersController < ApplicationController
+  skip_before_action :authorize
+  
   include MyModule
 
   # GET /answers

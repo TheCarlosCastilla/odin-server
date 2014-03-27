@@ -1,4 +1,6 @@
 class InteractionsController < ApplicationController
+  skip_before_action :authorize
+  
   include MyModule
   
   # GET /interactions

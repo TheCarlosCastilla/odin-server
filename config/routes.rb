@@ -1,5 +1,14 @@
 Nsfproject::Application.routes.draw do
 
+  #get 'admin' => 'admins#index'
+  controller :sessions do
+    get  'login' => :new
+    post 'login' => :create
+    delete 'logout' => :destroy
+  end
+
+  resources :admins
+
   get '/interactions' => 'interactions#index'
   post '/interactions' => 'interactions#create'
 
