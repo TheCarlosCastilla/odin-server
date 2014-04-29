@@ -9,18 +9,18 @@ class InteractionsController < ApplicationController
   def index
     log_request("Show All Interactions")
 
-    @interactions = Interaction.all
+    @interactions = Interaction.last(1000)
     
     respond_to do |format|
       format.html { @interactions }
-      format.csv { send_data @interactions.to_csv }
+      format.csv { send_data Interaction.to_csv }
       format.json { render :json => @interactions.to_json }
     end
   end
 
   def show
     log_request("Show Interactions for one user")
-    @interactions = Interaction.where(user_id: params[:id]).order(:peer_id)
+    @interactions = Interaction.where(user_id: params[:id]).order(:id)
   end
 
   def compare
@@ -54,21 +54,21 @@ class InteractionsController < ApplicationController
 
         if @interaction.save
           @success = true
-          log_request("Saved an interaction")
+          log_request_without_params("Saved an interaction")
           print "Saved Interaction"
         else
           @success = false
-          log_request("Unable to save an interaction")
+          log_request_without_params("Unable to save an interaction")
           print "Unable To Save Interaction!" and return
         end
       end
     end
 
     if @success == true
-      log_request("All interactions arrived successfully")
+      log_request_without_params("All interactions arrived successfully")
       render text: "Data Arrived Successfully"
     else
-      log_request("Unable to save all interactions")
+      log_request_without_params("Unable to save all interactions")
       render text: "Unable to save all data"
     end
   end
