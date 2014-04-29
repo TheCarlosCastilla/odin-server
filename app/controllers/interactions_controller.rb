@@ -13,9 +13,22 @@ class InteractionsController < ApplicationController
     
     respond_to do |format|
       format.html { @interactions }
-      format.csv { send_data @interactions.to_csv}
+      format.csv { send_data @interactions.to_csv }
       format.json { render :json => @interactions.to_json }
     end
+  end
+
+  def show
+    log_request("Show Interactions for one user")
+    @interactions = Interaction.where(user_id: params[:id]).order(:peer_id)
+  end
+
+  def compare
+    log_request("Compare Interactions between two users")
+    @interactions = {
+      user1: Interaction.where(user_id: params[:id1]).where(peer_id: params[:id2]),
+      user2: Interaction.where(user_id: params[:id2]).where(peer_id: params[:id1])
+    }
   end
 
   # POST /interactions

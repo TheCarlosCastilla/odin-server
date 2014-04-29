@@ -41,7 +41,7 @@ ActiveRecord::Schema.define(version: 20140327021548) do
   end
 
   create_table "questions", force: true do |t|
-    t.string "question_text"
+    t.text "question_text"
   end
 
   create_table "rules", force: true do |t|
@@ -59,9 +59,11 @@ ActiveRecord::Schema.define(version: 20140327021548) do
   end
 
   create_table "users", force: true do |t|
-    t.string  "user_id"
-    t.string  "imei"
-    t.boolean "is_claimed"
+    t.string   "user_id"
+    t.integer  "valid_user_id"
+    t.boolean  "is_claimed"
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
   create_table "valid_users", force: true do |t|

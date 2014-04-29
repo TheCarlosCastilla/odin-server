@@ -18,4 +18,15 @@ module MyModule
     custom_logger.close
   end
 
+  def log_imei(imei)
+    file = File.open('log/new_phones.log', File::WRONLY | File::APPEND | File::CREAT)
+    file.sync = true
+    custom_logger = Logger.new(file, "daily")
+
+    custom_logger.formatter = proc do |severity, datetime, progname, msg|
+      "#{datetime.strftime("%B %d %H:%M:%S")} #{Socket.gethostname}, [#{$$}]:, Request from IMEI: #{msg}\n***\n"
+    end
+
+  end
+
 end

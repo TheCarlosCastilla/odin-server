@@ -1,0 +1,47 @@
+<h1>Interactions between two users</h1>
+
+<h3>User 1</h3>
+<table class="table table-hover">
+  <tr>
+    <th>Row ID</th>
+    <th>User ID</th>
+    <th>Peer ID</th>
+    <th>Time</th>
+    <th>Duration</th>
+  </tr>
+
+  <% @interactions[:user1].each do |interaction| %>
+    <tr>
+      <td><%= interaction.id %></td>
+      <td><%= link_to "#{interaction.user_id}", controller: "interactions", action: "show", id: "#{interaction.user_id}"  %></td>
+      <td><%= link_to "#{interaction.peer_id}", controller: "interactions", action: "show", id: "#{interaction.peer_id}"  %></td>
+      <td><%= interaction.time %></td>
+      <td><%= interaction.duration %></td>
+    </tr>
+  <% end %>
+</table>
+
+<h3>User 2</h3>
+<table class="table table-hover">
+  <tr>
+    <th>Row ID</th>
+    <th>User ID</th>
+    <th>Peer ID</th>
+    <th>Time</th>
+    <th>Duration</th>
+  </tr>
+
+  <% @interactions[:user2].each do |interaction| %>
+    <tr>
+      <td><%= interaction.id %></td>
+      <td><%= link_to "#{interaction.user_id}", controller: "interactions", action: "show", id: "#{interaction.user_id}"  %></td>
+      <td><%= link_to "#{interaction.peer_id}", controller: "interactions", action: "show", id: "#{interaction.peer_id}"  %></td>
+      <td><%= interaction.time %></td>
+      <td><%= interaction.duration %></td>
+    </tr>
+  <% end %>
+</table>
+
+<p>
+  <%= link_to 'Home', '/', class: 'btn btn-primary' %>
+</p>

@@ -5,15 +5,13 @@
     <th>IMEI</th>
     <th>Phone Registered?</th>
     <th>User ID</th>
-    <th>User ID Claimed?</th>
   </tr>
 
-  <% @users.each do |user| %>
+  <% @valid.each do |phone| %>
     <tr>
-      <td><%= user.imei %></td>
-      <td><%= if user.is_registered then "Yes" else "No" end %></td>
-      <td><%= if user.user.nil? then "No User ID Generated" else user.user.user_id end %></td>
-      <td><%= if user.user.nil? then "No" else (if user.user.is_claimed then "Yes" else "No" end) end %></td>
+      <td><%= phone.imei %></td>
+      <td><%= if phone.is_registered then "Yes" else "No" end %></td>
+      <td><%= if phone.user.nil? then "No User ID Generated" else phone.user.user_id end %></td>
     </tr>
   <% end %>
 </table>

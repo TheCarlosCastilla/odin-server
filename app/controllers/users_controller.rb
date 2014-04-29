@@ -4,13 +4,16 @@ class UsersController < ApplicationController
   
 	# GET /users
   # GET /users.json
+  # GET /users.csv
   def index
     log_request("Show All Users")
 
-    @users = ValidUser.all
+    @valid = ValidUser.all
+    @users = User.all
     respond_to do |format|
-      format.html { @users }
+      format.html { @valid }
       format.json { render :json => @users.to_json }
+      format.csv { send_data @users.to_csv }
     end
   end
 
@@ -18,11 +21,19 @@ class UsersController < ApplicationController
 	def request_user_id
     log_request("Request User ID for phone: " + params[:uuid].to_s)
 
-		@uuid = params[:uuid]
-		@user = User.next(@uuid)
+		@imei = params[:uuid]
+    log_imei(@imei.to_s)
+
+		@user = User.next(@imei)
 
 		render :text => @user
   end
 
+  def for_boris
+    @users = User.all
+    respond_to do |format|
+      format.csv { send_data @users.to_csv_with_imei }
+    end
+  end
 	
 end

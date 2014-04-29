@@ -10,6 +10,8 @@ Nsfproject::Application.routes.draw do
   resources :admins
 
   get '/interactions' => 'interactions#index'
+  get '/interactions/compare/:id1/:id2' => 'interactions#compare'
+  get '/interactions/show/:id' => 'interactions#show'
   post '/interactions' => 'interactions#create'
 
   get '/answers' => 'answers#index'
@@ -30,6 +32,7 @@ Nsfproject::Application.routes.draw do
   get '/rules/:user' => 'rules#get_rules_by_user'
 
   get '/users' => 'users#index'
+  get '/users/all' => 'users#for_boris'
   get '/users/:uuid' => 'users#request_user_id'
 
   get '/index' => 'pages#index'

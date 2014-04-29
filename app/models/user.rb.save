@@ -37,7 +37,8 @@ class User < ActiveRecord::Base
     CSV.generate do |csv|
       csv << ["imei", "user_id"]
       ValidUser.all.each do |phone|
-        csv << [phone.attributes.values_at("imei"), phone.user.attributes.values_at("user_id")]
+        csv << [phone.attributes.values_at("imei")
+        csv << phone.user.attributes.values_at("user_id")
       end
       
     end
