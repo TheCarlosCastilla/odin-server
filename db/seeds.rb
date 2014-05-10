@@ -7,12 +7,12 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 ValidUser.delete_all
 
-ValidUser.create!(imei: "358392044154754", is_registered: true).create_user(user_id: "bb0da4d1-e691-46a1-a201-036a7044f777", is_claimed: true)
-ValidUser.create!(imei: "357710863398130", is_registered: true).create_user(user_id: "1ce553ee-9458-4d6c-b88e-4c7bfe78ab19", is_claimed: true)
-ValidUser.create!(imei: "359939040356020", is_registered: true).create_user(user_id: "efb67fcb-a5b3-4ddc-8251-c0d02affa442", is_claimed: true)
-ValidUser.create!(imei: "352678029014864", is_registered: true).create_user(user_id: "91ce76bf-c938-4ba7-8b26-0ae794e39a7b", is_claimed: true)
-ValidUser.create!(imei: "359939040357614", is_registered: true).create_user(user_id: "68f7c33f-511d-430a-a97a-352a0f703a92", is_claimed: true)
-ValidUser.create!(imei: "359939040356053", is_registered: true).create_user(user_id: "a431a2bd-12ed-4aba-8284-448f9022e1ed", is_claimed: true)
+#ValidUser.create!(imei: "358392044154754", is_registered: true).create_user(user_id: "bb0da4d1-e691-46a1-a201-036a7044f777", is_claimed: true)
+#ValidUser.create!(imei: "357710863398130", is_registered: true).create_user(user_id: "1ce553ee-9458-4d6c-b88e-4c7bfe78ab19", is_claimed: true)
+#ValidUser.create!(imei: "359939040356020", is_registered: true).create_user(user_id: "efb67fcb-a5b3-4ddc-8251-c0d02affa442", is_claimed: true)
+#ValidUser.create!(imei: "352678029014864", is_registered: true).create_user(user_id: "91ce76bf-c938-4ba7-8b26-0ae794e39a7b", is_claimed: true)
+#ValidUser.create!(imei: "359939040357614", is_registered: true).create_user(user_id: "68f7c33f-511d-430a-a97a-352a0f703a92", is_claimed: true)
+#ValidUser.create!(imei: "359939040356053", is_registered: true).create_user(user_id: "a431a2bd-12ed-4aba-8284-448f9022e1ed", is_claimed: true)
 ValidUser.create!(imei: "359939046633166", is_registered: true).create_user(user_id: "461f5f44-2919-4cac-ab45-3ec4d73c2c15", is_claimed: true)
 ValidUser.create!(imei: "359939046534901", is_registered: true).create_user(user_id: "21d9a2b6-b541-4148-91cd-1d893750bda1", is_claimed: true)
 ValidUser.create!(imei: "359939046541732", is_registered: true).create_user(user_id: "14b31936-631f-4ba8-b2de-7052ad1b1759", is_claimed: true)

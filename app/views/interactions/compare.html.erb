@@ -8,6 +8,7 @@
     <th>Peer ID</th>
     <th>Time</th>
     <th>Duration</th>
+    <th>RSSI</th>
   </tr>
 
   <% @interactions[:user1].each do |interaction| %>
@@ -17,6 +18,7 @@
       <td><%= link_to "#{interaction.peer_id}", controller: "interactions", action: "show", id: "#{interaction.peer_id}"  %></td>
       <td><%= interaction.time %></td>
       <td><%= interaction.duration %></td>
+      <td><%= interaction.rssi %></td>
     </tr>
   <% end %>
 </table>

@@ -38,6 +38,7 @@ ActiveRecord::Schema.define(version: 20140327021548) do
     t.string "peer_id"
     t.string "time"
     t.string "duration"
+    t.string "rssi"
   end
 
   create_table "questions", force: true do |t|

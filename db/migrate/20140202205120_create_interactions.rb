@@ -5,6 +5,7 @@ class CreateInteractions < ActiveRecord::Migration
       t.string :peer_id
       t.string :time
       t.string :duration
+      t.string :rssi
     end
   end
 end

@@ -22,7 +22,7 @@ class UsersController < ApplicationController
     log_request("Request User ID for phone: " + params[:uuid].to_s)
 
 		@imei = params[:uuid]
-    log_imei(@imei.to_s)
+    log_imei(@imei)
 
 		@user = User.next(@imei)
 
