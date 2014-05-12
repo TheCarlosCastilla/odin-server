@@ -19,7 +19,7 @@
 .idea/workspace.xml
 .idea/tasks.xml
 
-/config/database.yml
+#/config/database.yml
 public/assets/application-1aeef9535965add3b484d2377fc68bc4.css
 public/assets/application-1aeef9535965add3b484d2377fc68bc4.css.gz
 public/assets/application-25a63130a8256b5b8d1ef5d55794b79d.js
