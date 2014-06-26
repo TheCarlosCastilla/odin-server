@@ -1,0 +1,28 @@
+<h1>Welcome to the list of Odin Interactions: Calls</h1>
+
+<table class="table table-hover">
+  <tr>
+    <th>Row ID</th>
+    <th>User ID</th>
+    <th>Peer ID</th>
+    <th>Time</th>
+    <th>Duration</th>
+    <th>Call Type</th>
+  </tr>
+
+  <% @calls.each do |call| %>
+    <tr>
+      <td><%= call.id %></td>
+      <td><%= call.user_id %></td>
+      <td><%= call.peer_id %></td>
+      <td><%= call.time %></td>
+      <td><%= call.duration %></td>
+      <td><%= call.call_type %></td>
+      
+    </tr>
+  <% end %>
+</table>
+
+<p>
+  <%= link_to 'Home', '/', class: 'btn btn-primary' %>
+</p>

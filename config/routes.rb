@@ -1,5 +1,13 @@
 Nsfproject::Application.routes.draw do
 
+  get 'texts/index'
+
+  get 'texts/create'
+
+  get 'calls/index'
+
+  get 'calls/create'
+
   #get 'admin' => 'admins#index'
   controller :sessions do
     get  'login' => :new
@@ -31,9 +39,16 @@ Nsfproject::Application.routes.draw do
   post '/rules/new' => 'rules#create'
   get '/rules/:user' => 'rules#get_rules_by_user'
 
+  get '/calls' => 'calls#index'
+  post '/calls' => 'calls#create'
+
+  get '/texts' => 'texts#index'
+  post '/texts' => 'texts#create'
+
   get '/users' => 'users#index'
   get '/users/all' => 'users#for_boris'
   get '/users/:uuid' => 'users#request_user_id'
+
 
   get '/index' => 'pages#index'
 

@@ -5,6 +5,7 @@
     <th>IMEI</th>
     <th>Phone Registered?</th>
     <th>User ID</th>
+    <th>Hashed Phone Number</th>
   </tr>
 
   <% @valid.each do |phone| %>
@@ -12,6 +13,8 @@
       <td><%= phone.imei %></td>
       <td><%= if phone.is_registered then "Yes" else "No" end %></td>
       <td><%= if phone.user.nil? then "No User ID Generated" else phone.user.user_id end %></td>
+      <td><%= phone.user.hashed_number %></td>
+
     </tr>
   <% end %>
 </table>

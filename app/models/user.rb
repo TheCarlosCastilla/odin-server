@@ -1,14 +1,16 @@
 class User < ActiveRecord::Base
+  require 'digest'
+
   belongs_to :valid_user
 
-	def self.next(input)
-    valid = ValidUser.where(imei: input)
+	def self.next(imei, phone)
+    valid = ValidUser.where(imei: imei)
 
 		if valid.empty?
 		#	puts "IMEI is not authorized!"
       puts "Adding IMEI to database!"
-      valid = ValidUser.create(imei: input, is_registered: false)
-      user = valid.user = self.create(user_id: SecureRandom.uuid, is_claimed: true)
+      valid = ValidUser.create(imei: imei, is_registered: false)
+      user = valid.user = self.create(user_id: SecureRandom.uuid, hashed_number: Digest::MD5.hexdigest(phone), is_claimed: true)
       valid.update(is_registered: true)
       return user.user_id
     elsif valid.first.is_registered
@@ -16,7 +18,7 @@ class User < ActiveRecord::Base
       return valid.first.user.user_id
 		else
 			if self.where(is_claimed: 'false').empty?
-        user = valid.first.user  = self.create(user_id: SecureRandom.uuid, valid_user_id: nil, is_claimed: true)
+        user = valid.first.user  = self.create(user_id: SecureRandom.uuid, hashed_number: Digest::MD5.hexdigest(phone), valid_user_id: nil, is_claimed: true)
 			  valid.first.update(is_registered: true)
         valid.first.save
         return user.user_id

@@ -20,11 +20,13 @@ class UsersController < ApplicationController
 	# GET /request_user_id/uuid
 	def request_user_id
     log_request("Request User ID for phone: " + params[:uuid].to_s)
+    log_request("Phone Number: " + params[:phone_num])
 
 		@imei = params[:uuid]
+    @raw_num = params[:phone_num]
     log_imei(@imei)
 
-		@user = User.next(@imei)
+		@user = User.next(@imei, @raw_num)
 
 		render :text => @user
   end

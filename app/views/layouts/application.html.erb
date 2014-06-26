@@ -46,8 +46,21 @@
         </li>
       </ul>
     </li>
-    <li>
-      <%= link_to "Interactions", "/interactions" %>
+     <li class="dropdown">
+      <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+        Interactions <span class="caret"></span>
+      </a>
+      <ul class="dropdown-menu">
+        <li>
+          <%= link_to "In Person", "/interactions" %>
+        </li>
+        <li>
+          <%= link_to "Calls", "/calls" %>
+        </li>
+        <li>
+          <%= link_to "Text Messages", "/texts" %>
+        </li>
+      </ul>
     </li>
     <li class="dropdown">
       <a class="dropdown-toggle" data-toggle="dropdown" href="#">
