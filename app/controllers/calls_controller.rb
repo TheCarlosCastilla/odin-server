@@ -24,11 +24,11 @@ class CallsController < ApplicationController
     time_offset = server_time - phone_time
 
 
-    if params[:call].empty?
+    if params[:phone_call].empty?
       log_request("No Calls to save")
       render text: "No Calls To Save" and return
     else
-      params[:call].each do |call|
+      params[:phone_call].each do |call|
         @call = Call.new(call)
 
         new_time = Time.parse(@call.time) + time_offset

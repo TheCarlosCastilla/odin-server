@@ -2,7 +2,7 @@ class UsersController < ApplicationController
   skip_before_action :authorize
   include MyModule
   
-	# GET /users
+  # GET /users
   # GET /users.json
   # GET /users.csv
   def index
@@ -17,18 +17,18 @@ class UsersController < ApplicationController
     end
   end
 
-	# GET /request_user_id/uuid
-	def request_user_id
+  # GET /request_user_id/uuid
+  def request_user_id
     log_request("Request User ID for phone: " + params[:uuid].to_s)
-    log_request("Phone Number: " + params[:phone_num])
+    log_request("Phone Number: " + params[:phoneNumber])
 
-		@imei = params[:uuid]
-    @raw_num = params[:phone_num]
+    @imei = params[:uuid]
+    @raw_num = params[:phoneNumber]
     log_imei(@imei)
 
-		@user = User.next(@imei, @raw_num)
+    @user = User.next(@imei, @raw_num)
 
-		render :text => @user
+    render :text => @user
   end
 
   def for_boris

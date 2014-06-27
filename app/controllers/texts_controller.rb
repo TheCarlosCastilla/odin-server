@@ -24,17 +24,17 @@ class TextsController < ApplicationController
     time_offset = server_time - phone_time
 
 
-    if params[:text].empty?
+    if params[:sms].empty?
       log_request("No Texts to save")
       render text: "No Texts To Save" and return
     else
-      params[:text].each do |text|
-        @text = Text.new(text)
+      params[:sms].each do |sms|
+        @sms = Text.new(sms)
 
         new_time = Time.parse(@text.time) + time_offset
-        @text.time = new_time.in_time_zone.to_s
+        @sms.time = new_time.in_time_zone.to_s
 
-        if @text.save
+        if @sms.save
           @success = true
           log_request_without_params("Saved a text")
           print "Saved text"
