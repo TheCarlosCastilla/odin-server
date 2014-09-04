@@ -5,7 +5,7 @@
     <div class="form-group">
       <%= f.label :time %><br />
       <%= select_datetime(Time.now.in_time_zone, {prefix: :time, ampm: true, include_seconds: true}, {class: "form-control cols-xs-2"} ) %>
-      <%= time_zone_select(Time.zone, 'time_zone', ActiveSupport::TimeZone.us_zones, {default: Time.zone.name, selected: Time.zone.name},
+      <%= time_zone_select('time', 'time_zone', ActiveSupport::TimeZone.us_zones, {default: Time.zone.name, selected: Time.zone.name},
                              {class: "form-control cols-xs-2"}) %> <br />
     </div>
 	</p>
