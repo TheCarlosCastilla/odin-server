@@ -36,6 +36,8 @@ class InteractionsController < ApplicationController
   def create
     log_request("Insert New Interactions")
 
+    params.permit!
+
     server_time = Time.now.in_time_zone
     phone_time = Time.parse(params[:localtime]).in_time_zone
 

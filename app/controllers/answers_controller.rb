@@ -22,6 +22,8 @@ class AnswersController < ApplicationController
   def create
     log_request("Inserting New Answers")
 
+    params.permit!
+
     server_time = Time.now
     phone_time = Time.parse(params[:localtime])
 
