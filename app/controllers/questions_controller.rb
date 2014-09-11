@@ -46,6 +46,7 @@ class QuestionsController < ApplicationController
 
     @question.choices.new(choice_id: "-2", choice_text: "Question was Lost/Unseen/Unanswered")
     @question.choices.new(choice_id: "-1", choice_text: "Refuse to Answer")
+    @question.choices.new(choice_id: "5", choice_text: "I don't know")
 
     params[:question][:choices_attributes].each do |choice|
       @question.choices.new(choice_id: "#{choice.first.to_i + 1}", choice_text: "#{choice.second[:choice_text]}" )
