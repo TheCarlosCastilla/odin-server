@@ -1,4 +1,4 @@
-class SchedulesController < ApplicationController
+cclass SchedulesController < ApplicationController
   skip_before_action :authorize
   
   include MyModule
@@ -28,7 +28,7 @@ class SchedulesController < ApplicationController
     @maxRow = params[:max]
 
     if @maxRow.nil?
-      log_request("No MaxRow provided")
+      log_request_without_params("No MaxRow provided")
       @schedules = Schedule.where(user_id: @user, sent: 'false')
     else
       @schedules = Schedule.where("user_id = ? AND sent = ? AND id > ?", @user, false, @maxRow)
@@ -65,11 +65,11 @@ class SchedulesController < ApplicationController
 
 
     if params[:users].nil?
-      log_request("No Users Selected")
+      log_request_without_params("No Users Selected")
       flash[:alert] = "Please select at least one user"
       redirect_to action: :new and return
     elsif params[:schedule][:question_id].empty?
-      log_request("No Questions Selected")
+      log_request_without_params("No Questions Selected")
       flash[:alert] = "Please select a question"
       redirect_to action: :new and return
     else
@@ -85,14 +85,14 @@ class SchedulesController < ApplicationController
         @schedule.sent = false
 
         if !@schedule.save
-          log_request("Unable to save a schedule")
+          log_request_without_params("Unable to save a schedule")
           flash[:alert] = "Unable to save schedule"
           redirect_to action: :new and return
         end
       end
     end
 
-    log_request("Successfully saved a new schedule")
+    log_request_without_params("Successfully saved a new schedule")
     flash[:notice] = "Successfully Saved New Schedule!"
     redirect_to action: :index
   end

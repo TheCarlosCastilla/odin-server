@@ -45,7 +45,7 @@ class InteractionsController < ApplicationController
 
 
     if params[:interaction].empty?
-      log_request("No Interactions to save")
+      log_request_without_params("No Interactions to save")
       render text: "No Interactions To Save" and return
     else
       params[:interaction].each do |interaction|

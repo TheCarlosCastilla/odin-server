@@ -30,7 +30,7 @@ class AnswersController < ApplicationController
     time_offset = server_time - phone_time
 
     if params[:answer].empty?
-      log_request("No Answers To Save")
+      log_request_without_params("No Answers To Save")
       render text: "No Answers To Save" and return
     else
       params[:answer].each do |answer|
@@ -43,21 +43,21 @@ class AnswersController < ApplicationController
 
         if @answer.save
           @success = true
-          log_request("Saved an answer")
+          log_request_without_params("Saved an answer")
           print "Saved Answer"
         else
           @success = false
-          log_request("Unable to save an answer")
+          log_request_without_params("Unable to save an answer")
           print "Unable To Save Answer!" and return
         end
       end
     end
 
     if @success == true
-      log_request("All answers arrived successfully")
+      log_request_without_params("All answers arrived successfully")
       render text: "Data Arrived Successfully"
     else
-      log_request("Unable to save all answers")
+      log_request_without_params("Unable to save all answers")
       render text: "Unable to save all data"
     end
   end
