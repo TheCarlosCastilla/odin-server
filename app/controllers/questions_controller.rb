@@ -35,7 +35,7 @@ class QuestionsController < ApplicationController
     log_request("New Question Form")
 
     @question = Question.new
-    5.times {@question.choices.build}
+    4.times {@question.choices.build}
   end
 
   def create
