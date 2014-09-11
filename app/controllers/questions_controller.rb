@@ -11,7 +11,7 @@ class QuestionsController < ApplicationController
     @maxRow = params[:max]
 
     if @maxRow.nil?
-      log_request("No MaxRow provided")
+      log_request_without_params("No MaxRow provided")
       @questions  = Question.all
       @choices = Choice.all
     else
@@ -53,12 +53,12 @@ class QuestionsController < ApplicationController
     end
 
     if !@question.save
-      log_request("Unable to save a question")
+      log_request_without_params("Unable to save a question")
       flash[:alert] = "Unable to save question"
       redirect_to action: :new and return
     end
 
-    log_request("Successfully save a new question")
+    log_request_without_params("Successfully save a new question")
     flash[:notice] = "Successfully Saved New Question!"
     redirect_to action: :index
   end

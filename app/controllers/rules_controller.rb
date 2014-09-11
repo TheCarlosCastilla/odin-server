@@ -22,6 +22,7 @@ class RulesController < ApplicationController
 
   #GET /rules/user
   def get_rules_by_user
+    log_rule_request(params[:user].to_s)
     log_request("Show Rules for: " + params[:user].to_s)
 
     @user = params[:user]
@@ -30,7 +31,7 @@ class RulesController < ApplicationController
     @rules = Rule.where(user_id: @user)
 
     if @maxRow.nil?
-      log_request("No MaxRow provided")
+      log_request_without_params("No MaxRow provided")
       @rules = Rule.where(user_id: @user)
     else
       @rules = Rule.where("user_id = ? AND id > ?", @user, @maxRow)
@@ -65,12 +66,12 @@ class RulesController < ApplicationController
     @rule.question_id = params[:rule][:question_id]
 
     if !@rule.save
-      log_request("Unable to save a rule")
+      log_request_without_params("Unable to save a rule")
       flash[:alert] = "Unable to save rule"
       redirect_to action: :new and return
     end
 
-    log_request("Successfully save a new rule.")
+    log_request_without_params("Successfully save a new rule.")
     flash[:notice] = "Successfully Saved New Rule!"
     redirect_to action: :index
   end

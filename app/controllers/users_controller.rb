@@ -28,6 +28,7 @@ class UsersController < ApplicationController
 
     #@user = User.next(@imei, @raw_num)
     @user = User.next(@imei)
+    log_request_without_params("Given User ID: " + @user)
 
     render :text => @user
   end
