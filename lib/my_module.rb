@@ -48,6 +48,4 @@ module MyModule
 
   end
 
-  
-
 end

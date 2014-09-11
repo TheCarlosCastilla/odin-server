@@ -1,6 +1,5 @@
 class User < ActiveRecord::Base
   require 'digest'
-  #include MyModule
 
   belongs_to :valid_user
 
