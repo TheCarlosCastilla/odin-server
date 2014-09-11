@@ -1,5 +1,6 @@
 class User < ActiveRecord::Base
   require 'digest'
+  include MyModule
 
   belongs_to :valid_user
 
@@ -8,15 +9,16 @@ class User < ActiveRecord::Base
       valid = ValidUser.where(imei: imei)
 
       if valid.empty?
-		#puts "IMEI is not authorized!"
-        puts "Adding IMEI to database!"
-        valid = ValidUser.create(imei: imei, is_registered: false)
-        #user = valid.user = self.create(user_id: SecureRandom.uuid, hashed_number: Digest::MD5.hexdigest(phone), is_claimed: true)
-        user = valid.user = self.create(user_id: SecureRandom.uuid, hashed_number: nil, is_claimed: true)
-        valid.update(is_registered: true)
-        return user.user_id
+		    log_request_without_params("IMEI is not authorized!")
+        ##puts "Adding IMEI to database!"
+        #valid = ValidUser.create(imei: imei, is_registered: false)
+        ##user = valid.user = self.create(user_id: SecureRandom.uuid, hashed_number: Digest::MD5.hexdigest(phone), is_claimed: true)
+        #user = valid.user = self.create(user_id: SecureRandom.uuid, hashed_number: nil, is_claimed: true)
+        #valid.update(is_registered: true)
+        #return user.user_id
+        return nil
       elsif valid.first.is_registered
-        puts "IMEI is already registered!"
+        log_request_without_param("IMEI is already registered!")
         return valid.first.user.user_id
       else
  	    if self.where(is_claimed: 'false').empty?

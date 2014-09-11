@@ -54,7 +54,7 @@ module MyModule
     custom_logger = Logger.new(file, 'daily')
 
     custom_logger.formatter = proc do |severity, datetime, progname, msg|
-      "~~~\nAT: #{datetime.strftime("%B %d %H:%M:%S")}\nFOR:#{msg}\n***\n"
+      "~~~\nAT: #{datetime.strftime("%B %d %H:%M:%S")}\nFOR: #{msg}\n***\n"
     end
 
     custom_logger.info(message)
@@ -68,7 +68,7 @@ module MyModule
     custom_logger = Logger.new(file, 'daily')
 
     custom_logger.formatter = proc do |severity, datetime, progname, msg|
-      "~~~\nAT: #{datetime.strftime("%B %d %H:%M:%S")}\nFOR:#{msg}\n***\n"
+      "~~~\nAT: #{datetime.strftime("%B %d %H:%M:%S")}\nFOR: #{msg}\n***\n"
     end
 
     custom_logger.info(message)
@@ -82,7 +82,7 @@ module MyModule
     custom_logger = Logger.new(file, 'daily')
 
     custom_logger.formatter = proc do |severity, datetime, progname, msg|
-      "~~~\nAT: #{datetime.strftime("%B %d %H:%M:%S")}\nFOR:#{msg}\n***\n"
+      "~~~\nAT: #{datetime.strftime("%B %d %H:%M:%S")}\nFOR: #{msg}\n***\n"
     end
 
     custom_logger.info(message)
@@ -96,7 +96,7 @@ module MyModule
     custom_logger = Logger.new(file, 'daily')
 
     custom_logger.formatter = proc do |severity, datetime, progname, msg|
-      "~~~\nAT: #{datetime.strftime("%B %d %H:%M:%S")}\nFOR:#{msg}\n***\n"
+      "~~~\nAT: #{datetime.strftime("%B %d %H:%M:%S")}\nFOR: #{msg}\n***\n"
     end
 
     custom_logger.info(message)
