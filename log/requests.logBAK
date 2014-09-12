@@ -1,0 +1,681 @@
+September 11 18:29:25 ip-10-238-245-70, [6711]:, INFO ODIN, Index Page
+GET, https://bagezio.com/, source: 198.83.30.192, Query Params: {}, Request Params: {}
+***
+September 11 18:34:20 ip-10-238-245-70, [6711]:, INFO ODIN, Request User ID for phone: 359939045875206
+GET, https://www.bagezio.com/users/359939045875206, source: 198.83.30.192, Query Params: {}, Request Params: {}
+***
+September 11 18:34:20 ip-10-238-245-70, [6711]:, INFO ODIN, Show All Questions
+GET, https://www.bagezio.com/questions.json?max=0, source: 198.83.30.192, Query Params: {"max"=>"0"}, Request Params: {}
+***
+September 11 18:34:21 ip-10-238-245-70, [6711]:, INFO ODIN, Show Rules for: f492d29b-a204-42d2-a959-9dfa0113495b
+GET, https://www.bagezio.com/rules/f492d29b-a204-42d2-a959-9dfa0113495b?max=0, source: 198.83.30.192, Query Params: {"max"=>"0"}, Request Params: {}
+***
+September 11 18:34:21 ip-10-238-245-70, [6711]:, INFO ODIN, Show Schedule For: f492d29b-a204-42d2-a959-9dfa0113495b
+GET, https://www.bagezio.com/schedules/f492d29b-a204-42d2-a959-9dfa0113495b?max=0, source: 198.83.30.192, Query Params: {"max"=>"0"}, Request Params: {}
+***
+September 11 18:34:24 ip-10-238-245-70, [6711]:, INFO ODIN, Request User ID for phone: 359939045866171
+GET, https://www.bagezio.com/users/359939045866171, source: 198.83.30.192, Query Params: {}, Request Params: {}
+***
+September 11 18:34:25 ip-10-238-245-70, [6711]:, INFO ODIN, Show All Questions
+GET, https://www.bagezio.com/questions.json?max=0, source: 198.83.30.192, Query Params: {"max"=>"0"}, Request Params: {}
+***
+September 11 18:34:25 ip-10-238-245-70, [6711]:, INFO ODIN, Show Rules for: 59635f94-cf69-4a78-aafc-cc32ed170016
+GET, https://www.bagezio.com/rules/59635f94-cf69-4a78-aafc-cc32ed170016?max=0, source: 198.83.30.192, Query Params: {"max"=>"0"}, Request Params: {}
+***
+September 11 18:34:25 ip-10-238-245-70, [6711]:, INFO ODIN, Show Schedule For: 59635f94-cf69-4a78-aafc-cc32ed170016
+GET, https://www.bagezio.com/schedules/59635f94-cf69-4a78-aafc-cc32ed170016?max=0, source: 198.83.30.192, Query Params: {"max"=>"0"}, Request Params: {}
+***
+September 11 18:34:52 ip-10-238-245-70, [6711]:, INFO ODIN, Request User ID for phone: 359939045887227
+GET, https://www.bagezio.com/users/359939045887227, source: 198.83.30.192, Query Params: {}, Request Params: {}
+***
+September 11 18:34:52 ip-10-238-245-70, [6711]:, INFO ODIN, Show All Questions
+GET, https://www.bagezio.com/questions.json?max=0, source: 198.83.30.192, Query Params: {"max"=>"0"}, Request Params: {}
+***
+September 11 18:34:53 ip-10-238-245-70, [6711]:, INFO ODIN, Request User ID for phone: 359939046534240
+GET, https://www.bagezio.com/users/359939046534240, source: 198.83.30.192, Query Params: {}, Request Params: {}
+***
+September 11 18:34:53 ip-10-238-245-70, [6711]:, INFO ODIN, Show Rules for: 27038a96-beff-4d2b-aac9-23e4c6cdb10e
+GET, https://www.bagezio.com/rules/27038a96-beff-4d2b-aac9-23e4c6cdb10e?max=0, source: 198.83.30.192, Query Params: {"max"=>"0"}, Request Params: {}
+***
+September 11 18:34:53 ip-10-238-245-70, [6711]:, INFO ODIN, Show Schedule For: 27038a96-beff-4d2b-aac9-23e4c6cdb10e
+GET, https://www.bagezio.com/schedules/27038a96-beff-4d2b-aac9-23e4c6cdb10e?max=0, source: 198.83.30.192, Query Params: {"max"=>"0"}, Request Params: {}
+***
+September 11 18:34:53 ip-10-238-245-70, [6711]:, INFO ODIN, Show All Questions
+GET, https://www.bagezio.com/questions.json?max=0, source: 198.83.30.192, Query Params: {"max"=>"0"}, Request Params: {}
+***
+September 11 18:34:54 ip-10-238-245-70, [6711]:, INFO ODIN, Show Rules for: a4e825d4-659c-4d72-b53a-f660f5bfec39
+GET, https://www.bagezio.com/rules/a4e825d4-659c-4d72-b53a-f660f5bfec39?max=0, source: 198.83.30.192, Query Params: {"max"=>"0"}, Request Params: {}
+***
+September 11 18:34:54 ip-10-238-245-70, [6711]:, INFO ODIN, Show Schedule For: a4e825d4-659c-4d72-b53a-f660f5bfec39
+GET, https://www.bagezio.com/schedules/a4e825d4-659c-4d72-b53a-f660f5bfec39?max=0, source: 198.83.30.192, Query Params: {"max"=>"0"}, Request Params: {}
+***
+September 11 18:35:02 ip-10-238-245-70, [6711]:, INFO ODIN, Request User ID for phone: 359939046535668
+GET, https://www.bagezio.com/users/359939046535668, source: 198.83.30.192, Query Params: {}, Request Params: {}
+***
+September 11 18:35:02 ip-10-238-245-70, [6711]:, INFO ODIN, Show All Questions
+GET, https://www.bagezio.com/questions.json?max=0, source: 198.83.30.192, Query Params: {"max"=>"0"}, Request Params: {}
+***
+September 11 18:35:03 ip-10-238-245-70, [6711]:, INFO ODIN, Show Rules for: 37d0a47d-a4b5-4ce9-a88c-295fef1e6e2f
+GET, https://www.bagezio.com/rules/37d0a47d-a4b5-4ce9-a88c-295fef1e6e2f?max=0, source: 198.83.30.192, Query Params: {"max"=>"0"}, Request Params: {}
+***
+September 11 18:35:03 ip-10-238-245-70, [6711]:, INFO ODIN, Show Schedule For: 37d0a47d-a4b5-4ce9-a88c-295fef1e6e2f
+GET, https://www.bagezio.com/schedules/37d0a47d-a4b5-4ce9-a88c-295fef1e6e2f?max=0, source: 198.83.30.192, Query Params: {"max"=>"0"}, Request Params: {}
+***
+September 11 18:35:49 ip-10-238-245-70, [6711]:, INFO ODIN, Request User ID for phone: 359939045870579
+GET, https://www.bagezio.com/users/359939045870579, source: 198.83.30.192, Query Params: {}, Request Params: {}
+***
+September 11 18:35:49 ip-10-238-245-70, [6711]:, INFO ODIN, Show All Questions
+GET, https://www.bagezio.com/questions.json?max=0, source: 198.83.30.192, Query Params: {"max"=>"0"}, Request Params: {}
+***
+September 11 18:35:50 ip-10-238-245-70, [6711]:, INFO ODIN, Show Rules for: 06ab0e13-e2db-4167-90ca-cc1360f101e5
+GET, https://www.bagezio.com/rules/06ab0e13-e2db-4167-90ca-cc1360f101e5?max=0, source: 198.83.30.192, Query Params: {"max"=>"0"}, Request Params: {}
+***
+September 11 18:35:50 ip-10-238-245-70, [6711]:, INFO ODIN, Show Schedule For: 06ab0e13-e2db-4167-90ca-cc1360f101e5
+GET, https://www.bagezio.com/schedules/06ab0e13-e2db-4167-90ca-cc1360f101e5?max=0, source: 198.83.30.192, Query Params: {"max"=>"0"}, Request Params: {}
+***
+September 11 18:35:59 ip-10-238-245-70, [6711]:, INFO ODIN, Request User ID for phone: 359939046536070
+GET, https://www.bagezio.com/users/359939046536070, source: 198.83.30.192, Query Params: {}, Request Params: {}
+***
+September 11 18:35:59 ip-10-238-245-70, [6711]:, INFO ODIN, Show All Questions
+GET, https://www.bagezio.com/questions.json?max=0, source: 198.83.30.192, Query Params: {"max"=>"0"}, Request Params: {}
+***
+September 11 18:36:00 ip-10-238-245-70, [6711]:, INFO ODIN, Show Rules for: 9a243eee-c91e-49eb-afc8-d874670297f0
+GET, https://www.bagezio.com/rules/9a243eee-c91e-49eb-afc8-d874670297f0?max=0, source: 198.83.30.192, Query Params: {"max"=>"0"}, Request Params: {}
+***
+September 11 18:36:00 ip-10-238-245-70, [6711]:, INFO ODIN, Show Schedule For: 9a243eee-c91e-49eb-afc8-d874670297f0
+GET, https://www.bagezio.com/schedules/9a243eee-c91e-49eb-afc8-d874670297f0?max=0, source: 198.83.30.192, Query Params: {"max"=>"0"}, Request Params: {}
+***
+September 11 18:36:09 ip-10-238-245-70, [6711]:, INFO ODIN, Request User ID for phone: 359939045870892
+GET, https://www.bagezio.com/users/359939045870892, source: 198.83.30.192, Query Params: {}, Request Params: {}
+***
+September 11 18:36:09 ip-10-238-245-70, [6711]:, INFO ODIN, Show All Questions
+GET, https://www.bagezio.com/questions.json?max=0, source: 198.83.30.192, Query Params: {"max"=>"0"}, Request Params: {}
+***
+September 11 18:36:09 ip-10-238-245-70, [6711]:, INFO ODIN, Show Rules for: 3729b2b0-5587-481b-b807-51b4b94224e8
+GET, https://www.bagezio.com/rules/3729b2b0-5587-481b-b807-51b4b94224e8?max=0, source: 198.83.30.192, Query Params: {"max"=>"0"}, Request Params: {}
+***
+September 11 18:36:10 ip-10-238-245-70, [6711]:, INFO ODIN, Show Schedule For: 3729b2b0-5587-481b-b807-51b4b94224e8
+GET, https://www.bagezio.com/schedules/3729b2b0-5587-481b-b807-51b4b94224e8?max=0, source: 198.83.30.192, Query Params: {"max"=>"0"}, Request Params: {}
+***
+September 11 18:36:11 ip-10-238-245-70, [6711]:, INFO ODIN, Request User ID for phone: 359939045719982
+GET, https://www.bagezio.com/users/359939045719982, source: 198.83.30.192, Query Params: {}, Request Params: {}
+***
+September 11 18:36:11 ip-10-238-245-70, [6711]:, INFO ODIN, Show All Questions
+GET, https://www.bagezio.com/questions.json?max=0, source: 198.83.30.192, Query Params: {"max"=>"0"}, Request Params: {}
+***
+September 11 18:36:11 ip-10-238-245-70, [6711]:, INFO ODIN, Show Rules for: 64a48f45-833c-48af-a52f-ccfb4911cc2f
+GET, https://www.bagezio.com/rules/64a48f45-833c-48af-a52f-ccfb4911cc2f?max=0, source: 198.83.30.192, Query Params: {"max"=>"0"}, Request Params: {}
+***
+September 11 18:36:12 ip-10-238-245-70, [6711]:, INFO ODIN, Show Schedule For: 64a48f45-833c-48af-a52f-ccfb4911cc2f
+GET, https://www.bagezio.com/schedules/64a48f45-833c-48af-a52f-ccfb4911cc2f?max=0, source: 198.83.30.192, Query Params: {"max"=>"0"}, Request Params: {}
+***
+September 11 18:36:12 ip-10-238-245-70, [6711]:, INFO ODIN, Request User ID for phone: 359939046638603
+GET, https://www.bagezio.com/users/359939046638603, source: 198.83.30.192, Query Params: {}, Request Params: {}
+***
+September 11 18:36:13 ip-10-238-245-70, [6711]:, INFO ODIN, Request User ID for phone: 359939046543753
+GET, https://www.bagezio.com/users/359939046543753, source: 198.83.30.192, Query Params: {}, Request Params: {}
+***
+September 11 18:36:13 ip-10-238-245-70, [6711]:, INFO ODIN, Show All Questions
+GET, https://www.bagezio.com/questions.json?max=0, source: 198.83.30.192, Query Params: {"max"=>"0"}, Request Params: {}
+***
+September 11 18:36:13 ip-10-238-245-70, [6711]:, INFO ODIN, Show All Questions
+GET, https://www.bagezio.com/questions.json?max=0, source: 198.83.30.192, Query Params: {"max"=>"0"}, Request Params: {}
+***
+September 11 18:36:13 ip-10-238-245-70, [6711]:, INFO ODIN, Show Rules for: d65d05c0-f082-4f79-8419-ef57ffa6b1f6
+GET, https://www.bagezio.com/rules/d65d05c0-f082-4f79-8419-ef57ffa6b1f6?max=0, source: 198.83.30.192, Query Params: {"max"=>"0"}, Request Params: {}
+***
+September 11 18:36:13 ip-10-238-245-70, [6711]:, INFO ODIN, Show Rules for: 297af968-216e-4814-8689-9a3960b846a9
+GET, https://www.bagezio.com/rules/297af968-216e-4814-8689-9a3960b846a9?max=0, source: 198.83.30.192, Query Params: {"max"=>"0"}, Request Params: {}
+***
+September 11 18:36:13 ip-10-238-245-70, [6711]:, INFO ODIN, Show Schedule For: d65d05c0-f082-4f79-8419-ef57ffa6b1f6
+GET, https://www.bagezio.com/schedules/d65d05c0-f082-4f79-8419-ef57ffa6b1f6?max=0, source: 198.83.30.192, Query Params: {"max"=>"0"}, Request Params: {}
+***
+September 11 18:36:14 ip-10-238-245-70, [6711]:, INFO ODIN, Show Schedule For: 297af968-216e-4814-8689-9a3960b846a9
+GET, https://www.bagezio.com/schedules/297af968-216e-4814-8689-9a3960b846a9?max=0, source: 198.83.30.192, Query Params: {"max"=>"0"}, Request Params: {}
+***
+September 11 18:36:29 ip-10-238-245-70, [6711]:, INFO ODIN, Request User ID for phone: 359939046541724
+GET, https://www.bagezio.com/users/359939046541724, source: 198.83.30.192, Query Params: {}, Request Params: {}
+***
+September 11 18:36:29 ip-10-238-245-70, [6711]:, INFO ODIN, Show All Questions
+GET, https://www.bagezio.com/questions.json?max=0, source: 198.83.30.192, Query Params: {"max"=>"0"}, Request Params: {}
+***
+September 11 18:36:34 ip-10-238-245-70, [6711]:, INFO ODIN, Show Rules for: 219444cf-5401-489b-8fe9-47db79b77dd6
+GET, https://www.bagezio.com/rules/219444cf-5401-489b-8fe9-47db79b77dd6?max=0, source: 198.83.30.192, Query Params: {"max"=>"0"}, Request Params: {}
+***
+September 11 18:36:34 ip-10-238-245-70, [6711]:, INFO ODIN, Show Schedule For: 219444cf-5401-489b-8fe9-47db79b77dd6
+GET, https://www.bagezio.com/schedules/219444cf-5401-489b-8fe9-47db79b77dd6?max=0, source: 198.83.30.192, Query Params: {"max"=>"0"}, Request Params: {}
+***
+September 11 18:36:43 ip-10-238-245-70, [6711]:, INFO ODIN, Request User ID for phone: 359939046541732
+GET, https://www.bagezio.com/users/359939046541732, source: 198.83.30.192, Query Params: {}, Request Params: {}
+***
+September 11 18:36:44 ip-10-238-245-70, [6711]:, INFO ODIN, Show All Questions
+GET, https://www.bagezio.com/questions.json?max=0, source: 198.83.30.192, Query Params: {"max"=>"0"}, Request Params: {}
+***
+September 11 18:36:44 ip-10-238-245-70, [6711]:, INFO ODIN, Show Rules for: 14b31936-631f-4ba8-b2de-7052ad1b1759
+GET, https://www.bagezio.com/rules/14b31936-631f-4ba8-b2de-7052ad1b1759?max=0, source: 198.83.30.192, Query Params: {"max"=>"0"}, Request Params: {}
+***
+September 11 18:36:45 ip-10-238-245-70, [6711]:, INFO ODIN, Show Schedule For: 14b31936-631f-4ba8-b2de-7052ad1b1759
+GET, https://www.bagezio.com/schedules/14b31936-631f-4ba8-b2de-7052ad1b1759?max=0, source: 198.83.30.192, Query Params: {"max"=>"0"}, Request Params: {}
+***
+September 11 18:36:46 ip-10-238-245-70, [6711]:, INFO ODIN, Request User ID for phone: 359939046543811
+GET, https://www.bagezio.com/users/359939046543811, source: 198.83.30.192, Query Params: {}, Request Params: {}
+***
+September 11 18:36:46 ip-10-238-245-70, [6711]:, INFO ODIN, Show All Questions
+GET, https://www.bagezio.com/questions.json?max=0, source: 198.83.30.192, Query Params: {"max"=>"0"}, Request Params: {}
+***
+September 11 18:36:46 ip-10-238-245-70, [6711]:, INFO ODIN, Show Rules for: b403a0e5-a055-4477-9fe9-6aad50f18ddf
+GET, https://www.bagezio.com/rules/b403a0e5-a055-4477-9fe9-6aad50f18ddf?max=0, source: 198.83.30.192, Query Params: {"max"=>"0"}, Request Params: {}
+***
+September 11 18:36:47 ip-10-238-245-70, [6711]:, INFO ODIN, Show Schedule For: b403a0e5-a055-4477-9fe9-6aad50f18ddf
+GET, https://www.bagezio.com/schedules/b403a0e5-a055-4477-9fe9-6aad50f18ddf?max=0, source: 198.83.30.192, Query Params: {"max"=>"0"}, Request Params: {}
+***
+September 11 18:36:51 ip-10-238-245-70, [6711]:, INFO ODIN, Request User ID for phone: 359939046535635
+GET, https://www.bagezio.com/users/359939046535635, source: 198.83.30.192, Query Params: {}, Request Params: {}
+***
+September 11 18:36:53 ip-10-238-245-70, [6711]:, INFO ODIN, Show All Questions
+GET, https://www.bagezio.com/questions.json?max=0, source: 198.83.30.192, Query Params: {"max"=>"0"}, Request Params: {}
+***
+September 11 18:37:20 ip-10-238-245-70, [6711]:, INFO ODIN, Show Rules for: 528cbffb-6d58-4bb2-b0bd-d37461a54f8a
+GET, https://www.bagezio.com/rules/528cbffb-6d58-4bb2-b0bd-d37461a54f8a?max=0, source: 198.83.30.192, Query Params: {"max"=>"0"}, Request Params: {}
+***
+September 11 18:37:21 ip-10-238-245-70, [6711]:, INFO ODIN, Show Schedule For: 528cbffb-6d58-4bb2-b0bd-d37461a54f8a
+GET, https://www.bagezio.com/schedules/528cbffb-6d58-4bb2-b0bd-d37461a54f8a?max=0, source: 198.83.30.192, Query Params: {"max"=>"0"}, Request Params: {}
+***
+September 11 18:37:24 ip-10-238-245-70, [6711]:, INFO ODIN, Request User ID for phone: 359939046632937
+GET, https://www.bagezio.com/users/359939046632937, source: 198.83.30.192, Query Params: {}, Request Params: {}
+***
+September 11 18:37:25 ip-10-238-245-70, [6711]:, INFO ODIN, Show All Questions
+GET, https://www.bagezio.com/questions.json?max=0, source: 198.83.30.192, Query Params: {"max"=>"0"}, Request Params: {}
+***
+September 11 18:37:32 ip-10-238-245-70, [6711]:, INFO ODIN, Show Rules for: 48857c01-52a9-49ba-a1b0-579b40091c81
+GET, https://www.bagezio.com/rules/48857c01-52a9-49ba-a1b0-579b40091c81?max=0, source: 198.83.30.192, Query Params: {"max"=>"0"}, Request Params: {}
+***
+September 11 18:37:34 ip-10-238-245-70, [6711]:, INFO ODIN, Show Schedule For: 48857c01-52a9-49ba-a1b0-579b40091c81
+GET, https://www.bagezio.com/schedules/48857c01-52a9-49ba-a1b0-579b40091c81?max=0, source: 198.83.30.192, Query Params: {"max"=>"0"}, Request Params: {}
+***
+September 11 18:37:58 ip-10-238-245-70, [6711]:, INFO ODIN, Request User ID for phone: 359939046637084
+GET, https://www.bagezio.com/users/359939046637084, source: 198.83.30.192, Query Params: {}, Request Params: {}
+***
+September 11 18:38:02 ip-10-238-245-70, [6711]:, INFO ODIN, Show All Questions
+GET, https://www.bagezio.com/questions.json?max=0, source: 198.83.30.192, Query Params: {"max"=>"0"}, Request Params: {}
+***
+September 11 18:38:13 ip-10-238-245-70, [6711]:, INFO ODIN, Request User ID for phone: 359939046633216
+GET, https://www.bagezio.com/users/359939046633216, source: 198.83.30.192, Query Params: {}, Request Params: {}
+***
+September 11 18:38:15 ip-10-238-245-70, [6711]:, INFO ODIN, Show Rules for: ab9a0285-7c74-4466-95ed-0146142a5d6c
+GET, https://www.bagezio.com/rules/ab9a0285-7c74-4466-95ed-0146142a5d6c?max=0, source: 198.83.30.192, Query Params: {"max"=>"0"}, Request Params: {}
+***
+September 11 18:39:03 ip-10-238-245-70, [6711]:, INFO ODIN, Show Rules for: 7345a120-8f86-432f-9d00-c3e8a8643ace
+GET, https://www.bagezio.com/rules/7345a120-8f86-432f-9d00-c3e8a8643ace?max=0, source: 198.83.30.192, Query Params: {"max"=>"0"}, Request Params: {}
+***
+September 11 18:39:20 ip-10-238-245-70, [6711]:, INFO ODIN, Show Schedule For: 7345a120-8f86-432f-9d00-c3e8a8643ace
+GET, https://www.bagezio.com/schedules/7345a120-8f86-432f-9d00-c3e8a8643ace?max=0, source: 198.83.30.192, Query Params: {"max"=>"0"}, Request Params: {}
+***
+September 11 19:01:39 ip-10-238-245-70, [6711]:, INFO ODIN, Insert New Interactions
+POST, https://www.bagezio.com/interactions.json, source: 67.83.12.173, Query Params: {}, Request Params: {"localtime"=>"2014-09-11 15:02:10 -0400", "interaction"=>[{"peer_id"=>"a99c0565-a3cd-4b0d-a1b8-bc3b50b345dc", "duration"=>149979, "time"=>"2014-09-09 18:13:26 -0400", "user_id"=>"461f5f44-2919-4cac-ab45-3ec4d73c2c15", "rssi"=>221}, {"peer_id"=>"e4b0b9c5-e289-44a3-b134-3a9f0207becd", "duration"=>26314, "time"=>"2014-09-11 00:17:34 -0400", "user_id"=>"461f5f44-2919-4cac-ab45-3ec4d73c2c15", "rssi"=>202}, {"peer_id"=>"9b61c420-a6e4-4c2f-9fad-db003523f132", "duration"=>24447, "time"=>"2014-09-11 07:15:54 -0400", "user_id"=>"461f5f44-2919-4cac-ab45-3ec4d73c2c15", "rssi"=>205}]}
+***
+September 11 19:01:39 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 19:01:39 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 19:01:39 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 19:01:39 ip-10-238-245-70, [6711]:, INFO ODIN, All interactions arrived successfully
+***
+September 11 19:01:45 ip-10-238-245-70, [6711]:, INFO ODIN, Show All Questions
+GET, https://www.bagezio.com/questions.json?max=14, source: 67.83.12.173, Query Params: {"max"=>"14"}, Request Params: {}
+***
+September 11 19:01:47 ip-10-238-245-70, [6711]:, INFO ODIN, Show Rules for: 461f5f44-2919-4cac-ab45-3ec4d73c2c15
+GET, https://www.bagezio.com/rules/461f5f44-2919-4cac-ab45-3ec4d73c2c15?max=1, source: 67.83.12.173, Query Params: {"max"=>"1"}, Request Params: {}
+***
+September 11 19:01:49 ip-10-238-245-70, [6711]:, INFO ODIN, Show Schedule For: 461f5f44-2919-4cac-ab45-3ec4d73c2c15
+GET, https://www.bagezio.com/schedules/461f5f44-2919-4cac-ab45-3ec4d73c2c15?max=354, source: 67.83.12.173, Query Params: {"max"=>"354"}, Request Params: {}
+***
+September 11 19:26:46 ip-10-238-245-70, [6711]:, INFO ODIN, Index Page
+GET, https://bagezio.com/, source: 198.83.30.192, Query Params: {}, Request Params: {}
+***
+September 11 19:27:02 ip-10-238-245-70, [6711]:, INFO ODIN, Show All Users
+GET, https://bagezio.com/users, source: 198.83.30.192, Query Params: {}, Request Params: {}
+***
+September 11 19:27:06 ip-10-238-245-70, [6711]:, INFO ODIN, Show All Rules
+GET, https://bagezio.com/rules, source: 198.83.30.192, Query Params: {}, Request Params: {}
+***
+September 11 19:27:08 ip-10-238-245-70, [6711]:, INFO ODIN, Show All Interactions
+GET, https://bagezio.com/interactions, source: 198.83.30.192, Query Params: {}, Request Params: {}
+***
+September 11 19:27:17 ip-10-238-245-70, [6711]:, INFO ODIN, Show All Answers
+GET, https://bagezio.com/answers, source: 198.83.30.192, Query Params: {}, Request Params: {}
+***
+September 11 19:27:19 ip-10-238-245-70, [6711]:, INFO ODIN, Show All Questions
+GET, https://bagezio.com/questions, source: 198.83.30.192, Query Params: {}, Request Params: {}
+***
+September 11 19:27:19 ip-10-238-245-70, [6711]:, INFO ODIN, No MaxRow provided
+GET, https://bagezio.com/questions, source: 198.83.30.192, Query Params: {}, Request Params: {}
+***
+September 11 19:27:24 ip-10-238-245-70, [6711]:, INFO ODIN, Show All Interactions
+GET, https://bagezio.com/interactions, source: 198.83.30.192, Query Params: {}, Request Params: {}
+***
+September 11 19:27:28 ip-10-238-245-70, [6711]:, INFO ODIN, Show Interactions for one user
+GET, https://bagezio.com/interactions/show/a99c0565-a3cd-4b0d-a1b8-bc3b50b345dc, source: 198.83.30.192, Query Params: {}, Request Params: {}
+***
+September 11 19:27:49 ip-10-238-245-70, [6711]:, INFO ODIN, Show Interactions for one user
+GET, https://bagezio.com/interactions/show/a99c0565-a3cd-4b0d-a1b8-bc3b50b345dc, source: 198.83.30.192, Query Params: {}, Request Params: {}
+***
+September 11 19:28:01 ip-10-238-245-70, [6711]:, INFO ODIN, Show Interactions for one user
+GET, https://bagezio.com/interactions/show/a99c0565-a3cd-4b0d-a1b8-bc3b50b345dc, source: 198.83.30.192, Query Params: {}, Request Params: {}
+***
+September 11 19:28:08 ip-10-238-245-70, [6711]:, INFO ODIN, Show All Interactions
+GET, https://bagezio.com/interactions, source: 198.83.30.192, Query Params: {}, Request Params: {}
+***
+September 11 19:28:32 ip-10-238-245-70, [6711]:, INFO ODIN, Show Interactions for one user
+GET, https://bagezio.com/interactions/show/461f5f44-2919-4cac-ab45-3ec4d73c2c15, source: 198.83.30.192, Query Params: {}, Request Params: {}
+***
+September 11 19:37:40 ip-10-238-245-70, [6711]:, INFO ODIN, Index Page
+GET, https://bagezio.com/, source: 198.83.30.192, Query Params: {}, Request Params: {}
+***
+September 11 19:38:20 ip-10-238-245-70, [6711]:, INFO ODIN, Index Page
+GET, https://bagezio.com/, source: 198.83.30.192, Query Params: {}, Request Params: {}
+***
+September 11 19:50:43 ip-10-238-245-70, [6711]:, INFO ODIN, Index Page
+GET, https://bagezio.com/, source: 198.83.30.195, Query Params: {}, Request Params: {}
+***
+September 11 19:50:46 ip-10-238-245-70, [6711]:, INFO ODIN, Show All Users
+GET, https://bagezio.com/users, source: 198.83.30.195, Query Params: {}, Request Params: {}
+***
+September 11 19:52:32 ip-10-238-245-70, [6711]:, INFO ODIN, Show All Interactions
+GET, https://bagezio.com/interactions, source: 198.83.30.195, Query Params: {}, Request Params: {}
+***
+September 11 19:55:52 ip-10-238-245-70, [6711]:, INFO ODIN, Insert New Interactions
+POST, https://www.bagezio.com/interactions.json, source: 67.83.12.173, Query Params: {}, Request Params: {"localtime"=>"2014-09-11 15:56:25 -0400", "interaction"=>[{"peer_id"=>"1a21b085-7c6e-4071-b015-81d9001a8f16", "duration"=>90229, "time"=>"2014-09-10 10:00:23 -0400", "user_id"=>"e4b0b9c5-e289-44a3-b134-3a9f0207becd", "rssi"=>206}, {"peer_id"=>"a99c0565-a3cd-4b0d-a1b8-bc3b50b345dc", "duration"=>43937, "time"=>"2014-09-10 23:49:00 -0400", "user_id"=>"e4b0b9c5-e289-44a3-b134-3a9f0207becd", "rssi"=>210}, {"peer_id"=>"461f5f44-2919-4cac-ab45-3ec4d73c2c15", "duration"=>30812, "time"=>"2014-09-11 00:15:30 -0400", "user_id"=>"e4b0b9c5-e289-44a3-b134-3a9f0207becd", "rssi"=>202}, {"peer_id"=>"21d9a2b6-b541-4148-91cd-1d893750bda1", "duration"=>23296, "time"=>"2014-09-11 03:46:35 -0400", "user_id"=>"e4b0b9c5-e289-44a3-b134-3a9f0207becd", "rssi"=>212}, {"peer_id"=>"461f5f44-2919-4cac-ab45-3ec4d73c2c15", "duration"=>10060, "time"=>"2014-09-11 08:51:04 -0400", "user_id"=>"e4b0b9c5-e289-44a3-b134-3a9f0207becd", "rssi"=>202}, {"peer_id"=>"1a21b085-7c6e-4071-b015-81d9001a8f16", "duration"=>6100, "time"=>"2014-09-11 11:06:09 -0400", "user_id"=>"e4b0b9c5-e289-44a3-b134-3a9f0207becd", "rssi"=>208}, {"peer_id"=>"a99c0565-a3cd-4b0d-a1b8-bc3b50b345dc", "duration"=>481, "time"=>"2014-09-11 12:03:19 -0400", "user_id"=>"e4b0b9c5-e289-44a3-b134-3a9f0207becd", "rssi"=>212}]}
+***
+September 11 19:55:52 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 19:55:52 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 19:55:52 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 19:55:52 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 19:55:52 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 19:55:52 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 19:55:52 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 19:55:52 ip-10-238-245-70, [6711]:, INFO ODIN, All interactions arrived successfully
+***
+September 11 19:56:19 ip-10-238-245-70, [6711]:, INFO ODIN, Show All Questions
+GET, https://www.bagezio.com/questions.json?max=14, source: 67.83.12.173, Query Params: {"max"=>"14"}, Request Params: {}
+***
+September 11 19:56:19 ip-10-238-245-70, [6711]:, INFO ODIN, Show Rules for: e4b0b9c5-e289-44a3-b134-3a9f0207becd
+GET, https://www.bagezio.com/rules/e4b0b9c5-e289-44a3-b134-3a9f0207becd?max=0, source: 67.83.12.173, Query Params: {"max"=>"0"}, Request Params: {}
+***
+September 11 19:56:19 ip-10-238-245-70, [6711]:, INFO ODIN, Show Schedule For: e4b0b9c5-e289-44a3-b134-3a9f0207becd
+GET, https://www.bagezio.com/schedules/e4b0b9c5-e289-44a3-b134-3a9f0207becd?max=356, source: 67.83.12.173, Query Params: {"max"=>"356"}, Request Params: {}
+***
+September 11 20:03:22 ip-10-238-245-70, [6711]:, INFO ODIN, Show All Interactions
+GET, https://bagezio.com/interactions, source: 198.83.30.195, Query Params: {}, Request Params: {}
+***
+September 11 20:10:59 ip-10-238-245-70, [6711]:, INFO ODIN, Insert New Interactions
+POST, https://www.bagezio.com/interactions.json, source: 146.111.34.245, Query Params: {}, Request Params: {"localtime"=>"2014-09-11 16:11:19 -0400", "interaction"=>[{"peer_id"=>"37d0a47d-a4b5-4ce9-a88c-295fef1e6e2f", "duration"=>97, "time"=>"2014-09-11 14:36:21 -0400", "user_id"=>"f492d29b-a204-42d2-a959-9dfa0113495b", "rssi"=>204}, {"peer_id"=>"a4e825d4-659c-4d72-b53a-f660f5bfec39", "duration"=>97, "time"=>"2014-09-11 14:36:21 -0400", "user_id"=>"f492d29b-a204-42d2-a959-9dfa0113495b", "rssi"=>221}, {"peer_id"=>"3729b2b0-5587-481b-b807-51b4b94224e8", "duration"=>1613, "time"=>"2014-09-11 14:37:58 -0400", "user_id"=>"f492d29b-a204-42d2-a959-9dfa0113495b", "rssi"=>220}, {"peer_id"=>"27038a96-beff-4d2b-aac9-23e4c6cdb10e", "duration"=>1619, "time"=>"2014-09-11 14:39:53 -0400", "user_id"=>"f492d29b-a204-42d2-a959-9dfa0113495b", "rssi"=>203}, {"peer_id"=>"59635f94-cf69-4a78-aafc-cc32ed170016", "duration"=>1749, "time"=>"2014-09-11 14:39:53 -0400", "user_id"=>"f492d29b-a204-42d2-a959-9dfa0113495b", "rssi"=>230}, {"peer_id"=>"a4e825d4-659c-4d72-b53a-f660f5bfec39", "duration"=>1619, "time"=>"2014-09-11 14:39:53 -0400", "user_id"=>"f492d29b-a204-42d2-a959-9dfa0113495b", "rssi"=>220}, {"peer_id"=>"d65d05c0-f082-4f79-8419-ef57ffa6b1f6", "duration"=>1619, "time"=>"2014-09-11 14:39:53 -0400", "user_id"=>"f492d29b-a204-42d2-a959-9dfa0113495b", "rssi"=>197}, {"peer_id"=>"37d0a47d-a4b5-4ce9-a88c-295fef1e6e2f", "duration"=>125, "time"=>"2014-09-11 14:41:58 -0400", "user_id"=>"f492d29b-a204-42d2-a959-9dfa0113495b", "rssi"=>221}, {"peer_id"=>"64a48f45-833c-48af-a52f-ccfb4911cc2f", "duration"=>1494, "time"=>"2014-09-11 14:41:58 -0400", "user_id"=>"f492d29b-a204-42d2-a959-9dfa0113495b", "rssi"=>200}, {"peer_id"=>"9a243eee-c91e-49eb-afc8-d874670297f0", "duration"=>125, "time"=>"2014-09-11 14:41:58 -0400", "user_id"=>"f492d29b-a204-42d2-a959-9dfa0113495b", "rssi"=>195}, {"peer_id"=>"06ab0e13-e2db-4167-90ca-cc1360f101e5", "duration"=>1248, "time"=>"2014-09-11 14:44:03 -0400", "user_id"=>"f492d29b-a204-42d2-a959-9dfa0113495b", "rssi"=>223}, {"peer_id"=>"14b31936-631f-4ba8-b2de-7052ad1b1759", "duration"=>1248, "time"=>"2014-09-11 14:44:03 -0400", "user_id"=>"f492d29b-a204-42d2-a959-9dfa0113495b", "rssi"=>206}, {"peer_id"=>"219444cf-5401-489b-8fe9-47db79b77dd6", "duration"=>1369, "time"=>"2014-09-11 14:44:03 -0400", "user_id"=>"f492d29b-a204-42d2-a959-9dfa0113495b", "rssi"=>198}, {"peer_id"=>"297af968-216e-4814-8689-9a3960b846a9", "duration"=>1248, "time"=>"2014-09-11 14:44:03 -0400", "user_id"=>"f492d29b-a204-42d2-a959-9dfa0113495b", "rssi"=>207}, {"peer_id"=>"48857c01-52a9-49ba-a1b0-579b40091c81", "duration"=>1248, "time"=>"2014-09-11 14:44:03 -0400", "user_id"=>"f492d29b-a204-42d2-a959-9dfa0113495b", "rssi"=>213}, {"peer_id"=>"528cbffb-6d58-4bb2-b0bd-d37461a54f8a", "duration"=>1248, "time"=>"2014-09-11 14:44:03 -0400", "user_id"=>"f492d29b-a204-42d2-a959-9dfa0113495b", "rssi"=>218}, {"peer_id"=>"7345a120-8f86-432f-9d00-c3e8a8643ace", "duration"=>1248, "time"=>"2014-09-11 14:44:03 -0400", "user_id"=>"f492d29b-a204-42d2-a959-9dfa0113495b", "rssi"=>215}, {"peer_id"=>"ab9a0285-7c74-4466-95ed-0146142a5d6c", "duration"=>1248, "time"=>"2014-09-11 14:44:03 -0400", "user_id"=>"f492d29b-a204-42d2-a959-9dfa0113495b", "rssi"=>208}, {"peer_id"=>"2fe27190-b749-4739-bd51-b9059ab4bb32", "duration"=>871, "time"=>"2014-09-11 14:46:09 -0400", "user_id"=>"f492d29b-a204-42d2-a959-9dfa0113495b", "rssi"=>213}, {"peer_id"=>"37d0a47d-a4b5-4ce9-a88c-295fef1e6e2f", "duration"=>1500, "time"=>"2014-09-11 14:46:09 -0400", "user_id"=>"f492d29b-a204-42d2-a959-9dfa0113495b", "rssi"=>196}, {"peer_id"=>"b403a0e5-a055-4477-9fe9-6aad50f18ddf", "duration"=>1243, "time"=>"2014-09-11 14:46:09 -0400", "user_id"=>"f492d29b-a204-42d2-a959-9dfa0113495b", "rssi"=>202}, {"peer_id"=>"9a243eee-c91e-49eb-afc8-d874670297f0", "duration"=>996, "time"=>"2014-09-11 14:48:15 -0400", "user_id"=>"f492d29b-a204-42d2-a959-9dfa0113495b", "rssi"=>219}, {"peer_id"=>"2fe27190-b749-4739-bd51-b9059ab4bb32", "duration"=>127, "time"=>"2014-09-11 15:02:44 -0400", "user_id"=>"f492d29b-a204-42d2-a959-9dfa0113495b", "rssi"=>204}, {"peer_id"=>"528cbffb-6d58-4bb2-b0bd-d37461a54f8a", "duration"=>130, "time"=>"2014-09-11 15:06:52 -0400", "user_id"=>"f492d29b-a204-42d2-a959-9dfa0113495b", "rssi"=>195}, {"peer_id"=>"27038a96-beff-4d2b-aac9-23e4c6cdb10e", "duration"=>889, "time"=>"2014-09-11 15:13:21 -0400", "user_id"=>"f492d29b-a204-42d2-a959-9dfa0113495b", "rssi"=>195}, {"peer_id"=>"37d0a47d-a4b5-4ce9-a88c-295fef1e6e2f", "duration"=>388, "time"=>"2014-09-11 15:13:21 -0400", "user_id"=>"f492d29b-a204-42d2-a959-9dfa0113495b", "rssi"=>204}, {"peer_id"=>"59635f94-cf69-4a78-aafc-cc32ed170016", "duration"=>384, "time"=>"2014-09-11 15:15:32 -0400", "user_id"=>"f492d29b-a204-42d2-a959-9dfa0113495b", "rssi"=>198}, {"peer_id"=>"a4e825d4-659c-4d72-b53a-f660f5bfec39", "duration"=>133, "time"=>"2014-09-11 15:17:36 -0400", "user_id"=>"f492d29b-a204-42d2-a959-9dfa0113495b", "rssi"=>195}, {"peer_id"=>"a4e825d4-659c-4d72-b53a-f660f5bfec39", "duration"=>127, "time"=>"2014-09-11 15:21:56 -0400", "user_id"=>"f492d29b-a204-42d2-a959-9dfa0113495b", "rssi"=>195}, {"peer_id"=>"d65d05c0-f082-4f79-8419-ef57ffa6b1f6", "duration"=>127, "time"=>"2014-09-11 15:21:56 -0400", "user_id"=>"f492d29b-a204-42d2-a959-9dfa0113495b", "rssi"=>200}, {"peer_id"=>"37d0a47d-a4b5-4ce9-a88c-295fef1e6e2f", "duration"=>245, "time"=>"2014-09-11 15:26:07 -0400", "user_id"=>"f492d29b-a204-42d2-a959-9dfa0113495b", "rssi"=>203}, {"peer_id"=>"59635f94-cf69-4a78-aafc-cc32ed170016", "duration"=>245, "time"=>"2014-09-11 15:26:07 -0400", "user_id"=>"f492d29b-a204-42d2-a959-9dfa0113495b", "rssi"=>195}, {"peer_id"=>"3729b2b0-5587-481b-b807-51b4b94224e8", "duration"=>122, "time"=>"2014-09-11 15:30:13 -0400", "user_id"=>"f492d29b-a204-42d2-a959-9dfa0113495b", "rssi"=>195}, {"peer_id"=>"27038a96-beff-4d2b-aac9-23e4c6cdb10e", "duration"=>127, "time"=>"2014-09-11 15:32:16 -0400", "user_id"=>"f492d29b-a204-42d2-a959-9dfa0113495b", "rssi"=>198}, {"peer_id"=>"37d0a47d-a4b5-4ce9-a88c-295fef1e6e2f", "duration"=>503, "time"=>"2014-09-11 15:32:16 -0400", "user_id"=>"f492d29b-a204-42d2-a959-9dfa0113495b", "rssi"=>204}, {"peer_id"=>"59635f94-cf69-4a78-aafc-cc32ed170016", "duration"=>503, "time"=>"2014-09-11 15:32:16 -0400", "user_id"=>"f492d29b-a204-42d2-a959-9dfa0113495b", "rssi"=>198}, {"peer_id"=>"27038a96-beff-4d2b-aac9-23e4c6cdb10e", "duration"=>124, "time"=>"2014-09-11 15:36:26 -0400", "user_id"=>"f492d29b-a204-42d2-a959-9dfa0113495b", "rssi"=>196}, {"peer_id"=>"d65d05c0-f082-4f79-8419-ef57ffa6b1f6", "duration"=>261, "time"=>"2014-09-11 15:38:30 -0400", "user_id"=>"f492d29b-a204-42d2-a959-9dfa0113495b", "rssi"=>198}, {"peer_id"=>"37d0a47d-a4b5-4ce9-a88c-295fef1e6e2f", "duration"=>389, "time"=>"2014-09-11 15:42:51 -0400", "user_id"=>"f492d29b-a204-42d2-a959-9dfa0113495b", "rssi"=>203}, {"peer_id"=>"59635f94-cf69-4a78-aafc-cc32ed170016", "duration"=>258, "time"=>"2014-09-11 15:42:51 -0400", "user_id"=>"f492d29b-a204-42d2-a959-9dfa0113495b", "rssi"=>200}, {"peer_id"=>"27038a96-beff-4d2b-aac9-23e4c6cdb10e", "duration"=>129, "time"=>"2014-09-11 15:45:00 -0400", "user_id"=>"f492d29b-a204-42d2-a959-9dfa0113495b", "rssi"=>195}, {"peer_id"=>"3729b2b0-5587-481b-b807-51b4b94224e8", "duration"=>129, "time"=>"2014-09-11 15:45:00 -0400", "user_id"=>"f492d29b-a204-42d2-a959-9dfa0113495b", "rssi"=>195}, {"peer_id"=>"37d0a47d-a4b5-4ce9-a88c-295fef1e6e2f", "duration"=>123, "time"=>"2014-09-11 15:57:51 -0400", "user_id"=>"f492d29b-a204-42d2-a959-9dfa0113495b", "rssi"=>197}, {"peer_id"=>"27038a96-beff-4d2b-aac9-23e4c6cdb10e", "duration"=>124, "time"=>"2014-09-11 16:01:56 -0400", "user_id"=>"f492d29b-a204-42d2-a959-9dfa0113495b", "rssi"=>195}, {"peer_id"=>"a4e825d4-659c-4d72-b53a-f660f5bfec39", "duration"=>496, "time"=>"2014-09-11 16:01:56 -0400", "user_id"=>"f492d29b-a204-42d2-a959-9dfa0113495b", "rssi"=>209}, {"peer_id"=>"37d0a47d-a4b5-4ce9-a88c-295fef1e6e2f", "duration"=>120, "time"=>"2014-09-11 16:04:00 -0400", "user_id"=>"f492d29b-a204-42d2-a959-9dfa0113495b", "rssi"=>195}, {"peer_id"=>"d65d05c0-f082-4f79-8419-ef57ffa6b1f6", "duration"=>127, "time"=>"2014-09-11 16:06:00 -0400", "user_id"=>"f492d29b-a204-42d2-a959-9dfa0113495b", "rssi"=>200}]}
+***
+September 11 20:10:59 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:10:59 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:10:59 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:10:59 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:10:59 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:10:59 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:10:59 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:10:59 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:10:59 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:10:59 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:10:59 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:10:59 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:10:59 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:11:00 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:11:00 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:11:00 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:11:00 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:11:00 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:11:00 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:11:00 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:11:00 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:11:00 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:11:00 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:11:00 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:11:00 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:11:00 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:11:00 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:11:00 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:11:00 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:11:00 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:11:00 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:11:00 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:11:00 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:11:00 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:11:00 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:11:00 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:11:00 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:11:00 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:11:00 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:11:00 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:11:00 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:11:00 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:11:00 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:11:00 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:11:00 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:11:00 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:11:01 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:11:01 ip-10-238-245-70, [6711]:, INFO ODIN, All interactions arrived successfully
+***
+September 11 20:11:01 ip-10-238-245-70, [6711]:, INFO ODIN, Insert New Interactions
+POST, https://www.bagezio.com/interactions.json, source: 146.111.34.211, Query Params: {}, Request Params: {"localtime"=>"2014-09-11 16:11:19 -0400", "interaction"=>[{"peer_id"=>"06ab0e13-e2db-4167-90ca-cc1360f101e5", "duration"=>98, "time"=>"2014-09-11 14:52:19 -0400", "user_id"=>"ab9a0285-7c74-4466-95ed-0146142a5d6c", "rssi"=>214}, {"peer_id"=>"3729b2b0-5587-481b-b807-51b4b94224e8", "duration"=>98, "time"=>"2014-09-11 14:52:19 -0400", "user_id"=>"ab9a0285-7c74-4466-95ed-0146142a5d6c", "rssi"=>216}, {"peer_id"=>"528cbffb-6d58-4bb2-b0bd-d37461a54f8a", "duration"=>98, "time"=>"2014-09-11 14:52:19 -0400", "user_id"=>"ab9a0285-7c74-4466-95ed-0146142a5d6c", "rssi"=>196}, {"peer_id"=>"59635f94-cf69-4a78-aafc-cc32ed170016", "duration"=>720, "time"=>"2014-09-11 14:52:19 -0400", "user_id"=>"ab9a0285-7c74-4466-95ed-0146142a5d6c", "rssi"=>212}, {"peer_id"=>"a4e825d4-659c-4d72-b53a-f660f5bfec39", "duration"=>598, "time"=>"2014-09-11 14:52:19 -0400", "user_id"=>"ab9a0285-7c74-4466-95ed-0146142a5d6c", "rssi"=>198}, {"peer_id"=>"b403a0e5-a055-4477-9fe9-6aad50f18ddf", "duration"=>98, "time"=>"2014-09-11 14:52:19 -0400", "user_id"=>"ab9a0285-7c74-4466-95ed-0146142a5d6c", "rssi"=>198}, {"peer_id"=>"f492d29b-a204-42d2-a959-9dfa0113495b", "duration"=>848, "time"=>"2014-09-11 14:52:19 -0400", "user_id"=>"ab9a0285-7c74-4466-95ed-0146142a5d6c", "rssi"=>199}, {"peer_id"=>"14b31936-631f-4ba8-b2de-7052ad1b1759", "duration"=>116, "time"=>"2014-09-11 14:53:57 -0400", "user_id"=>"ab9a0285-7c74-4466-95ed-0146142a5d6c", "rssi"=>203}, {"peer_id"=>"27038a96-beff-4d2b-aac9-23e4c6cdb10e", "duration"=>374, "time"=>"2014-09-11 14:53:57 -0400", "user_id"=>"ab9a0285-7c74-4466-95ed-0146142a5d6c", "rssi"=>214}, {"peer_id"=>"2fe27190-b749-4739-bd51-b9059ab4bb32", "duration"=>1011, "time"=>"2014-09-11 14:53:57 -0400", "user_id"=>"ab9a0285-7c74-4466-95ed-0146142a5d6c", "rssi"=>229}, {"peer_id"=>"64a48f45-833c-48af-a52f-ccfb4911cc2f", "duration"=>750, "time"=>"2014-09-11 14:53:57 -0400", "user_id"=>"ab9a0285-7c74-4466-95ed-0146142a5d6c", "rssi"=>207}, {"peer_id"=>"06ab0e13-e2db-4167-90ca-cc1360f101e5", "duration"=>506, "time"=>"2014-09-11 14:55:53 -0400", "user_id"=>"ab9a0285-7c74-4466-95ed-0146142a5d6c", "rssi"=>218}, {"peer_id"=>"219444cf-5401-489b-8fe9-47db79b77dd6", "duration"=>506, "time"=>"2014-09-11 14:55:53 -0400", "user_id"=>"ab9a0285-7c74-4466-95ed-0146142a5d6c", "rssi"=>197}, {"peer_id"=>"37d0a47d-a4b5-4ce9-a88c-295fef1e6e2f", "duration"=>634, "time"=>"2014-09-11 14:55:53 -0400", "user_id"=>"ab9a0285-7c74-4466-95ed-0146142a5d6c", "rssi"=>196}, {"peer_id"=>"528cbffb-6d58-4bb2-b0bd-d37461a54f8a", "duration"=>258, "time"=>"2014-09-11 14:55:53 -0400", "user_id"=>"ab9a0285-7c74-4466-95ed-0146142a5d6c", "rssi"=>207}, {"peer_id"=>"7345a120-8f86-432f-9d00-c3e8a8643ace", "duration"=>766, "time"=>"2014-09-11 14:55:53 -0400", "user_id"=>"ab9a0285-7c74-4466-95ed-0146142a5d6c", "rssi"=>232}, {"peer_id"=>"9a243eee-c91e-49eb-afc8-d874670297f0", "duration"=>258, "time"=>"2014-09-11 14:55:53 -0400", "user_id"=>"ab9a0285-7c74-4466-95ed-0146142a5d6c", "rssi"=>198}, {"peer_id"=>"b403a0e5-a055-4477-9fe9-6aad50f18ddf", "duration"=>258, "time"=>"2014-09-11 14:55:53 -0400", "user_id"=>"ab9a0285-7c74-4466-95ed-0146142a5d6c", "rssi"=>206}, {"peer_id"=>"d65d05c0-f082-4f79-8419-ef57ffa6b1f6", "duration"=>506, "time"=>"2014-09-11 14:55:53 -0400", "user_id"=>"ab9a0285-7c74-4466-95ed-0146142a5d6c", "rssi"=>206}, {"peer_id"=>"14b31936-631f-4ba8-b2de-7052ad1b1759", "duration"=>632, "time"=>"2014-09-11 14:58:07 -0400", "user_id"=>"ab9a0285-7c74-4466-95ed-0146142a5d6c", "rssi"=>197}, {"peer_id"=>"3729b2b0-5587-481b-b807-51b4b94224e8", "duration"=>124, "time"=>"2014-09-11 14:58:07 -0400", "user_id"=>"ab9a0285-7c74-4466-95ed-0146142a5d6c", "rssi"=>207}, {"peer_id"=>"48857c01-52a9-49ba-a1b0-579b40091c81", "duration"=>124, "time"=>"2014-09-11 14:58:07 -0400", "user_id"=>"ab9a0285-7c74-4466-95ed-0146142a5d6c", "rssi"=>195}, {"peer_id"=>"27038a96-beff-4d2b-aac9-23e4c6cdb10e", "duration"=>122, "time"=>"2014-09-11 15:02:17 -0400", "user_id"=>"ab9a0285-7c74-4466-95ed-0146142a5d6c", "rssi"=>204}, {"peer_id"=>"3729b2b0-5587-481b-b807-51b4b94224e8", "duration"=>250, "time"=>"2014-09-11 15:02:17 -0400", "user_id"=>"ab9a0285-7c74-4466-95ed-0146142a5d6c", "rssi"=>197}, {"peer_id"=>"9a243eee-c91e-49eb-afc8-d874670297f0", "duration"=>250, "time"=>"2014-09-11 15:02:17 -0400", "user_id"=>"ab9a0285-7c74-4466-95ed-0146142a5d6c", "rssi"=>210}, {"peer_id"=>"b403a0e5-a055-4477-9fe9-6aad50f18ddf", "duration"=>260, "time"=>"2014-09-11 15:04:19 -0400", "user_id"=>"ab9a0285-7c74-4466-95ed-0146142a5d6c", "rssi"=>215}, {"peer_id"=>"219444cf-5401-489b-8fe9-47db79b77dd6", "duration"=>261, "time"=>"2014-09-11 15:06:27 -0400", "user_id"=>"ab9a0285-7c74-4466-95ed-0146142a5d6c", "rssi"=>197}, {"peer_id"=>"48857c01-52a9-49ba-a1b0-579b40091c81", "duration"=>261, "time"=>"2014-09-11 15:06:27 -0400", "user_id"=>"ab9a0285-7c74-4466-95ed-0146142a5d6c", "rssi"=>198}, {"peer_id"=>"528cbffb-6d58-4bb2-b0bd-d37461a54f8a", "duration"=>132, "time"=>"2014-09-11 15:06:27 -0400", "user_id"=>"ab9a0285-7c74-4466-95ed-0146142a5d6c", "rssi"=>215}, {"peer_id"=>"b403a0e5-a055-4477-9fe9-6aad50f18ddf", "duration"=>1024, "time"=>"2014-09-11 15:12:52 -0400", "user_id"=>"ab9a0285-7c74-4466-95ed-0146142a5d6c", "rssi"=>198}, {"peer_id"=>"297af968-216e-4814-8689-9a3960b846a9", "duration"=>128, "time"=>"2014-09-11 15:14:59 -0400", "user_id"=>"ab9a0285-7c74-4466-95ed-0146142a5d6c", "rssi"=>198}, {"peer_id"=>"9a243eee-c91e-49eb-afc8-d874670297f0", "duration"=>514, "time"=>"2014-09-11 15:17:07 -0400", "user_id"=>"ab9a0285-7c74-4466-95ed-0146142a5d6c", "rssi"=>197}, {"peer_id"=>"219444cf-5401-489b-8fe9-47db79b77dd6", "duration"=>125, "time"=>"2014-09-11 15:25:41 -0400", "user_id"=>"ab9a0285-7c74-4466-95ed-0146142a5d6c", "rssi"=>195}, {"peer_id"=>"9a243eee-c91e-49eb-afc8-d874670297f0", "duration"=>241, "time"=>"2014-09-11 15:31:59 -0400", "user_id"=>"ab9a0285-7c74-4466-95ed-0146142a5d6c", "rssi"=>196}, {"peer_id"=>"b403a0e5-a055-4477-9fe9-6aad50f18ddf", "duration"=>241, "time"=>"2014-09-11 15:31:59 -0400", "user_id"=>"ab9a0285-7c74-4466-95ed-0146142a5d6c", "rssi"=>198}, {"peer_id"=>"297af968-216e-4814-8689-9a3960b846a9", "duration"=>129, "time"=>"2014-09-11 15:36:00 -0400", "user_id"=>"ab9a0285-7c74-4466-95ed-0146142a5d6c", "rssi"=>195}, {"peer_id"=>"b403a0e5-a055-4477-9fe9-6aad50f18ddf", "duration"=>129, "time"=>"2014-09-11 15:42:30 -0400", "user_id"=>"ab9a0285-7c74-4466-95ed-0146142a5d6c", "rssi"=>198}, {"peer_id"=>"b403a0e5-a055-4477-9fe9-6aad50f18ddf", "duration"=>127, "time"=>"2014-09-11 15:48:56 -0400", "user_id"=>"ab9a0285-7c74-4466-95ed-0146142a5d6c", "rssi"=>195}, {"peer_id"=>"219444cf-5401-489b-8fe9-47db79b77dd6", "duration"=>132, "time"=>"2014-09-11 15:51:03 -0400", "user_id"=>"ab9a0285-7c74-4466-95ed-0146142a5d6c", "rssi"=>196}, {"peer_id"=>"9a243eee-c91e-49eb-afc8-d874670297f0", "duration"=>263, "time"=>"2014-09-11 15:53:15 -0400", "user_id"=>"ab9a0285-7c74-4466-95ed-0146142a5d6c", "rssi"=>195}, {"peer_id"=>"b403a0e5-a055-4477-9fe9-6aad50f18ddf", "duration"=>381, "time"=>"2014-09-11 15:55:23 -0400", "user_id"=>"ab9a0285-7c74-4466-95ed-0146142a5d6c", "rssi"=>195}, {"peer_id"=>"9a243eee-c91e-49eb-afc8-d874670297f0", "duration"=>125, "time"=>"2014-09-11 16:05:56 -0400", "user_id"=>"ab9a0285-7c74-4466-95ed-0146142a5d6c", "rssi"=>196}, {"peer_id"=>"b403a0e5-a055-4477-9fe9-6aad50f18ddf", "duration"=>125, "time"=>"2014-09-11 16:05:56 -0400", "user_id"=>"ab9a0285-7c74-4466-95ed-0146142a5d6c", "rssi"=>196}]}
+***
+September 11 20:11:01 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:11:01 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:11:01 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:11:01 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:11:01 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:11:01 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:11:01 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:11:01 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:11:01 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:11:01 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:11:01 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:11:01 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:11:01 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:11:01 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:11:01 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:11:01 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:11:01 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:11:01 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:11:01 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:11:01 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:11:01 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:11:01 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:11:01 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:11:01 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:11:01 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:11:01 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:11:01 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:11:01 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:11:01 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:11:01 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:11:01 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:11:01 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:11:01 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:11:02 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:11:02 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:11:02 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:11:02 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:11:02 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:11:02 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:11:02 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:11:02 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:11:02 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:11:02 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:11:02 ip-10-238-245-70, [6711]:, INFO ODIN, All interactions arrived successfully
+***
+September 11 20:11:06 ip-10-238-245-70, [6711]:, INFO ODIN, Show All Questions
+GET, https://www.bagezio.com/questions.json?max=2, source: 146.111.34.245, Query Params: {"max"=>"2"}, Request Params: {}
+***
+September 11 20:11:13 ip-10-238-245-70, [6711]:, INFO ODIN, Show Rules for: f492d29b-a204-42d2-a959-9dfa0113495b
+GET, https://www.bagezio.com/rules/f492d29b-a204-42d2-a959-9dfa0113495b?max=0, source: 146.111.34.245, Query Params: {"max"=>"0"}, Request Params: {}
+***
+September 11 20:11:18 ip-10-238-245-70, [6711]:, INFO ODIN, Show Schedule For: f492d29b-a204-42d2-a959-9dfa0113495b
+GET, https://www.bagezio.com/schedules/f492d29b-a204-42d2-a959-9dfa0113495b?max=33, source: 146.111.34.245, Query Params: {"max"=>"33"}, Request Params: {}
+***
+September 11 20:11:23 ip-10-238-245-70, [6711]:, INFO ODIN, Inserting New Answers
+POST, https://www.bagezio.com/answers.json, source: 146.111.34.245, Query Params: {}, Request Params: {"answer"=>[{"question_id"=>1, "time"=>"2014-09-11 14:35:00 -0400", "user_id"=>"f492d29b-a204-42d2-a959-9dfa0113495b", "choice_id"=>-1}, {"question_id"=>2, "time"=>"2014-09-11 14:34:57 -0400", "user_id"=>"f492d29b-a204-42d2-a959-9dfa0113495b", "choice_id"=>3}], "localtime"=>"2014-09-11 16:11:53 -0400"}
+***
+September 11 20:11:23 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an answer
+POST, https://www.bagezio.com/answers.json, source: 146.111.34.245, Query Params: {}, Request Params: {"answer"=>[{"question_id"=>1, "time"=>"2014-09-11 14:35:00 -0400", "user_id"=>"f492d29b-a204-42d2-a959-9dfa0113495b", "choice_id"=>-1}, {"question_id"=>2, "time"=>"2014-09-11 14:34:57 -0400", "user_id"=>"f492d29b-a204-42d2-a959-9dfa0113495b", "choice_id"=>3}], "localtime"=>"2014-09-11 16:11:53 -0400"}
+***
+September 11 20:11:23 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an answer
+POST, https://www.bagezio.com/answers.json, source: 146.111.34.245, Query Params: {}, Request Params: {"answer"=>[{"question_id"=>1, "time"=>"2014-09-11 14:35:00 -0400", "user_id"=>"f492d29b-a204-42d2-a959-9dfa0113495b", "choice_id"=>-1}, {"question_id"=>2, "time"=>"2014-09-11 14:34:57 -0400", "user_id"=>"f492d29b-a204-42d2-a959-9dfa0113495b", "choice_id"=>3}], "localtime"=>"2014-09-11 16:11:53 -0400"}
+***
+September 11 20:11:23 ip-10-238-245-70, [6711]:, INFO ODIN, All answers arrived successfully
+POST, https://www.bagezio.com/answers.json, source: 146.111.34.245, Query Params: {}, Request Params: {"answer"=>[{"question_id"=>1, "time"=>"2014-09-11 14:35:00 -0400", "user_id"=>"f492d29b-a204-42d2-a959-9dfa0113495b", "choice_id"=>-1}, {"question_id"=>2, "time"=>"2014-09-11 14:34:57 -0400", "user_id"=>"f492d29b-a204-42d2-a959-9dfa0113495b", "choice_id"=>3}], "localtime"=>"2014-09-11 16:11:53 -0400"}
+***
+September 11 20:11:24 ip-10-238-245-70, [6711]:, INFO ODIN, Show All Questions
+GET, https://www.bagezio.com/questions.json?max=2, source: 146.111.34.211, Query Params: {"max"=>"2"}, Request Params: {}
+***
+September 11 20:11:40 ip-10-238-245-70, [6711]:, INFO ODIN, Show Rules for: ab9a0285-7c74-4466-95ed-0146142a5d6c
+GET, https://www.bagezio.com/rules/ab9a0285-7c74-4466-95ed-0146142a5d6c?max=0, source: 146.111.34.211, Query Params: {"max"=>"0"}, Request Params: {}
+***
+September 11 20:11:46 ip-10-238-245-70, [6711]:, INFO ODIN, Show Schedule For: ab9a0285-7c74-4466-95ed-0146142a5d6c
+GET, https://www.bagezio.com/schedules/ab9a0285-7c74-4466-95ed-0146142a5d6c?max=0, source: 146.111.34.211, Query Params: {"max"=>"0"}, Request Params: {}
+***
+September 11 20:13:57 ip-10-238-245-70, [6711]:, INFO ODIN, Insert New Interactions
+POST, https://www.bagezio.com/interactions.json, source: 146.111.34.203, Query Params: {}, Request Params: {"localtime"=>"2014-09-11 16:14:26 -0400", "interaction"=>[{"peer_id"=>"ab9a0285-7c74-4466-95ed-0146142a5d6c", "duration"=>1721, "time"=>"2014-09-11 14:41:09 -0400", "user_id"=>"7345a120-8f86-432f-9d00-c3e8a8643ace", "rssi"=>231}, {"peer_id"=>"14b31936-631f-4ba8-b2de-7052ad1b1759", "duration"=>124, "time"=>"2014-09-11 14:43:04 -0400", "user_id"=>"7345a120-8f86-432f-9d00-c3e8a8643ace", "rssi"=>195}, {"peer_id"=>"219444cf-5401-489b-8fe9-47db79b77dd6", "duration"=>124, "time"=>"2014-09-11 14:43:04 -0400", "user_id"=>"7345a120-8f86-432f-9d00-c3e8a8643ace", "rssi"=>199}, {"peer_id"=>"9a243eee-c91e-49eb-afc8-d874670297f0", "duration"=>492, "time"=>"2014-09-11 14:43:04 -0400", "user_id"=>"7345a120-8f86-432f-9d00-c3e8a8643ace", "rssi"=>201}, {"peer_id"=>"b403a0e5-a055-4477-9fe9-6aad50f18ddf", "duration"=>124, "time"=>"2014-09-11 14:43:04 -0400", "user_id"=>"7345a120-8f86-432f-9d00-c3e8a8643ace", "rssi"=>202}, {"peer_id"=>"2fe27190-b749-4739-bd51-b9059ab4bb32", "duration"=>1482, "time"=>"2014-09-11 14:45:08 -0400", "user_id"=>"7345a120-8f86-432f-9d00-c3e8a8643ace", "rssi"=>206}, {"peer_id"=>"3729b2b0-5587-481b-b807-51b4b94224e8", "duration"=>1361, "time"=>"2014-09-11 14:45:08 -0400", "user_id"=>"7345a120-8f86-432f-9d00-c3e8a8643ace", "rssi"=>201}, {"peer_id"=>"37d0a47d-a4b5-4ce9-a88c-295fef1e6e2f", "duration"=>1235, "time"=>"2014-09-11 14:45:08 -0400", "user_id"=>"7345a120-8f86-432f-9d00-c3e8a8643ace", "rssi"=>214}, {"peer_id"=>"528cbffb-6d58-4bb2-b0bd-d37461a54f8a", "duration"=>1482, "time"=>"2014-09-11 14:45:08 -0400", "user_id"=>"7345a120-8f86-432f-9d00-c3e8a8643ace", "rssi"=>201}, {"peer_id"=>"59635f94-cf69-4a78-aafc-cc32ed170016", "duration"=>742, "time"=>"2014-09-11 14:45:08 -0400", "user_id"=>"7345a120-8f86-432f-9d00-c3e8a8643ace", "rssi"=>213}, {"peer_id"=>"64a48f45-833c-48af-a52f-ccfb4911cc2f", "duration"=>981, "time"=>"2014-09-11 14:45:08 -0400", "user_id"=>"7345a120-8f86-432f-9d00-c3e8a8643ace", "rssi"=>212}, {"peer_id"=>"a4e825d4-659c-4d72-b53a-f660f5bfec39", "duration"=>1235, "time"=>"2014-09-11 14:45:08 -0400", "user_id"=>"7345a120-8f86-432f-9d00-c3e8a8643ace", "rssi"=>203}, {"peer_id"=>"d65d05c0-f082-4f79-8419-ef57ffa6b1f6", "duration"=>1235, "time"=>"2014-09-11 14:45:08 -0400", "user_id"=>"7345a120-8f86-432f-9d00-c3e8a8643ace", "rssi"=>212}, {"peer_id"=>"f492d29b-a204-42d2-a959-9dfa0113495b", "duration"=>1235, "time"=>"2014-09-11 14:45:08 -0400", "user_id"=>"7345a120-8f86-432f-9d00-c3e8a8643ace", "rssi"=>215}, {"peer_id"=>"06ab0e13-e2db-4167-90ca-cc1360f101e5", "duration"=>1111, "time"=>"2014-09-11 14:47:12 -0400", "user_id"=>"7345a120-8f86-432f-9d00-c3e8a8643ace", "rssi"=>209}, {"peer_id"=>"219444cf-5401-489b-8fe9-47db79b77dd6", "duration"=>1358, "time"=>"2014-09-11 14:47:12 -0400", "user_id"=>"7345a120-8f86-432f-9d00-c3e8a8643ace", "rssi"=>206}, {"peer_id"=>"27038a96-beff-4d2b-aac9-23e4c6cdb10e", "duration"=>1111, "time"=>"2014-09-11 14:47:12 -0400", "user_id"=>"7345a120-8f86-432f-9d00-c3e8a8643ace", "rssi"=>197}, {"peer_id"=>"297af968-216e-4814-8689-9a3960b846a9", "duration"=>125, "time"=>"2014-09-11 14:47:12 -0400", "user_id"=>"7345a120-8f86-432f-9d00-c3e8a8643ace", "rssi"=>196}, {"peer_id"=>"48857c01-52a9-49ba-a1b0-579b40091c81", "duration"=>367, "time"=>"2014-09-11 14:47:12 -0400", "user_id"=>"7345a120-8f86-432f-9d00-c3e8a8643ace", "rssi"=>198}, {"peer_id"=>"b403a0e5-a055-4477-9fe9-6aad50f18ddf", "duration"=>1358, "time"=>"2014-09-11 14:47:12 -0400", "user_id"=>"7345a120-8f86-432f-9d00-c3e8a8643ace", "rssi"=>196}, {"peer_id"=>"14b31936-631f-4ba8-b2de-7052ad1b1759", "duration"=>1233, "time"=>"2014-09-11 14:49:17 -0400", "user_id"=>"7345a120-8f86-432f-9d00-c3e8a8643ace", "rssi"=>195}, {"peer_id"=>"9a243eee-c91e-49eb-afc8-d874670297f0", "duration"=>373, "time"=>"2014-09-11 14:53:19 -0400", "user_id"=>"7345a120-8f86-432f-9d00-c3e8a8643ace", "rssi"=>209}, {"peer_id"=>"297af968-216e-4814-8689-9a3960b846a9", "duration"=>249, "time"=>"2014-09-11 14:55:23 -0400", "user_id"=>"7345a120-8f86-432f-9d00-c3e8a8643ace", "rssi"=>195}, {"peer_id"=>"48857c01-52a9-49ba-a1b0-579b40091c81", "duration"=>867, "time"=>"2014-09-11 14:55:23 -0400", "user_id"=>"7345a120-8f86-432f-9d00-c3e8a8643ace", "rssi"=>198}, {"peer_id"=>"59635f94-cf69-4a78-aafc-cc32ed170016", "duration"=>370, "time"=>"2014-09-11 14:59:33 -0400", "user_id"=>"7345a120-8f86-432f-9d00-c3e8a8643ace", "rssi"=>215}, {"peer_id"=>"297af968-216e-4814-8689-9a3960b846a9", "duration"=>254, "time"=>"2014-09-11 15:01:29 -0400", "user_id"=>"7345a120-8f86-432f-9d00-c3e8a8643ace", "rssi"=>199}, {"peer_id"=>"9a243eee-c91e-49eb-afc8-d874670297f0", "duration"=>501, "time"=>"2014-09-11 15:01:29 -0400", "user_id"=>"7345a120-8f86-432f-9d00-c3e8a8643ace", "rssi"=>199}, {"peer_id"=>"64a48f45-833c-48af-a52f-ccfb4911cc2f", "duration"=>127, "time"=>"2014-09-11 15:03:36 -0400", "user_id"=>"7345a120-8f86-432f-9d00-c3e8a8643ace", "rssi"=>208}, {"peer_id"=>"219444cf-5401-489b-8fe9-47db79b77dd6", "duration"=>125, "time"=>"2014-09-11 15:11:53 -0400", "user_id"=>"7345a120-8f86-432f-9d00-c3e8a8643ace", "rssi"=>199}, {"peer_id"=>"64a48f45-833c-48af-a52f-ccfb4911cc2f", "duration"=>127, "time"=>"2014-09-11 15:43:12 -0400", "user_id"=>"7345a120-8f86-432f-9d00-c3e8a8643ace", "rssi"=>196}, {"peer_id"=>"219444cf-5401-489b-8fe9-47db79b77dd6", "duration"=>123, "time"=>"2014-09-11 15:45:19 -0400", "user_id"=>"7345a120-8f86-432f-9d00-c3e8a8643ace", "rssi"=>198}, {"peer_id"=>"a4e825d4-659c-4d72-b53a-f660f5bfec39", "duration"=>124, "time"=>"2014-09-11 15:51:59 -0400", "user_id"=>"7345a120-8f86-432f-9d00-c3e8a8643ace", "rssi"=>195}, {"peer_id"=>"3729b2b0-5587-481b-b807-51b4b94224e8", "duration"=>146, "time"=>"2014-09-11 15:54:03 -0400", "user_id"=>"7345a120-8f86-432f-9d00-c3e8a8643ace", "rssi"=>196}, {"peer_id"=>"64a48f45-833c-48af-a52f-ccfb4911cc2f", "duration"=>513, "time"=>"2014-09-11 15:56:29 -0400", "user_id"=>"7345a120-8f86-432f-9d00-c3e8a8643ace", "rssi"=>201}, {"peer_id"=>"d65d05c0-f082-4f79-8419-ef57ffa6b1f6", "duration"=>258, "time"=>"2014-09-11 15:56:29 -0400", "user_id"=>"7345a120-8f86-432f-9d00-c3e8a8643ace", "rssi"=>195}, {"peer_id"=>"3729b2b0-5587-481b-b807-51b4b94224e8", "duration"=>388, "time"=>"2014-09-11 15:58:34 -0400", "user_id"=>"7345a120-8f86-432f-9d00-c3e8a8643ace", "rssi"=>197}]}
+***
+September 11 20:13:57 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:13:57 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:13:57 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:13:57 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:13:57 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:13:57 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:13:57 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:13:57 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:13:57 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:13:57 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:13:57 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:13:57 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:13:57 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:13:58 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:13:58 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:13:58 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:13:58 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:13:58 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:13:58 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:13:58 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:13:58 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:13:58 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:13:58 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:13:58 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:13:58 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:13:58 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:13:58 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:13:58 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:13:58 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:13:58 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:13:58 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:13:58 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:13:58 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:13:58 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:13:58 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:13:58 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:13:58 ip-10-238-245-70, [6711]:, INFO ODIN, All interactions arrived successfully
+***
+September 11 20:14:42 ip-10-238-245-70, [6711]:, INFO ODIN, Show All Users
+GET, https://bagezio.com/users, source: 198.83.30.195, Query Params: {}, Request Params: {}
+***
+September 11 20:14:58 ip-10-238-245-70, [6711]:, INFO ODIN, Insert New Interactions
+POST, https://www.bagezio.com/interactions.json, source: 146.111.34.203, Query Params: {}, Request Params: {"localtime"=>"2014-09-11 16:15:27 -0400", "interaction"=>[{"peer_id"=>"ab9a0285-7c74-4466-95ed-0146142a5d6c", "duration"=>122, "time"=>"2014-09-11 16:13:21 -0400", "user_id"=>"7345a120-8f86-432f-9d00-c3e8a8643ace", "rssi"=>199}]}
+***
+September 11 20:14:58 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:14:58 ip-10-238-245-70, [6711]:, INFO ODIN, All interactions arrived successfully
+***
+September 11 20:15:16 ip-10-238-245-70, [6711]:, INFO ODIN, Show All Questions
+GET, https://www.bagezio.com/questions.json?max=0, source: 146.111.34.203, Query Params: {"max"=>"0"}, Request Params: {}
+***
+September 11 20:16:53 ip-10-238-245-70, [6711]:, INFO ODIN, Show All Questions
+GET, https://www.bagezio.com/questions.json?max=0, source: 146.111.34.203, Query Params: {"max"=>"0"}, Request Params: {}
+***
+September 11 20:16:56 ip-10-238-245-70, [6711]:, INFO ODIN, Show Rules for: 7345a120-8f86-432f-9d00-c3e8a8643ace
+GET, https://www.bagezio.com/rules/7345a120-8f86-432f-9d00-c3e8a8643ace?max=0, source: 146.111.34.203, Query Params: {"max"=>"0"}, Request Params: {}
+***
+September 11 20:16:56 ip-10-238-245-70, [6711]:, INFO ODIN, Show All Interactions
+GET, https://bagezio.com/interactions, source: 198.83.30.195, Query Params: {}, Request Params: {}
+***
+September 11 20:16:56 ip-10-238-245-70, [6711]:, INFO ODIN, Insert New Interactions
+POST, https://www.bagezio.com/interactions.json, source: 67.83.12.173, Query Params: {}, Request Params: {"localtime"=>"2014-09-11 16:17:27 -0400", "interaction"=>[{"peer_id"=>"a99c0565-a3cd-4b0d-a1b8-bc3b50b345dc", "duration"=>116524, "time"=>"2014-09-10 06:03:55 -0400", "user_id"=>"9b61c420-a6e4-4c2f-9fad-db003523f132", "rssi"=>221}, {"peer_id"=>"e4b0b9c5-e289-44a3-b134-3a9f0207becd", "duration"=>66717, "time"=>"2014-09-10 15:53:12 -0400", "user_id"=>"9b61c420-a6e4-4c2f-9fad-db003523f132", "rssi"=>221}, {"peer_id"=>"461f5f44-2919-4cac-ab45-3ec4d73c2c15", "duration"=>44939, "time"=>"2014-09-10 22:16:37 -0400", "user_id"=>"9b61c420-a6e4-4c2f-9fad-db003523f132", "rssi"=>206}]}
+***
+September 11 20:16:56 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:16:56 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:16:56 ip-10-238-245-70, [6711]:, INFO ODIN, Saved an interaction
+***
+September 11 20:16:56 ip-10-238-245-70, [6711]:, INFO ODIN, All interactions arrived successfully
+***
+September 11 20:16:59 ip-10-238-245-70, [6711]:, INFO ODIN, Show All Questions
+GET, https://www.bagezio.com/questions.json?max=14, source: 67.83.12.173, Query Params: {"max"=>"14"}, Request Params: {}
+***
+September 11 20:16:59 ip-10-238-245-70, [6711]:, INFO ODIN, Show Schedule For: 7345a120-8f86-432f-9d00-c3e8a8643ace
+GET, https://www.bagezio.com/schedules/7345a120-8f86-432f-9d00-c3e8a8643ace?max=0, source: 146.111.34.203, Query Params: {"max"=>"0"}, Request Params: {}
+***
+September 11 20:17:05 ip-10-238-245-70, [6711]:, INFO ODIN, Show Rules for: 9b61c420-a6e4-4c2f-9fad-db003523f132
+GET, https://www.bagezio.com/rules/9b61c420-a6e4-4c2f-9fad-db003523f132?max=0, source: 67.83.12.173, Query Params: {"max"=>"0"}, Request Params: {}
+***
+September 11 20:17:09 ip-10-238-245-70, [6711]:, INFO ODIN, Show Schedule For: 9b61c420-a6e4-4c2f-9fad-db003523f132
+GET, https://www.bagezio.com/schedules/9b61c420-a6e4-4c2f-9fad-db003523f132?max=357, source: 67.83.12.173, Query Params: {"max"=>"357"}, Request Params: {}
+***
+September 11 20:20:10 ip-10-238-245-70, [6711]:, INFO ODIN, Show All Answers
+GET, https://bagezio.com/answers, source: 198.83.30.195, Query Params: {}, Request Params: {}
+***
+September 11 20:23:41 ip-10-238-245-70, [6711]:, INFO ODIN, Show All Answers
+GET, https://bagezio.com/answers, source: 198.83.30.195, Query Params: {}, Request Params: {}
+***
+September 11 20:23:49 ip-10-238-245-70, [6711]:, INFO ODIN, Show All Answers
+GET, https://bagezio.com/answers, source: 198.83.30.195, Query Params: {}, Request Params: {}
+***
+September 11 20:24:25 ip-10-238-245-70, [6711]:, INFO ODIN, Show All Interactions
+GET, https://bagezio.com/interactions, source: 198.83.30.195, Query Params: {}, Request Params: {}
+***
+September 11 20:24:28 ip-10-238-245-70, [6711]:, INFO ODIN, Show All Answers
+GET, https://bagezio.com/answers, source: 198.83.30.195, Query Params: {}, Request Params: {}
+***
+September 11 20:24:44 ip-10-238-245-70, [6711]:, INFO ODIN, Show All Interactions
+GET, https://bagezio.com/interactions, source: 198.83.30.195, Query Params: {}, Request Params: {}
+***
+*********Implemented new Logs @ 5:08 PM UTC -0400*********
+*********Implemented new Logs @ 5:08 PM UTC -0400*********
+*********Implemented new Logs @ 5:08 PM UTC -0400*********

@@ -21,6 +21,10 @@ class InteractionsController < ApplicationController
   def show
     log_request("Show Interactions for one user")
     @interactions = Interaction.where(user_id: params[:id]).order(:id)
+
+    if @interactions.empty? 
+      redirect_to :back, alert: "No interactions for user #{params[:id]}" 
+    end 
   end
 
   def compare

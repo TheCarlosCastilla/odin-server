@@ -1,0 +1,614 @@
+I, [2014-09-11T18:29:25.671645 #6711]  INFO -- : [6b5f7a02-0609-45cf-af21-9a25eda925d7] Started GET "/" for 198.83.30.192 at 2014-09-11 18:29:25 +0000
+I, [2014-09-11T18:29:25.719968 #6711]  INFO -- : [6b5f7a02-0609-45cf-af21-9a25eda925d7] Processing by PagesController#index as HTML
+I, [2014-09-11T18:29:25.757883 #6711]  INFO -- : [6b5f7a02-0609-45cf-af21-9a25eda925d7]   Rendered pages/index.html.erb within layouts/application (3.7ms)
+I, [2014-09-11T18:29:25.822538 #6711]  INFO -- : [6b5f7a02-0609-45cf-af21-9a25eda925d7] Completed 200 OK in 102ms (Views: 73.4ms | ActiveRecord: 0.0ms)
+I, [2014-09-11T18:34:20.575727 #6711]  INFO -- : [www] [f216a27d-acec-488e-8d86-6b07df3d6e09] Started GET "/users/359939045875206" for 198.83.30.192 at 2014-09-11 18:34:20 +0000
+I, [2014-09-11T18:34:20.579499 #6711]  INFO -- : [www] [f216a27d-acec-488e-8d86-6b07df3d6e09] Processing by UsersController#request_user_id as HTML
+I, [2014-09-11T18:34:20.579593 #6711]  INFO -- : [www] [f216a27d-acec-488e-8d86-6b07df3d6e09]   Parameters: {"uuid"=>"359939045875206"}
+I, [2014-09-11T18:34:20.623610 #6711]  INFO -- : [www] [f216a27d-acec-488e-8d86-6b07df3d6e09]   Rendered text template (0.1ms)
+I, [2014-09-11T18:34:20.624006 #6711]  INFO -- : [www] [f216a27d-acec-488e-8d86-6b07df3d6e09] Completed 200 OK in 44ms (Views: 1.0ms | ActiveRecord: 7.0ms)
+I, [2014-09-11T18:34:20.911164 #6711]  INFO -- : [www] [0d5bb03a-3d70-4d2a-92ce-87d27ade751a] Started GET "/questions.json?max=0" for 198.83.30.192 at 2014-09-11 18:34:20 +0000
+I, [2014-09-11T18:34:20.914641 #6711]  INFO -- : [www] [0d5bb03a-3d70-4d2a-92ce-87d27ade751a] Processing by QuestionsController#index as JSON
+I, [2014-09-11T18:34:20.914733 #6711]  INFO -- : [www] [0d5bb03a-3d70-4d2a-92ce-87d27ade751a]   Parameters: {"max"=>"0"}
+I, [2014-09-11T18:34:20.933869 #6711]  INFO -- : [www] [0d5bb03a-3d70-4d2a-92ce-87d27ade751a] Completed 200 OK in 19ms (Views: 11.3ms | ActiveRecord: 5.6ms)
+I, [2014-09-11T18:34:21.386711 #6711]  INFO -- : [www] [2c90ac20-f1d0-4886-bcf8-946327805ce3] Started GET "/rules/f492d29b-a204-42d2-a959-9dfa0113495b?max=0" for 198.83.30.192 at 2014-09-11 18:34:21 +0000
+I, [2014-09-11T18:34:21.390307 #6711]  INFO -- : [www] [2c90ac20-f1d0-4886-bcf8-946327805ce3] Processing by RulesController#get_rules_by_user as HTML
+I, [2014-09-11T18:34:21.390405 #6711]  INFO -- : [www] [2c90ac20-f1d0-4886-bcf8-946327805ce3]   Parameters: {"max"=>"0", "user"=>"f492d29b-a204-42d2-a959-9dfa0113495b"}
+I, [2014-09-11T18:34:21.393862 #6711]  INFO -- : [www] [2c90ac20-f1d0-4886-bcf8-946327805ce3] Completed 200 OK in 3ms (Views: 0.8ms | ActiveRecord: 0.9ms)
+I, [2014-09-11T18:34:21.560992 #6711]  INFO -- : [www] [5ba8f5f3-f95b-417e-b7d7-2bef68af1555] Started GET "/schedules/f492d29b-a204-42d2-a959-9dfa0113495b?max=0" for 198.83.30.192 at 2014-09-11 18:34:21 +0000
+I, [2014-09-11T18:34:21.564035 #6711]  INFO -- : [www] [5ba8f5f3-f95b-417e-b7d7-2bef68af1555] Processing by SchedulesController#get_schedule_by_user as HTML
+I, [2014-09-11T18:34:21.564161 #6711]  INFO -- : [www] [5ba8f5f3-f95b-417e-b7d7-2bef68af1555]   Parameters: {"max"=>"0", "user"=>"f492d29b-a204-42d2-a959-9dfa0113495b"}
+I, [2014-09-11T18:34:21.576140 #6711]  INFO -- : [www] [5ba8f5f3-f95b-417e-b7d7-2bef68af1555] Completed 200 OK in 12ms (Views: 7.2ms | ActiveRecord: 3.2ms)
+I, [2014-09-11T18:34:24.784758 #6711]  INFO -- : [www] [c1f0931e-8707-4cb9-b64a-a31600a56518] Started GET "/users/359939045866171" for 198.83.30.192 at 2014-09-11 18:34:24 +0000
+I, [2014-09-11T18:34:24.787096 #6711]  INFO -- : [www] [c1f0931e-8707-4cb9-b64a-a31600a56518] Processing by UsersController#request_user_id as HTML
+I, [2014-09-11T18:34:24.787189 #6711]  INFO -- : [www] [c1f0931e-8707-4cb9-b64a-a31600a56518]   Parameters: {"uuid"=>"359939045866171"}
+I, [2014-09-11T18:34:24.793675 #6711]  INFO -- : [www] [c1f0931e-8707-4cb9-b64a-a31600a56518]   Rendered text template (0.0ms)
+I, [2014-09-11T18:34:24.793988 #6711]  INFO -- : [www] [c1f0931e-8707-4cb9-b64a-a31600a56518] Completed 200 OK in 7ms (Views: 0.6ms | ActiveRecord: 2.2ms)
+I, [2014-09-11T18:34:25.028151 #6711]  INFO -- : [www] [3cc26ce0-519b-44c8-8fa8-ab2105f38e61] Started GET "/questions.json?max=0" for 198.83.30.192 at 2014-09-11 18:34:25 +0000
+I, [2014-09-11T18:34:25.029823 #6711]  INFO -- : [www] [3cc26ce0-519b-44c8-8fa8-ab2105f38e61] Processing by QuestionsController#index as JSON
+I, [2014-09-11T18:34:25.029926 #6711]  INFO -- : [www] [3cc26ce0-519b-44c8-8fa8-ab2105f38e61]   Parameters: {"max"=>"0"}
+I, [2014-09-11T18:34:25.035070 #6711]  INFO -- : [www] [3cc26ce0-519b-44c8-8fa8-ab2105f38e61] Completed 200 OK in 5ms (Views: 2.6ms | ActiveRecord: 1.3ms)
+I, [2014-09-11T18:34:25.430653 #6711]  INFO -- : [www] [229f5b3a-2a14-4aff-926d-1598db496eee] Started GET "/rules/59635f94-cf69-4a78-aafc-cc32ed170016?max=0" for 198.83.30.192 at 2014-09-11 18:34:25 +0000
+I, [2014-09-11T18:34:25.432441 #6711]  INFO -- : [www] [229f5b3a-2a14-4aff-926d-1598db496eee] Processing by RulesController#get_rules_by_user as HTML
+I, [2014-09-11T18:34:25.432560 #6711]  INFO -- : [www] [229f5b3a-2a14-4aff-926d-1598db496eee]   Parameters: {"max"=>"0", "user"=>"59635f94-cf69-4a78-aafc-cc32ed170016"}
+I, [2014-09-11T18:34:25.435017 #6711]  INFO -- : [www] [229f5b3a-2a14-4aff-926d-1598db496eee] Completed 200 OK in 2ms (Views: 0.5ms | ActiveRecord: 0.7ms)
+I, [2014-09-11T18:34:25.579021 #6711]  INFO -- : [www] [330d981b-2826-4af9-bd17-b94cdc877028] Started GET "/schedules/59635f94-cf69-4a78-aafc-cc32ed170016?max=0" for 198.83.30.192 at 2014-09-11 18:34:25 +0000
+I, [2014-09-11T18:34:25.580928 #6711]  INFO -- : [www] [330d981b-2826-4af9-bd17-b94cdc877028] Processing by SchedulesController#get_schedule_by_user as HTML
+I, [2014-09-11T18:34:25.581022 #6711]  INFO -- : [www] [330d981b-2826-4af9-bd17-b94cdc877028]   Parameters: {"max"=>"0", "user"=>"59635f94-cf69-4a78-aafc-cc32ed170016"}
+I, [2014-09-11T18:34:25.583982 #6711]  INFO -- : [www] [330d981b-2826-4af9-bd17-b94cdc877028] Completed 200 OK in 3ms (Views: 1.1ms | ActiveRecord: 0.8ms)
+I, [2014-09-11T18:34:52.694925 #6711]  INFO -- : [www] [bc040d9f-055c-467b-84da-b4012465383d] Started GET "/users/359939045887227" for 198.83.30.192 at 2014-09-11 18:34:52 +0000
+I, [2014-09-11T18:34:52.696996 #6711]  INFO -- : [www] [bc040d9f-055c-467b-84da-b4012465383d] Processing by UsersController#request_user_id as HTML
+I, [2014-09-11T18:34:52.697115 #6711]  INFO -- : [www] [bc040d9f-055c-467b-84da-b4012465383d]   Parameters: {"uuid"=>"359939045887227"}
+I, [2014-09-11T18:34:52.703398 #6711]  INFO -- : [www] [bc040d9f-055c-467b-84da-b4012465383d]   Rendered text template (0.0ms)
+I, [2014-09-11T18:34:52.703720 #6711]  INFO -- : [www] [bc040d9f-055c-467b-84da-b4012465383d] Completed 200 OK in 6ms (Views: 0.5ms | ActiveRecord: 2.4ms)
+I, [2014-09-11T18:34:52.934835 #6711]  INFO -- : [www] [3f3a71ce-a2c6-479c-81db-90d2d7833670] Started GET "/questions.json?max=0" for 198.83.30.192 at 2014-09-11 18:34:52 +0000
+I, [2014-09-11T18:34:52.944072 #6711]  INFO -- : [www] [3f3a71ce-a2c6-479c-81db-90d2d7833670] Processing by QuestionsController#index as JSON
+I, [2014-09-11T18:34:52.944177 #6711]  INFO -- : [www] [3f3a71ce-a2c6-479c-81db-90d2d7833670]   Parameters: {"max"=>"0"}
+I, [2014-09-11T18:34:52.949872 #6711]  INFO -- : [www] [3f3a71ce-a2c6-479c-81db-90d2d7833670] Completed 200 OK in 6ms (Views: 2.8ms | ActiveRecord: 1.6ms)
+I, [2014-09-11T18:34:53.463401 #6711]  INFO -- : [www] [1104d5a9-d037-466d-8ab5-b30856aacb5f] Started GET "/users/359939046534240" for 198.83.30.192 at 2014-09-11 18:34:53 +0000
+I, [2014-09-11T18:34:53.465563 #6711]  INFO -- : [www] [1104d5a9-d037-466d-8ab5-b30856aacb5f] Processing by UsersController#request_user_id as HTML
+I, [2014-09-11T18:34:53.465683 #6711]  INFO -- : [www] [1104d5a9-d037-466d-8ab5-b30856aacb5f]   Parameters: {"uuid"=>"359939046534240"}
+I, [2014-09-11T18:34:53.471714 #6711]  INFO -- : [www] [1104d5a9-d037-466d-8ab5-b30856aacb5f]   Rendered text template (0.0ms)
+I, [2014-09-11T18:34:53.472020 #6711]  INFO -- : [www] [1104d5a9-d037-466d-8ab5-b30856aacb5f] Completed 200 OK in 6ms (Views: 0.5ms | ActiveRecord: 2.2ms)
+I, [2014-09-11T18:34:53.481125 #6711]  INFO -- : [www] [c27d8913-3d12-4269-8ca1-aca222a475d1] Started GET "/rules/27038a96-beff-4d2b-aac9-23e4c6cdb10e?max=0" for 198.83.30.192 at 2014-09-11 18:34:53 +0000
+I, [2014-09-11T18:34:53.482799 #6711]  INFO -- : [www] [c27d8913-3d12-4269-8ca1-aca222a475d1] Processing by RulesController#get_rules_by_user as HTML
+I, [2014-09-11T18:34:53.482924 #6711]  INFO -- : [www] [c27d8913-3d12-4269-8ca1-aca222a475d1]   Parameters: {"max"=>"0", "user"=>"27038a96-beff-4d2b-aac9-23e4c6cdb10e"}
+I, [2014-09-11T18:34:53.485181 #6711]  INFO -- : [www] [c27d8913-3d12-4269-8ca1-aca222a475d1] Completed 200 OK in 2ms (Views: 0.5ms | ActiveRecord: 0.7ms)
+I, [2014-09-11T18:34:53.670889 #6711]  INFO -- : [www] [a239b1f4-5273-43ed-be7a-602b3cd3d387] Started GET "/schedules/27038a96-beff-4d2b-aac9-23e4c6cdb10e?max=0" for 198.83.30.192 at 2014-09-11 18:34:53 +0000
+I, [2014-09-11T18:34:53.672944 #6711]  INFO -- : [www] [a239b1f4-5273-43ed-be7a-602b3cd3d387] Processing by SchedulesController#get_schedule_by_user as HTML
+I, [2014-09-11T18:34:53.673052 #6711]  INFO -- : [www] [a239b1f4-5273-43ed-be7a-602b3cd3d387]   Parameters: {"max"=>"0", "user"=>"27038a96-beff-4d2b-aac9-23e4c6cdb10e"}
+I, [2014-09-11T18:34:53.676293 #6711]  INFO -- : [www] [a239b1f4-5273-43ed-be7a-602b3cd3d387] Completed 200 OK in 3ms (Views: 1.3ms | ActiveRecord: 0.8ms)
+I, [2014-09-11T18:34:53.682250 #6711]  INFO -- : [www] [cf6a9112-04ff-4e1d-9e38-f6a2b720d235] Started GET "/questions.json?max=0" for 198.83.30.192 at 2014-09-11 18:34:53 +0000
+I, [2014-09-11T18:34:53.683819 #6711]  INFO -- : [www] [cf6a9112-04ff-4e1d-9e38-f6a2b720d235] Processing by QuestionsController#index as JSON
+I, [2014-09-11T18:34:53.683913 #6711]  INFO -- : [www] [cf6a9112-04ff-4e1d-9e38-f6a2b720d235]   Parameters: {"max"=>"0"}
+I, [2014-09-11T18:34:53.688890 #6711]  INFO -- : [www] [cf6a9112-04ff-4e1d-9e38-f6a2b720d235] Completed 200 OK in 5ms (Views: 2.5ms | ActiveRecord: 1.3ms)
+I, [2014-09-11T18:34:54.138870 #6711]  INFO -- : [www] [f977b53c-02bf-4e3d-ab75-290a3f9ae619] Started GET "/rules/a4e825d4-659c-4d72-b53a-f660f5bfec39?max=0" for 198.83.30.192 at 2014-09-11 18:34:54 +0000
+I, [2014-09-11T18:34:54.142154 #6711]  INFO -- : [www] [f977b53c-02bf-4e3d-ab75-290a3f9ae619] Processing by RulesController#get_rules_by_user as HTML
+I, [2014-09-11T18:34:54.142285 #6711]  INFO -- : [www] [f977b53c-02bf-4e3d-ab75-290a3f9ae619]   Parameters: {"max"=>"0", "user"=>"a4e825d4-659c-4d72-b53a-f660f5bfec39"}
+I, [2014-09-11T18:34:54.145084 #6711]  INFO -- : [www] [f977b53c-02bf-4e3d-ab75-290a3f9ae619] Completed 200 OK in 3ms (Views: 0.6ms | ActiveRecord: 0.9ms)
+I, [2014-09-11T18:34:54.323257 #6711]  INFO -- : [www] [128bf038-b405-4e85-b5ed-e2ce9f7debc8] Started GET "/schedules/a4e825d4-659c-4d72-b53a-f660f5bfec39?max=0" for 198.83.30.192 at 2014-09-11 18:34:54 +0000
+I, [2014-09-11T18:34:54.325843 #6711]  INFO -- : [www] [128bf038-b405-4e85-b5ed-e2ce9f7debc8] Processing by SchedulesController#get_schedule_by_user as HTML
+I, [2014-09-11T18:34:54.326145 #6711]  INFO -- : [www] [128bf038-b405-4e85-b5ed-e2ce9f7debc8]   Parameters: {"max"=>"0", "user"=>"a4e825d4-659c-4d72-b53a-f660f5bfec39"}
+I, [2014-09-11T18:34:54.329639 #6711]  INFO -- : [www] [128bf038-b405-4e85-b5ed-e2ce9f7debc8] Completed 200 OK in 3ms (Views: 1.0ms | ActiveRecord: 1.1ms)
+I, [2014-09-11T18:35:02.648298 #6711]  INFO -- : [www] [1d7f3df4-75a3-4632-990d-70844b9843ea] Started GET "/users/359939046535668" for 198.83.30.192 at 2014-09-11 18:35:02 +0000
+I, [2014-09-11T18:35:02.650771 #6711]  INFO -- : [www] [1d7f3df4-75a3-4632-990d-70844b9843ea] Processing by UsersController#request_user_id as HTML
+I, [2014-09-11T18:35:02.651076 #6711]  INFO -- : [www] [1d7f3df4-75a3-4632-990d-70844b9843ea]   Parameters: {"uuid"=>"359939046535668"}
+I, [2014-09-11T18:35:02.659342 #6711]  INFO -- : [www] [1d7f3df4-75a3-4632-990d-70844b9843ea]   Rendered text template (0.0ms)
+I, [2014-09-11T18:35:02.664504 #6711]  INFO -- : [www] [1d7f3df4-75a3-4632-990d-70844b9843ea] Completed 200 OK in 13ms (Views: 5.3ms | ActiveRecord: 4.2ms)
+I, [2014-09-11T18:35:02.915861 #6711]  INFO -- : [www] [9fd6f190-8e09-40f0-aaf8-468d71a2d68a] Started GET "/questions.json?max=0" for 198.83.30.192 at 2014-09-11 18:35:02 +0000
+I, [2014-09-11T18:35:02.918418 #6711]  INFO -- : [www] [9fd6f190-8e09-40f0-aaf8-468d71a2d68a] Processing by QuestionsController#index as JSON
+I, [2014-09-11T18:35:02.918717 #6711]  INFO -- : [www] [9fd6f190-8e09-40f0-aaf8-468d71a2d68a]   Parameters: {"max"=>"0"}
+I, [2014-09-11T18:35:02.928979 #6711]  INFO -- : [www] [9fd6f190-8e09-40f0-aaf8-468d71a2d68a] Completed 200 OK in 10ms (Views: 2.8ms | ActiveRecord: 5.9ms)
+I, [2014-09-11T18:35:03.406586 #6711]  INFO -- : [www] [45cb7300-0dab-49b8-9a33-fec8a46d8e6f] Started GET "/rules/37d0a47d-a4b5-4ce9-a88c-295fef1e6e2f?max=0" for 198.83.30.192 at 2014-09-11 18:35:03 +0000
+I, [2014-09-11T18:35:03.409373 #6711]  INFO -- : [www] [45cb7300-0dab-49b8-9a33-fec8a46d8e6f] Processing by RulesController#get_rules_by_user as HTML
+I, [2014-09-11T18:35:03.409658 #6711]  INFO -- : [www] [45cb7300-0dab-49b8-9a33-fec8a46d8e6f]   Parameters: {"max"=>"0", "user"=>"37d0a47d-a4b5-4ce9-a88c-295fef1e6e2f"}
+I, [2014-09-11T18:35:03.413158 #6711]  INFO -- : [www] [45cb7300-0dab-49b8-9a33-fec8a46d8e6f] Completed 200 OK in 3ms (Views: 0.6ms | ActiveRecord: 1.4ms)
+I, [2014-09-11T18:35:03.607212 #6711]  INFO -- : [www] [910ca540-eca0-46c9-814e-b9410214486c] Started GET "/schedules/37d0a47d-a4b5-4ce9-a88c-295fef1e6e2f?max=0" for 198.83.30.192 at 2014-09-11 18:35:03 +0000
+I, [2014-09-11T18:35:03.609866 #6711]  INFO -- : [www] [910ca540-eca0-46c9-814e-b9410214486c] Processing by SchedulesController#get_schedule_by_user as HTML
+I, [2014-09-11T18:35:03.610165 #6711]  INFO -- : [www] [910ca540-eca0-46c9-814e-b9410214486c]   Parameters: {"max"=>"0", "user"=>"37d0a47d-a4b5-4ce9-a88c-295fef1e6e2f"}
+I, [2014-09-11T18:35:03.626917 #6711]  INFO -- : [www] [910ca540-eca0-46c9-814e-b9410214486c] Completed 200 OK in 16ms (Views: 1.4ms | ActiveRecord: 14.0ms)
+I, [2014-09-11T18:35:49.563626 #6711]  INFO -- : [www] [df81a99a-1c90-4da4-bcfc-324606cb5a31] Started GET "/users/359939045870579" for 198.83.30.192 at 2014-09-11 18:35:49 +0000
+I, [2014-09-11T18:35:49.566105 #6711]  INFO -- : [www] [df81a99a-1c90-4da4-bcfc-324606cb5a31] Processing by UsersController#request_user_id as HTML
+I, [2014-09-11T18:35:49.566358 #6711]  INFO -- : [www] [df81a99a-1c90-4da4-bcfc-324606cb5a31]   Parameters: {"uuid"=>"359939045870579"}
+I, [2014-09-11T18:35:49.572842 #6711]  INFO -- : [www] [df81a99a-1c90-4da4-bcfc-324606cb5a31]   Rendered text template (0.0ms)
+I, [2014-09-11T18:35:49.573387 #6711]  INFO -- : [www] [df81a99a-1c90-4da4-bcfc-324606cb5a31] Completed 200 OK in 7ms (Views: 0.7ms | ActiveRecord: 2.3ms)
+I, [2014-09-11T18:35:49.797799 #6711]  INFO -- : [www] [787c3a9b-2913-4d20-96ae-8ad5fbad0ab1] Started GET "/questions.json?max=0" for 198.83.30.192 at 2014-09-11 18:35:49 +0000
+I, [2014-09-11T18:35:49.800460 #6711]  INFO -- : [www] [787c3a9b-2913-4d20-96ae-8ad5fbad0ab1] Processing by QuestionsController#index as JSON
+I, [2014-09-11T18:35:49.800711 #6711]  INFO -- : [www] [787c3a9b-2913-4d20-96ae-8ad5fbad0ab1]   Parameters: {"max"=>"0"}
+I, [2014-09-11T18:35:49.820582 #6711]  INFO -- : [www] [787c3a9b-2913-4d20-96ae-8ad5fbad0ab1] Completed 200 OK in 20ms (Views: 3.0ms | ActiveRecord: 15.3ms)
+I, [2014-09-11T18:35:50.239689 #6711]  INFO -- : [www] [a4baa608-d3ba-4b77-b16e-c77ef36ba3fe] Started GET "/rules/06ab0e13-e2db-4167-90ca-cc1360f101e5?max=0" for 198.83.30.192 at 2014-09-11 18:35:50 +0000
+I, [2014-09-11T18:35:50.242125 #6711]  INFO -- : [www] [a4baa608-d3ba-4b77-b16e-c77ef36ba3fe] Processing by RulesController#get_rules_by_user as HTML
+I, [2014-09-11T18:35:50.242424 #6711]  INFO -- : [www] [a4baa608-d3ba-4b77-b16e-c77ef36ba3fe]   Parameters: {"max"=>"0", "user"=>"06ab0e13-e2db-4167-90ca-cc1360f101e5"}
+I, [2014-09-11T18:35:50.245355 #6711]  INFO -- : [www] [a4baa608-d3ba-4b77-b16e-c77ef36ba3fe] Completed 200 OK in 3ms (Views: 0.6ms | ActiveRecord: 0.9ms)
+I, [2014-09-11T18:35:50.355322 #6711]  INFO -- : [www] [086f3a3c-5720-4b14-b427-4b1cdf32b437] Started GET "/schedules/06ab0e13-e2db-4167-90ca-cc1360f101e5?max=0" for 198.83.30.192 at 2014-09-11 18:35:50 +0000
+I, [2014-09-11T18:35:50.364874 #6711]  INFO -- : [www] [086f3a3c-5720-4b14-b427-4b1cdf32b437] Processing by SchedulesController#get_schedule_by_user as HTML
+I, [2014-09-11T18:35:50.365192 #6711]  INFO -- : [www] [086f3a3c-5720-4b14-b427-4b1cdf32b437]   Parameters: {"max"=>"0", "user"=>"06ab0e13-e2db-4167-90ca-cc1360f101e5"}
+I, [2014-09-11T18:35:50.368476 #6711]  INFO -- : [www] [086f3a3c-5720-4b14-b427-4b1cdf32b437] Completed 200 OK in 3ms (Views: 1.0ms | ActiveRecord: 1.0ms)
+I, [2014-09-11T18:35:59.441204 #6711]  INFO -- : [www] [0764ec80-5ea9-47f4-9795-28221b34dce6] Started GET "/users/359939046536070" for 198.83.30.192 at 2014-09-11 18:35:59 +0000
+I, [2014-09-11T18:35:59.443603 #6711]  INFO -- : [www] [0764ec80-5ea9-47f4-9795-28221b34dce6] Processing by UsersController#request_user_id as HTML
+I, [2014-09-11T18:35:59.443893 #6711]  INFO -- : [www] [0764ec80-5ea9-47f4-9795-28221b34dce6]   Parameters: {"uuid"=>"359939046536070"}
+I, [2014-09-11T18:35:59.450306 #6711]  INFO -- : [www] [0764ec80-5ea9-47f4-9795-28221b34dce6]   Rendered text template (0.0ms)
+I, [2014-09-11T18:35:59.450820 #6711]  INFO -- : [www] [0764ec80-5ea9-47f4-9795-28221b34dce6] Completed 200 OK in 7ms (Views: 0.7ms | ActiveRecord: 2.2ms)
+I, [2014-09-11T18:35:59.689025 #6711]  INFO -- : [www] [81bf7ebf-6903-4385-9c1d-ab5561429bb1] Started GET "/questions.json?max=0" for 198.83.30.192 at 2014-09-11 18:35:59 +0000
+I, [2014-09-11T18:35:59.691362 #6711]  INFO -- : [www] [81bf7ebf-6903-4385-9c1d-ab5561429bb1] Processing by QuestionsController#index as JSON
+I, [2014-09-11T18:35:59.691657 #6711]  INFO -- : [www] [81bf7ebf-6903-4385-9c1d-ab5561429bb1]   Parameters: {"max"=>"0"}
+I, [2014-09-11T18:35:59.699044 #6711]  INFO -- : [www] [81bf7ebf-6903-4385-9c1d-ab5561429bb1] Completed 200 OK in 7ms (Views: 2.8ms | ActiveRecord: 3.2ms)
+I, [2014-09-11T18:36:00.194236 #6711]  INFO -- : [www] [7e22ab9a-6748-48d9-9002-1ccec2358ecd] Started GET "/rules/9a243eee-c91e-49eb-afc8-d874670297f0?max=0" for 198.83.30.192 at 2014-09-11 18:36:00 +0000
+I, [2014-09-11T18:36:00.196424 #6711]  INFO -- : [www] [7e22ab9a-6748-48d9-9002-1ccec2358ecd] Processing by RulesController#get_rules_by_user as HTML
+I, [2014-09-11T18:36:00.196720 #6711]  INFO -- : [www] [7e22ab9a-6748-48d9-9002-1ccec2358ecd]   Parameters: {"max"=>"0", "user"=>"9a243eee-c91e-49eb-afc8-d874670297f0"}
+I, [2014-09-11T18:36:00.199772 #6711]  INFO -- : [www] [7e22ab9a-6748-48d9-9002-1ccec2358ecd] Completed 200 OK in 3ms (Views: 0.6ms | ActiveRecord: 1.0ms)
+I, [2014-09-11T18:36:00.384686 #6711]  INFO -- : [www] [399f9532-0a34-403f-b134-f4e3ab828775] Started GET "/schedules/9a243eee-c91e-49eb-afc8-d874670297f0?max=0" for 198.83.30.192 at 2014-09-11 18:36:00 +0000
+I, [2014-09-11T18:36:00.386661 #6711]  INFO -- : [www] [399f9532-0a34-403f-b134-f4e3ab828775] Processing by SchedulesController#get_schedule_by_user as HTML
+I, [2014-09-11T18:36:00.386952 #6711]  INFO -- : [www] [399f9532-0a34-403f-b134-f4e3ab828775]   Parameters: {"max"=>"0", "user"=>"9a243eee-c91e-49eb-afc8-d874670297f0"}
+I, [2014-09-11T18:36:00.390012 #6711]  INFO -- : [www] [399f9532-0a34-403f-b134-f4e3ab828775] Completed 200 OK in 3ms (Views: 0.9ms | ActiveRecord: 1.1ms)
+I, [2014-09-11T18:36:09.235734 #6711]  INFO -- : [www] [2d92aa90-6952-4c80-ab54-d0c77476f4cf] Started GET "/users/359939045870892" for 198.83.30.192 at 2014-09-11 18:36:09 +0000
+I, [2014-09-11T18:36:09.238064 #6711]  INFO -- : [www] [2d92aa90-6952-4c80-ab54-d0c77476f4cf] Processing by UsersController#request_user_id as HTML
+I, [2014-09-11T18:36:09.238341 #6711]  INFO -- : [www] [2d92aa90-6952-4c80-ab54-d0c77476f4cf]   Parameters: {"uuid"=>"359939045870892"}
+I, [2014-09-11T18:36:09.244695 #6711]  INFO -- : [www] [2d92aa90-6952-4c80-ab54-d0c77476f4cf]   Rendered text template (0.0ms)
+I, [2014-09-11T18:36:09.245171 #6711]  INFO -- : [www] [2d92aa90-6952-4c80-ab54-d0c77476f4cf] Completed 200 OK in 7ms (Views: 0.7ms | ActiveRecord: 2.1ms)
+I, [2014-09-11T18:36:09.461025 #6711]  INFO -- : [www] [7bf2ba16-1707-4969-86c8-6f624ba5cbaa] Started GET "/questions.json?max=0" for 198.83.30.192 at 2014-09-11 18:36:09 +0000
+I, [2014-09-11T18:36:09.463115 #6711]  INFO -- : [www] [7bf2ba16-1707-4969-86c8-6f624ba5cbaa] Processing by QuestionsController#index as JSON
+I, [2014-09-11T18:36:09.463399 #6711]  INFO -- : [www] [7bf2ba16-1707-4969-86c8-6f624ba5cbaa]   Parameters: {"max"=>"0"}
+I, [2014-09-11T18:36:09.468977 #6711]  INFO -- : [www] [7bf2ba16-1707-4969-86c8-6f624ba5cbaa] Completed 200 OK in 5ms (Views: 2.5ms | ActiveRecord: 1.7ms)
+I, [2014-09-11T18:36:09.878631 #6711]  INFO -- : [www] [bf257c31-e565-4b39-adf2-48547050bec5] Started GET "/rules/3729b2b0-5587-481b-b807-51b4b94224e8?max=0" for 198.83.30.192 at 2014-09-11 18:36:09 +0000
+I, [2014-09-11T18:36:09.894252 #6711]  INFO -- : [www] [bf257c31-e565-4b39-adf2-48547050bec5] Processing by RulesController#get_rules_by_user as HTML
+I, [2014-09-11T18:36:09.894572 #6711]  INFO -- : [www] [bf257c31-e565-4b39-adf2-48547050bec5]   Parameters: {"max"=>"0", "user"=>"3729b2b0-5587-481b-b807-51b4b94224e8"}
+I, [2014-09-11T18:36:09.897631 #6711]  INFO -- : [www] [bf257c31-e565-4b39-adf2-48547050bec5] Completed 200 OK in 3ms (Views: 0.7ms | ActiveRecord: 0.9ms)
+I, [2014-09-11T18:36:10.082207 #6711]  INFO -- : [www] [e9680162-193c-4e3b-854f-70192ced1c2a] Started GET "/schedules/3729b2b0-5587-481b-b807-51b4b94224e8?max=0" for 198.83.30.192 at 2014-09-11 18:36:10 +0000
+I, [2014-09-11T18:36:10.084726 #6711]  INFO -- : [www] [e9680162-193c-4e3b-854f-70192ced1c2a] Processing by SchedulesController#get_schedule_by_user as HTML
+I, [2014-09-11T18:36:10.084986 #6711]  INFO -- : [www] [e9680162-193c-4e3b-854f-70192ced1c2a]   Parameters: {"max"=>"0", "user"=>"3729b2b0-5587-481b-b807-51b4b94224e8"}
+I, [2014-09-11T18:36:10.088386 #6711]  INFO -- : [www] [e9680162-193c-4e3b-854f-70192ced1c2a] Completed 200 OK in 3ms (Views: 1.1ms | ActiveRecord: 1.0ms)
+I, [2014-09-11T18:36:11.023247 #6711]  INFO -- : [www] [b557fd2c-c4e5-47ad-897a-a7b07b64b672] Started GET "/users/359939045719982" for 198.83.30.192 at 2014-09-11 18:36:11 +0000
+I, [2014-09-11T18:36:11.038867 #6711]  INFO -- : [www] [b557fd2c-c4e5-47ad-897a-a7b07b64b672] Processing by UsersController#request_user_id as HTML
+I, [2014-09-11T18:36:11.039151 #6711]  INFO -- : [www] [b557fd2c-c4e5-47ad-897a-a7b07b64b672]   Parameters: {"uuid"=>"359939045719982"}
+I, [2014-09-11T18:36:11.045620 #6711]  INFO -- : [www] [b557fd2c-c4e5-47ad-897a-a7b07b64b672]   Rendered text template (0.0ms)
+I, [2014-09-11T18:36:11.046112 #6711]  INFO -- : [www] [b557fd2c-c4e5-47ad-897a-a7b07b64b672] Completed 200 OK in 7ms (Views: 0.7ms | ActiveRecord: 2.3ms)
+I, [2014-09-11T18:36:11.271530 #6711]  INFO -- : [www] [9b29fd3f-03f1-45e9-8776-133dd2cd744a] Started GET "/questions.json?max=0" for 198.83.30.192 at 2014-09-11 18:36:11 +0000
+I, [2014-09-11T18:36:11.282452 #6711]  INFO -- : [www] [9b29fd3f-03f1-45e9-8776-133dd2cd744a] Processing by QuestionsController#index as JSON
+I, [2014-09-11T18:36:11.282728 #6711]  INFO -- : [www] [9b29fd3f-03f1-45e9-8776-133dd2cd744a]   Parameters: {"max"=>"0"}
+I, [2014-09-11T18:36:11.288299 #6711]  INFO -- : [www] [9b29fd3f-03f1-45e9-8776-133dd2cd744a] Completed 200 OK in 5ms (Views: 2.6ms | ActiveRecord: 1.6ms)
+I, [2014-09-11T18:36:11.903751 #6711]  INFO -- : [www] [fafe49b3-62ee-4e9c-bd7e-7c5ff6acc5c1] Started GET "/rules/64a48f45-833c-48af-a52f-ccfb4911cc2f?max=0" for 198.83.30.192 at 2014-09-11 18:36:11 +0000
+I, [2014-09-11T18:36:11.915293 #6711]  INFO -- : [www] [fafe49b3-62ee-4e9c-bd7e-7c5ff6acc5c1] Processing by RulesController#get_rules_by_user as HTML
+I, [2014-09-11T18:36:11.915579 #6711]  INFO -- : [www] [fafe49b3-62ee-4e9c-bd7e-7c5ff6acc5c1]   Parameters: {"max"=>"0", "user"=>"64a48f45-833c-48af-a52f-ccfb4911cc2f"}
+I, [2014-09-11T18:36:11.918544 #6711]  INFO -- : [www] [fafe49b3-62ee-4e9c-bd7e-7c5ff6acc5c1] Completed 200 OK in 3ms (Views: 0.6ms | ActiveRecord: 0.9ms)
+I, [2014-09-11T18:36:12.059435 #6711]  INFO -- : [www] [9fb67b81-ea21-4ee7-b36d-96f2b172cb86] Started GET "/schedules/64a48f45-833c-48af-a52f-ccfb4911cc2f?max=0" for 198.83.30.192 at 2014-09-11 18:36:12 +0000
+I, [2014-09-11T18:36:12.064462 #6711]  INFO -- : [www] [9fb67b81-ea21-4ee7-b36d-96f2b172cb86] Processing by SchedulesController#get_schedule_by_user as HTML
+I, [2014-09-11T18:36:12.064797 #6711]  INFO -- : [www] [9fb67b81-ea21-4ee7-b36d-96f2b172cb86]   Parameters: {"max"=>"0", "user"=>"64a48f45-833c-48af-a52f-ccfb4911cc2f"}
+I, [2014-09-11T18:36:12.068345 #6711]  INFO -- : [www] [9fb67b81-ea21-4ee7-b36d-96f2b172cb86] Completed 200 OK in 3ms (Views: 1.1ms | ActiveRecord: 1.1ms)
+I, [2014-09-11T18:36:12.763349 #6711]  INFO -- : [www] [a24b2cb6-ed1a-4233-8b38-96fa7f623ab5] Started GET "/users/359939046638603" for 198.83.30.192 at 2014-09-11 18:36:12 +0000
+I, [2014-09-11T18:36:12.765727 #6711]  INFO -- : [www] [a24b2cb6-ed1a-4233-8b38-96fa7f623ab5] Processing by UsersController#request_user_id as HTML
+I, [2014-09-11T18:36:12.766026 #6711]  INFO -- : [www] [a24b2cb6-ed1a-4233-8b38-96fa7f623ab5]   Parameters: {"uuid"=>"359939046638603"}
+I, [2014-09-11T18:36:12.772353 #6711]  INFO -- : [www] [a24b2cb6-ed1a-4233-8b38-96fa7f623ab5]   Rendered text template (0.0ms)
+I, [2014-09-11T18:36:12.772832 #6711]  INFO -- : [www] [a24b2cb6-ed1a-4233-8b38-96fa7f623ab5] Completed 200 OK in 6ms (Views: 0.6ms | ActiveRecord: 2.2ms)
+I, [2014-09-11T18:36:13.010828 #6711]  INFO -- : [www] [f15791b0-cb56-46ac-86d4-9f774ff1cdf6] Started GET "/users/359939046543753" for 198.83.30.192 at 2014-09-11 18:36:13 +0000
+I, [2014-09-11T18:36:13.013143 #6711]  INFO -- : [www] [f15791b0-cb56-46ac-86d4-9f774ff1cdf6] Processing by UsersController#request_user_id as HTML
+I, [2014-09-11T18:36:13.013434 #6711]  INFO -- : [www] [f15791b0-cb56-46ac-86d4-9f774ff1cdf6]   Parameters: {"uuid"=>"359939046543753"}
+I, [2014-09-11T18:36:13.019598 #6711]  INFO -- : [www] [f15791b0-cb56-46ac-86d4-9f774ff1cdf6]   Rendered text template (0.0ms)
+I, [2014-09-11T18:36:13.020069 #6711]  INFO -- : [www] [f15791b0-cb56-46ac-86d4-9f774ff1cdf6] Completed 200 OK in 6ms (Views: 0.7ms | ActiveRecord: 2.0ms)
+I, [2014-09-11T18:36:13.046562 #6711]  INFO -- : [www] [b2690506-5589-4e42-aa5d-b4cfe2b8b5a4] Started GET "/questions.json?max=0" for 198.83.30.192 at 2014-09-11 18:36:13 +0000
+I, [2014-09-11T18:36:13.048439 #6711]  INFO -- : [www] [b2690506-5589-4e42-aa5d-b4cfe2b8b5a4] Processing by QuestionsController#index as JSON
+I, [2014-09-11T18:36:13.048722 #6711]  INFO -- : [www] [b2690506-5589-4e42-aa5d-b4cfe2b8b5a4]   Parameters: {"max"=>"0"}
+I, [2014-09-11T18:36:13.054049 #6711]  INFO -- : [www] [b2690506-5589-4e42-aa5d-b4cfe2b8b5a4] Completed 200 OK in 5ms (Views: 2.6ms | ActiveRecord: 1.4ms)
+I, [2014-09-11T18:36:13.233791 #6711]  INFO -- : [www] [a03b204c-11de-4d8a-85a1-c96f3146fc8b] Started GET "/questions.json?max=0" for 198.83.30.192 at 2014-09-11 18:36:13 +0000
+I, [2014-09-11T18:36:13.236020 #6711]  INFO -- : [www] [a03b204c-11de-4d8a-85a1-c96f3146fc8b] Processing by QuestionsController#index as JSON
+I, [2014-09-11T18:36:13.236305 #6711]  INFO -- : [www] [a03b204c-11de-4d8a-85a1-c96f3146fc8b]   Parameters: {"max"=>"0"}
+I, [2014-09-11T18:36:13.241825 #6711]  INFO -- : [www] [a03b204c-11de-4d8a-85a1-c96f3146fc8b] Completed 200 OK in 5ms (Views: 2.7ms | ActiveRecord: 1.4ms)
+I, [2014-09-11T18:36:13.668648 #6711]  INFO -- : [www] [a49d14c1-df10-4d6f-8ecf-4703f7e385a0] Started GET "/rules/d65d05c0-f082-4f79-8419-ef57ffa6b1f6?max=0" for 198.83.30.192 at 2014-09-11 18:36:13 +0000
+I, [2014-09-11T18:36:13.671087 #6711]  INFO -- : [www] [a49d14c1-df10-4d6f-8ecf-4703f7e385a0] Processing by RulesController#get_rules_by_user as HTML
+I, [2014-09-11T18:36:13.671369 #6711]  INFO -- : [www] [a49d14c1-df10-4d6f-8ecf-4703f7e385a0]   Parameters: {"max"=>"0", "user"=>"d65d05c0-f082-4f79-8419-ef57ffa6b1f6"}
+I, [2014-09-11T18:36:13.674362 #6711]  INFO -- : [www] [a49d14c1-df10-4d6f-8ecf-4703f7e385a0] Completed 200 OK in 3ms (Views: 0.7ms | ActiveRecord: 0.9ms)
+I, [2014-09-11T18:36:13.776165 #6711]  INFO -- : [www] [cce3e2e1-ee4a-428e-843b-cb061c547798] Started GET "/rules/297af968-216e-4814-8689-9a3960b846a9?max=0" for 198.83.30.192 at 2014-09-11 18:36:13 +0000
+I, [2014-09-11T18:36:13.778417 #6711]  INFO -- : [www] [cce3e2e1-ee4a-428e-843b-cb061c547798] Processing by RulesController#get_rules_by_user as HTML
+I, [2014-09-11T18:36:13.778713 #6711]  INFO -- : [www] [cce3e2e1-ee4a-428e-843b-cb061c547798]   Parameters: {"max"=>"0", "user"=>"297af968-216e-4814-8689-9a3960b846a9"}
+I, [2014-09-11T18:36:13.781302 #6711]  INFO -- : [www] [cce3e2e1-ee4a-428e-843b-cb061c547798] Completed 200 OK in 2ms (Views: 0.6ms | ActiveRecord: 0.7ms)
+I, [2014-09-11T18:36:13.860473 #6711]  INFO -- : [www] [5d2fa2dc-6093-4942-ae69-bbf9b50e40d8] Started GET "/schedules/d65d05c0-f082-4f79-8419-ef57ffa6b1f6?max=0" for 198.83.30.192 at 2014-09-11 18:36:13 +0000
+I, [2014-09-11T18:36:13.862450 #6711]  INFO -- : [www] [5d2fa2dc-6093-4942-ae69-bbf9b50e40d8] Processing by SchedulesController#get_schedule_by_user as HTML
+I, [2014-09-11T18:36:13.862752 #6711]  INFO -- : [www] [5d2fa2dc-6093-4942-ae69-bbf9b50e40d8]   Parameters: {"max"=>"0", "user"=>"d65d05c0-f082-4f79-8419-ef57ffa6b1f6"}
+I, [2014-09-11T18:36:13.865764 #6711]  INFO -- : [www] [5d2fa2dc-6093-4942-ae69-bbf9b50e40d8] Completed 200 OK in 3ms (Views: 1.0ms | ActiveRecord: 0.8ms)
+I, [2014-09-11T18:36:14.033556 #6711]  INFO -- : [www] [1c9c1e8c-c4b3-4853-b047-928f200d3247] Started GET "/schedules/297af968-216e-4814-8689-9a3960b846a9?max=0" for 198.83.30.192 at 2014-09-11 18:36:14 +0000
+I, [2014-09-11T18:36:14.035825 #6711]  INFO -- : [www] [1c9c1e8c-c4b3-4853-b047-928f200d3247] Processing by SchedulesController#get_schedule_by_user as HTML
+I, [2014-09-11T18:36:14.036115 #6711]  INFO -- : [www] [1c9c1e8c-c4b3-4853-b047-928f200d3247]   Parameters: {"max"=>"0", "user"=>"297af968-216e-4814-8689-9a3960b846a9"}
+I, [2014-09-11T18:36:14.039105 #6711]  INFO -- : [www] [1c9c1e8c-c4b3-4853-b047-928f200d3247] Completed 200 OK in 3ms (Views: 1.0ms | ActiveRecord: 0.8ms)
+I, [2014-09-11T18:36:29.430622 #6711]  INFO -- : [www] [19c6cea8-604a-4d30-af8c-08e100659284] Started GET "/users/359939046541724" for 198.83.30.192 at 2014-09-11 18:36:29 +0000
+I, [2014-09-11T18:36:29.433114 #6711]  INFO -- : [www] [19c6cea8-604a-4d30-af8c-08e100659284] Processing by UsersController#request_user_id as HTML
+I, [2014-09-11T18:36:29.433416 #6711]  INFO -- : [www] [19c6cea8-604a-4d30-af8c-08e100659284]   Parameters: {"uuid"=>"359939046541724"}
+I, [2014-09-11T18:36:29.439868 #6711]  INFO -- : [www] [19c6cea8-604a-4d30-af8c-08e100659284]   Rendered text template (0.0ms)
+I, [2014-09-11T18:36:29.440374 #6711]  INFO -- : [www] [19c6cea8-604a-4d30-af8c-08e100659284] Completed 200 OK in 7ms (Views: 0.7ms | ActiveRecord: 2.2ms)
+I, [2014-09-11T18:36:29.698103 #6711]  INFO -- : [www] [43c9fe47-1eb7-4c08-bbce-6627ec6831de] Started GET "/questions.json?max=0" for 198.83.30.192 at 2014-09-11 18:36:29 +0000
+I, [2014-09-11T18:36:29.701068 #6711]  INFO -- : [www] [43c9fe47-1eb7-4c08-bbce-6627ec6831de] Processing by QuestionsController#index as JSON
+I, [2014-09-11T18:36:29.701444 #6711]  INFO -- : [www] [43c9fe47-1eb7-4c08-bbce-6627ec6831de]   Parameters: {"max"=>"0"}
+I, [2014-09-11T18:36:29.708953 #6711]  INFO -- : [www] [43c9fe47-1eb7-4c08-bbce-6627ec6831de] Completed 200 OK in 7ms (Views: 3.7ms | ActiveRecord: 1.9ms)
+I, [2014-09-11T18:36:34.480417 #6711]  INFO -- : [www] [dfc97bcd-e032-4496-a997-579d3a69caef] Started GET "/rules/219444cf-5401-489b-8fe9-47db79b77dd6?max=0" for 198.83.30.192 at 2014-09-11 18:36:34 +0000
+I, [2014-09-11T18:36:34.482994 #6711]  INFO -- : [www] [dfc97bcd-e032-4496-a997-579d3a69caef] Processing by RulesController#get_rules_by_user as HTML
+I, [2014-09-11T18:36:34.483276 #6711]  INFO -- : [www] [dfc97bcd-e032-4496-a997-579d3a69caef]   Parameters: {"max"=>"0", "user"=>"219444cf-5401-489b-8fe9-47db79b77dd6"}
+I, [2014-09-11T18:36:34.486344 #6711]  INFO -- : [www] [dfc97bcd-e032-4496-a997-579d3a69caef] Completed 200 OK in 3ms (Views: 0.7ms | ActiveRecord: 0.9ms)
+I, [2014-09-11T18:36:34.842239 #6711]  INFO -- : [www] [6f405bcd-3051-4a01-aeaf-d5d8e0f43381] Started GET "/schedules/219444cf-5401-489b-8fe9-47db79b77dd6?max=0" for 198.83.30.192 at 2014-09-11 18:36:34 +0000
+I, [2014-09-11T18:36:34.844809 #6711]  INFO -- : [www] [6f405bcd-3051-4a01-aeaf-d5d8e0f43381] Processing by SchedulesController#get_schedule_by_user as HTML
+I, [2014-09-11T18:36:34.845132 #6711]  INFO -- : [www] [6f405bcd-3051-4a01-aeaf-d5d8e0f43381]   Parameters: {"max"=>"0", "user"=>"219444cf-5401-489b-8fe9-47db79b77dd6"}
+I, [2014-09-11T18:36:34.858787 #6711]  INFO -- : [www] [6f405bcd-3051-4a01-aeaf-d5d8e0f43381] Completed 200 OK in 13ms (Views: 11.1ms | ActiveRecord: 1.1ms)
+I, [2014-09-11T18:36:43.368516 #6711]  INFO -- : [www] [38b71c44-9c83-4836-ac1a-ab3ec72e7afc] Started GET "/users/359939046541732" for 198.83.30.192 at 2014-09-11 18:36:43 +0000
+I, [2014-09-11T18:36:43.370999 #6711]  INFO -- : [www] [38b71c44-9c83-4836-ac1a-ab3ec72e7afc] Processing by UsersController#request_user_id as HTML
+I, [2014-09-11T18:36:43.371255 #6711]  INFO -- : [www] [38b71c44-9c83-4836-ac1a-ab3ec72e7afc]   Parameters: {"uuid"=>"359939046541732"}
+I, [2014-09-11T18:36:43.377791 #6711]  INFO -- : [www] [38b71c44-9c83-4836-ac1a-ab3ec72e7afc]   Rendered text template (0.0ms)
+I, [2014-09-11T18:36:43.378205 #6711]  INFO -- : [www] [38b71c44-9c83-4836-ac1a-ab3ec72e7afc] Completed 200 OK in 7ms (Views: 0.6ms | ActiveRecord: 2.6ms)
+I, [2014-09-11T18:36:44.253313 #6711]  INFO -- : [www] [41cf0203-2f77-4cc3-a4d4-08929fbfdf8f] Started GET "/questions.json?max=0" for 198.83.30.192 at 2014-09-11 18:36:44 +0000
+I, [2014-09-11T18:36:44.255696 #6711]  INFO -- : [www] [41cf0203-2f77-4cc3-a4d4-08929fbfdf8f] Processing by QuestionsController#index as JSON
+I, [2014-09-11T18:36:44.255953 #6711]  INFO -- : [www] [41cf0203-2f77-4cc3-a4d4-08929fbfdf8f]   Parameters: {"max"=>"0"}
+I, [2014-09-11T18:36:44.261519 #6711]  INFO -- : [www] [41cf0203-2f77-4cc3-a4d4-08929fbfdf8f] Completed 200 OK in 5ms (Views: 2.5ms | ActiveRecord: 1.6ms)
+I, [2014-09-11T18:36:44.852245 #6711]  INFO -- : [www] [8c016b8e-0f22-4e78-8bbd-d9c935d8c45d] Started GET "/rules/14b31936-631f-4ba8-b2de-7052ad1b1759?max=0" for 198.83.30.192 at 2014-09-11 18:36:44 +0000
+I, [2014-09-11T18:36:44.854566 #6711]  INFO -- : [www] [8c016b8e-0f22-4e78-8bbd-d9c935d8c45d] Processing by RulesController#get_rules_by_user as HTML
+I, [2014-09-11T18:36:44.854865 #6711]  INFO -- : [www] [8c016b8e-0f22-4e78-8bbd-d9c935d8c45d]   Parameters: {"max"=>"0", "user"=>"14b31936-631f-4ba8-b2de-7052ad1b1759"}
+I, [2014-09-11T18:36:44.857762 #6711]  INFO -- : [www] [8c016b8e-0f22-4e78-8bbd-d9c935d8c45d] Completed 200 OK in 3ms (Views: 0.6ms | ActiveRecord: 1.0ms)
+I, [2014-09-11T18:36:45.015739 #6711]  INFO -- : [www] [5e35cc12-53be-44a0-a6d0-55de21ba275d] Started GET "/schedules/14b31936-631f-4ba8-b2de-7052ad1b1759?max=0" for 198.83.30.192 at 2014-09-11 18:36:45 +0000
+I, [2014-09-11T18:36:45.022007 #6711]  INFO -- : [www] [5e35cc12-53be-44a0-a6d0-55de21ba275d] Processing by SchedulesController#get_schedule_by_user as HTML
+I, [2014-09-11T18:36:45.022268 #6711]  INFO -- : [www] [5e35cc12-53be-44a0-a6d0-55de21ba275d]   Parameters: {"max"=>"0", "user"=>"14b31936-631f-4ba8-b2de-7052ad1b1759"}
+I, [2014-09-11T18:36:45.025269 #6711]  INFO -- : [www] [5e35cc12-53be-44a0-a6d0-55de21ba275d] Completed 200 OK in 3ms (Views: 0.9ms | ActiveRecord: 1.1ms)
+I, [2014-09-11T18:36:46.213690 #6711]  INFO -- : [www] [d8e40769-e0ef-48d9-b1a4-adeafba861db] Started GET "/users/359939046543811" for 198.83.30.192 at 2014-09-11 18:36:46 +0000
+I, [2014-09-11T18:36:46.215966 #6711]  INFO -- : [www] [d8e40769-e0ef-48d9-b1a4-adeafba861db] Processing by UsersController#request_user_id as HTML
+I, [2014-09-11T18:36:46.216218 #6711]  INFO -- : [www] [d8e40769-e0ef-48d9-b1a4-adeafba861db]   Parameters: {"uuid"=>"359939046543811"}
+I, [2014-09-11T18:36:46.222189 #6711]  INFO -- : [www] [d8e40769-e0ef-48d9-b1a4-adeafba861db]   Rendered text template (0.0ms)
+I, [2014-09-11T18:36:46.222615 #6711]  INFO -- : [www] [d8e40769-e0ef-48d9-b1a4-adeafba861db] Completed 200 OK in 6ms (Views: 0.6ms | ActiveRecord: 2.1ms)
+I, [2014-09-11T18:36:46.460174 #6711]  INFO -- : [www] [625fb3ee-6aae-4233-9ef1-ea5faf6b893d] Started GET "/questions.json?max=0" for 198.83.30.192 at 2014-09-11 18:36:46 +0000
+I, [2014-09-11T18:36:46.462498 #6711]  INFO -- : [www] [625fb3ee-6aae-4233-9ef1-ea5faf6b893d] Processing by QuestionsController#index as JSON
+I, [2014-09-11T18:36:46.462771 #6711]  INFO -- : [www] [625fb3ee-6aae-4233-9ef1-ea5faf6b893d]   Parameters: {"max"=>"0"}
+I, [2014-09-11T18:36:46.468164 #6711]  INFO -- : [www] [625fb3ee-6aae-4233-9ef1-ea5faf6b893d] Completed 200 OK in 5ms (Views: 2.5ms | ActiveRecord: 1.5ms)
+I, [2014-09-11T18:36:46.971570 #6711]  INFO -- : [www] [15c91502-cba3-44cf-a111-9f0cb1b0255b] Started GET "/rules/b403a0e5-a055-4477-9fe9-6aad50f18ddf?max=0" for 198.83.30.192 at 2014-09-11 18:36:46 +0000
+I, [2014-09-11T18:36:46.980834 #6711]  INFO -- : [www] [15c91502-cba3-44cf-a111-9f0cb1b0255b] Processing by RulesController#get_rules_by_user as HTML
+I, [2014-09-11T18:36:46.981102 #6711]  INFO -- : [www] [15c91502-cba3-44cf-a111-9f0cb1b0255b]   Parameters: {"max"=>"0", "user"=>"b403a0e5-a055-4477-9fe9-6aad50f18ddf"}
+I, [2014-09-11T18:36:46.983952 #6711]  INFO -- : [www] [15c91502-cba3-44cf-a111-9f0cb1b0255b] Completed 200 OK in 3ms (Views: 0.6ms | ActiveRecord: 0.9ms)
+I, [2014-09-11T18:36:47.189604 #6711]  INFO -- : [www] [20350f37-88c7-4206-8a43-dcee19b7f6a1] Started GET "/schedules/b403a0e5-a055-4477-9fe9-6aad50f18ddf?max=0" for 198.83.30.192 at 2014-09-11 18:36:47 +0000
+I, [2014-09-11T18:36:47.191445 #6711]  INFO -- : [www] [20350f37-88c7-4206-8a43-dcee19b7f6a1] Processing by SchedulesController#get_schedule_by_user as HTML
+I, [2014-09-11T18:36:47.191702 #6711]  INFO -- : [www] [20350f37-88c7-4206-8a43-dcee19b7f6a1]   Parameters: {"max"=>"0", "user"=>"b403a0e5-a055-4477-9fe9-6aad50f18ddf"}
+I, [2014-09-11T18:36:47.194604 #6711]  INFO -- : [www] [20350f37-88c7-4206-8a43-dcee19b7f6a1] Completed 200 OK in 3ms (Views: 0.9ms | ActiveRecord: 0.9ms)
+I, [2014-09-11T18:36:51.233940 #6711]  INFO -- : [www] [48233040-993c-4c09-be76-41b4df64ca6e] Started GET "/users/359939046535635" for 198.83.30.192 at 2014-09-11 18:36:51 +0000
+I, [2014-09-11T18:36:51.236031 #6711]  INFO -- : [www] [48233040-993c-4c09-be76-41b4df64ca6e] Processing by UsersController#request_user_id as HTML
+I, [2014-09-11T18:36:51.236286 #6711]  INFO -- : [www] [48233040-993c-4c09-be76-41b4df64ca6e]   Parameters: {"uuid"=>"359939046535635"}
+I, [2014-09-11T18:36:51.242189 #6711]  INFO -- : [www] [48233040-993c-4c09-be76-41b4df64ca6e]   Rendered text template (0.0ms)
+I, [2014-09-11T18:36:51.242646 #6711]  INFO -- : [www] [48233040-993c-4c09-be76-41b4df64ca6e] Completed 200 OK in 6ms (Views: 0.6ms | ActiveRecord: 2.0ms)
+I, [2014-09-11T18:36:53.459358 #6711]  INFO -- : [www] [9c069f68-00ba-4d45-99c7-56f6800ad08f] Started GET "/questions.json?max=0" for 198.83.30.192 at 2014-09-11 18:36:53 +0000
+I, [2014-09-11T18:36:53.461615 #6711]  INFO -- : [www] [9c069f68-00ba-4d45-99c7-56f6800ad08f] Processing by QuestionsController#index as JSON
+I, [2014-09-11T18:36:53.461874 #6711]  INFO -- : [www] [9c069f68-00ba-4d45-99c7-56f6800ad08f]   Parameters: {"max"=>"0"}
+I, [2014-09-11T18:36:53.467197 #6711]  INFO -- : [www] [9c069f68-00ba-4d45-99c7-56f6800ad08f] Completed 200 OK in 5ms (Views: 2.5ms | ActiveRecord: 1.4ms)
+I, [2014-09-11T18:37:20.444701 #6711]  INFO -- : [www] [68798cb6-fb46-4421-81d8-342b10babcb5] Started GET "/rules/528cbffb-6d58-4bb2-b0bd-d37461a54f8a?max=0" for 198.83.30.192 at 2014-09-11 18:37:20 +0000
+I, [2014-09-11T18:37:20.446847 #6711]  INFO -- : [www] [68798cb6-fb46-4421-81d8-342b10babcb5] Processing by RulesController#get_rules_by_user as HTML
+I, [2014-09-11T18:37:20.447127 #6711]  INFO -- : [www] [68798cb6-fb46-4421-81d8-342b10babcb5]   Parameters: {"max"=>"0", "user"=>"528cbffb-6d58-4bb2-b0bd-d37461a54f8a"}
+I, [2014-09-11T18:37:20.449930 #6711]  INFO -- : [www] [68798cb6-fb46-4421-81d8-342b10babcb5] Completed 200 OK in 2ms (Views: 0.6ms | ActiveRecord: 0.8ms)
+I, [2014-09-11T18:37:21.120908 #6711]  INFO -- : [www] [5b651df3-ab9b-4ed6-a27e-b5d4f28bd75e] Started GET "/schedules/528cbffb-6d58-4bb2-b0bd-d37461a54f8a?max=0" for 198.83.30.192 at 2014-09-11 18:37:21 +0000
+I, [2014-09-11T18:37:21.123145 #6711]  INFO -- : [www] [5b651df3-ab9b-4ed6-a27e-b5d4f28bd75e] Processing by SchedulesController#get_schedule_by_user as HTML
+I, [2014-09-11T18:37:21.123428 #6711]  INFO -- : [www] [5b651df3-ab9b-4ed6-a27e-b5d4f28bd75e]   Parameters: {"max"=>"0", "user"=>"528cbffb-6d58-4bb2-b0bd-d37461a54f8a"}
+I, [2014-09-11T18:37:21.126650 #6711]  INFO -- : [www] [5b651df3-ab9b-4ed6-a27e-b5d4f28bd75e] Completed 200 OK in 3ms (Views: 1.0ms | ActiveRecord: 1.0ms)
+I, [2014-09-11T18:37:24.521777 #6711]  INFO -- : [www] [b66952a1-7b65-4f57-a1a4-6d9838e55b0a] Started GET "/users/359939046632937" for 198.83.30.192 at 2014-09-11 18:37:24 +0000
+I, [2014-09-11T18:37:24.524140 #6711]  INFO -- : [www] [b66952a1-7b65-4f57-a1a4-6d9838e55b0a] Processing by UsersController#request_user_id as HTML
+I, [2014-09-11T18:37:24.524414 #6711]  INFO -- : [www] [b66952a1-7b65-4f57-a1a4-6d9838e55b0a]   Parameters: {"uuid"=>"359939046632937"}
+I, [2014-09-11T18:37:24.530876 #6711]  INFO -- : [www] [b66952a1-7b65-4f57-a1a4-6d9838e55b0a]   Rendered text template (0.0ms)
+I, [2014-09-11T18:37:24.531410 #6711]  INFO -- : [www] [b66952a1-7b65-4f57-a1a4-6d9838e55b0a] Completed 200 OK in 7ms (Views: 0.7ms | ActiveRecord: 2.1ms)
+I, [2014-09-11T18:37:25.492443 #6711]  INFO -- : [www] [022bedea-b9f4-4bb1-967e-9e4a7353bae0] Started GET "/questions.json?max=0" for 198.83.30.192 at 2014-09-11 18:37:25 +0000
+I, [2014-09-11T18:37:25.494878 #6711]  INFO -- : [www] [022bedea-b9f4-4bb1-967e-9e4a7353bae0] Processing by QuestionsController#index as JSON
+I, [2014-09-11T18:37:25.495233 #6711]  INFO -- : [www] [022bedea-b9f4-4bb1-967e-9e4a7353bae0]   Parameters: {"max"=>"0"}
+I, [2014-09-11T18:37:25.500985 #6711]  INFO -- : [www] [022bedea-b9f4-4bb1-967e-9e4a7353bae0] Completed 200 OK in 5ms (Views: 2.6ms | ActiveRecord: 1.5ms)
+I, [2014-09-11T18:37:32.533675 #6711]  INFO -- : [www] [df24ba11-6fa7-443e-aff3-7d16e1a6e3bc] Started GET "/rules/48857c01-52a9-49ba-a1b0-579b40091c81?max=0" for 198.83.30.192 at 2014-09-11 18:37:32 +0000
+I, [2014-09-11T18:37:32.536030 #6711]  INFO -- : [www] [df24ba11-6fa7-443e-aff3-7d16e1a6e3bc] Processing by RulesController#get_rules_by_user as HTML
+I, [2014-09-11T18:37:32.536309 #6711]  INFO -- : [www] [df24ba11-6fa7-443e-aff3-7d16e1a6e3bc]   Parameters: {"max"=>"0", "user"=>"48857c01-52a9-49ba-a1b0-579b40091c81"}
+I, [2014-09-11T18:37:32.539245 #6711]  INFO -- : [www] [df24ba11-6fa7-443e-aff3-7d16e1a6e3bc] Completed 200 OK in 3ms (Views: 0.6ms | ActiveRecord: 0.9ms)
+I, [2014-09-11T18:37:34.355855 #6711]  INFO -- : [www] [0739b4e0-3567-4b51-bbb6-ee35ed20c194] Started GET "/schedules/48857c01-52a9-49ba-a1b0-579b40091c81?max=0" for 198.83.30.192 at 2014-09-11 18:37:34 +0000
+I, [2014-09-11T18:37:34.358369 #6711]  INFO -- : [www] [0739b4e0-3567-4b51-bbb6-ee35ed20c194] Processing by SchedulesController#get_schedule_by_user as HTML
+I, [2014-09-11T18:37:34.358682 #6711]  INFO -- : [www] [0739b4e0-3567-4b51-bbb6-ee35ed20c194]   Parameters: {"max"=>"0", "user"=>"48857c01-52a9-49ba-a1b0-579b40091c81"}
+I, [2014-09-11T18:37:34.362026 #6711]  INFO -- : [www] [0739b4e0-3567-4b51-bbb6-ee35ed20c194] Completed 200 OK in 3ms (Views: 1.1ms | ActiveRecord: 1.1ms)
+I, [2014-09-11T18:37:58.468101 #6711]  INFO -- : [www] [d6d6112f-a4ef-4baf-b985-2cb811eecc16] Started GET "/users/359939046637084" for 198.83.30.192 at 2014-09-11 18:37:58 +0000
+I, [2014-09-11T18:37:58.470817 #6711]  INFO -- : [www] [d6d6112f-a4ef-4baf-b985-2cb811eecc16] Processing by UsersController#request_user_id as HTML
+I, [2014-09-11T18:37:58.471096 #6711]  INFO -- : [www] [d6d6112f-a4ef-4baf-b985-2cb811eecc16]   Parameters: {"uuid"=>"359939046637084"}
+I, [2014-09-11T18:37:58.477141 #6711]  INFO -- : [www] [d6d6112f-a4ef-4baf-b985-2cb811eecc16]   Rendered text template (0.0ms)
+I, [2014-09-11T18:37:58.477644 #6711]  INFO -- : [www] [d6d6112f-a4ef-4baf-b985-2cb811eecc16] Completed 200 OK in 6ms (Views: 0.7ms | ActiveRecord: 2.0ms)
+I, [2014-09-11T18:38:02.348020 #6711]  INFO -- : [www] [e7711f7b-d6cd-4aa1-9ee7-25a66c456731] Started GET "/questions.json?max=0" for 198.83.30.192 at 2014-09-11 18:38:02 +0000
+I, [2014-09-11T18:38:02.350259 #6711]  INFO -- : [www] [e7711f7b-d6cd-4aa1-9ee7-25a66c456731] Processing by QuestionsController#index as JSON
+I, [2014-09-11T18:38:02.350532 #6711]  INFO -- : [www] [e7711f7b-d6cd-4aa1-9ee7-25a66c456731]   Parameters: {"max"=>"0"}
+I, [2014-09-11T18:38:02.362591 #6711]  INFO -- : [www] [e7711f7b-d6cd-4aa1-9ee7-25a66c456731] Completed 200 OK in 12ms (Views: 9.2ms | ActiveRecord: 1.5ms)
+I, [2014-09-11T18:38:13.360985 #6711]  INFO -- : [www] [04f76c10-cfcd-456d-b0d8-8a831b7ab6d8] Started GET "/users/359939046633216" for 198.83.30.192 at 2014-09-11 18:38:13 +0000
+I, [2014-09-11T18:38:13.363442 #6711]  INFO -- : [www] [04f76c10-cfcd-456d-b0d8-8a831b7ab6d8] Processing by UsersController#request_user_id as HTML
+I, [2014-09-11T18:38:13.363746 #6711]  INFO -- : [www] [04f76c10-cfcd-456d-b0d8-8a831b7ab6d8]   Parameters: {"uuid"=>"359939046633216"}
+I, [2014-09-11T18:38:13.370304 #6711]  INFO -- : [www] [04f76c10-cfcd-456d-b0d8-8a831b7ab6d8]   Rendered text template (0.0ms)
+I, [2014-09-11T18:38:13.370785 #6711]  INFO -- : [www] [04f76c10-cfcd-456d-b0d8-8a831b7ab6d8] Completed 200 OK in 7ms (Views: 0.7ms | ActiveRecord: 2.5ms)
+I, [2014-09-11T18:38:15.573301 #6711]  INFO -- : [www] [a4968c00-c4a1-4f6c-81db-9f7f9af650c9] Started GET "/rules/ab9a0285-7c74-4466-95ed-0146142a5d6c?max=0" for 198.83.30.192 at 2014-09-11 18:38:15 +0000
+I, [2014-09-11T18:38:15.575607 #6711]  INFO -- : [www] [a4968c00-c4a1-4f6c-81db-9f7f9af650c9] Processing by RulesController#get_rules_by_user as HTML
+I, [2014-09-11T18:38:15.575819 #6711]  INFO -- : [www] [a4968c00-c4a1-4f6c-81db-9f7f9af650c9]   Parameters: {"max"=>"0", "user"=>"ab9a0285-7c74-4466-95ed-0146142a5d6c"}
+I, [2014-09-11T18:38:15.578575 #6711]  INFO -- : [www] [a4968c00-c4a1-4f6c-81db-9f7f9af650c9] Completed 200 OK in 2ms (Views: 0.6ms | ActiveRecord: 0.9ms)
+I, [2014-09-11T18:39:03.443519 #6711]  INFO -- : [www] [6f5c53d5-4031-4d2b-8cd2-d25dc2501386] Started GET "/rules/7345a120-8f86-432f-9d00-c3e8a8643ace?max=0" for 198.83.30.192 at 2014-09-11 18:39:03 +0000
+I, [2014-09-11T18:39:03.445719 #6711]  INFO -- : [www] [6f5c53d5-4031-4d2b-8cd2-d25dc2501386] Processing by RulesController#get_rules_by_user as HTML
+I, [2014-09-11T18:39:03.445926 #6711]  INFO -- : [www] [6f5c53d5-4031-4d2b-8cd2-d25dc2501386]   Parameters: {"max"=>"0", "user"=>"7345a120-8f86-432f-9d00-c3e8a8643ace"}
+I, [2014-09-11T18:39:03.448445 #6711]  INFO -- : [www] [6f5c53d5-4031-4d2b-8cd2-d25dc2501386] Completed 200 OK in 2ms (Views: 0.6ms | ActiveRecord: 0.8ms)
+I, [2014-09-11T18:39:20.311067 #6711]  INFO -- : [www] [b2db2868-5d0e-46eb-ae38-3030dc02f08a] Started GET "/schedules/7345a120-8f86-432f-9d00-c3e8a8643ace?max=0" for 198.83.30.192 at 2014-09-11 18:39:20 +0000
+I, [2014-09-11T18:39:20.313284 #6711]  INFO -- : [www] [b2db2868-5d0e-46eb-ae38-3030dc02f08a] Processing by SchedulesController#get_schedule_by_user as HTML
+I, [2014-09-11T18:39:20.313555 #6711]  INFO -- : [www] [b2db2868-5d0e-46eb-ae38-3030dc02f08a]   Parameters: {"max"=>"0", "user"=>"7345a120-8f86-432f-9d00-c3e8a8643ace"}
+I, [2014-09-11T18:39:20.316664 #6711]  INFO -- : [www] [b2db2868-5d0e-46eb-ae38-3030dc02f08a] Completed 200 OK in 3ms (Views: 1.0ms | ActiveRecord: 0.9ms)
+I, [2014-09-11T19:01:39.629401 #6711]  INFO -- : [www] [de2a06ce-a57a-4f97-ac04-2cec27a90c1f] Started POST "/interactions.json" for 67.83.12.173 at 2014-09-11 19:01:39 +0000
+I, [2014-09-11T19:01:39.633581 #6711]  INFO -- : [www] [de2a06ce-a57a-4f97-ac04-2cec27a90c1f] Processing by InteractionsController#create as JSON
+I, [2014-09-11T19:01:39.633742 #6711]  INFO -- : [www] [de2a06ce-a57a-4f97-ac04-2cec27a90c1f]   Parameters: {"localtime"=>"2014-09-11 15:02:10 -0400", "interaction"=>[{"peer_id"=>"a99c0565-a3cd-4b0d-a1b8-bc3b50b345dc", "duration"=>149979, "time"=>"2014-09-09 18:13:26 -0400", "user_id"=>"461f5f44-2919-4cac-ab45-3ec4d73c2c15", "rssi"=>221}, {"peer_id"=>"e4b0b9c5-e289-44a3-b134-3a9f0207becd", "duration"=>26314, "time"=>"2014-09-11 00:17:34 -0400", "user_id"=>"461f5f44-2919-4cac-ab45-3ec4d73c2c15", "rssi"=>202}, {"peer_id"=>"9b61c420-a6e4-4c2f-9fad-db003523f132", "duration"=>24447, "time"=>"2014-09-11 07:15:54 -0400", "user_id"=>"461f5f44-2919-4cac-ab45-3ec4d73c2c15", "rssi"=>205}]}
+I, [2014-09-11T19:01:39.769199 #6711]  INFO -- : [www] [de2a06ce-a57a-4f97-ac04-2cec27a90c1f]   Rendered text template (0.1ms)
+I, [2014-09-11T19:01:39.769643 #6711]  INFO -- : [www] [de2a06ce-a57a-4f97-ac04-2cec27a90c1f] Completed 200 OK in 136ms (Views: 1.0ms | ActiveRecord: 117.9ms)
+I, [2014-09-11T19:01:45.345280 #6711]  INFO -- : [www] [0a3dacd5-cf35-4453-8736-4650248dacf8] Started GET "/questions.json?max=14" for 67.83.12.173 at 2014-09-11 19:01:45 +0000
+I, [2014-09-11T19:01:45.347689 #6711]  INFO -- : [www] [0a3dacd5-cf35-4453-8736-4650248dacf8] Processing by QuestionsController#index as JSON
+I, [2014-09-11T19:01:45.347781 #6711]  INFO -- : [www] [0a3dacd5-cf35-4453-8736-4650248dacf8]   Parameters: {"max"=>"14"}
+I, [2014-09-11T19:01:45.352525 #6711]  INFO -- : [www] [0a3dacd5-cf35-4453-8736-4650248dacf8] Completed 200 OK in 5ms (Views: 1.7ms | ActiveRecord: 1.7ms)
+I, [2014-09-11T19:01:47.735439 #6711]  INFO -- : [www] [98ba7284-c2ad-4fe7-9e27-97397d6f9c31] Started GET "/rules/461f5f44-2919-4cac-ab45-3ec4d73c2c15?max=1" for 67.83.12.173 at 2014-09-11 19:01:47 +0000
+I, [2014-09-11T19:01:47.737613 #6711]  INFO -- : [www] [98ba7284-c2ad-4fe7-9e27-97397d6f9c31] Processing by RulesController#get_rules_by_user as HTML
+I, [2014-09-11T19:01:47.737709 #6711]  INFO -- : [www] [98ba7284-c2ad-4fe7-9e27-97397d6f9c31]   Parameters: {"max"=>"1", "user"=>"461f5f44-2919-4cac-ab45-3ec4d73c2c15"}
+I, [2014-09-11T19:01:47.740412 #6711]  INFO -- : [www] [98ba7284-c2ad-4fe7-9e27-97397d6f9c31] Completed 200 OK in 3ms (Views: 0.6ms | ActiveRecord: 0.9ms)
+I, [2014-09-11T19:01:49.593611 #6711]  INFO -- : [www] [fc8f9b7e-b7bd-4ad7-a54b-1a12a03f1c4e] Started GET "/schedules/461f5f44-2919-4cac-ab45-3ec4d73c2c15?max=354" for 67.83.12.173 at 2014-09-11 19:01:49 +0000
+I, [2014-09-11T19:01:49.595836 #6711]  INFO -- : [www] [fc8f9b7e-b7bd-4ad7-a54b-1a12a03f1c4e] Processing by SchedulesController#get_schedule_by_user as HTML
+I, [2014-09-11T19:01:49.595959 #6711]  INFO -- : [www] [fc8f9b7e-b7bd-4ad7-a54b-1a12a03f1c4e]   Parameters: {"max"=>"354", "user"=>"461f5f44-2919-4cac-ab45-3ec4d73c2c15"}
+I, [2014-09-11T19:01:49.598700 #6711]  INFO -- : [www] [fc8f9b7e-b7bd-4ad7-a54b-1a12a03f1c4e] Completed 200 OK in 3ms (Views: 0.7ms | ActiveRecord: 0.9ms)
+I, [2014-09-11T19:26:46.370592 #6711]  INFO -- : [33f11cc1-8e7b-4074-9087-d463089c0c24] Started GET "/" for 198.83.30.192 at 2014-09-11 19:26:46 +0000
+I, [2014-09-11T19:26:46.372833 #6711]  INFO -- : [33f11cc1-8e7b-4074-9087-d463089c0c24] Processing by PagesController#index as HTML
+I, [2014-09-11T19:26:46.374889 #6711]  INFO -- : [33f11cc1-8e7b-4074-9087-d463089c0c24]   Rendered pages/index.html.erb within layouts/application (0.4ms)
+I, [2014-09-11T19:26:46.377212 #6711]  INFO -- : [33f11cc1-8e7b-4074-9087-d463089c0c24] Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.0ms)
+I, [2014-09-11T19:27:02.955876 #6711]  INFO -- : [37e2f86b-f4f6-4008-a6a3-ea9914ce4776] Started GET "/users" for 198.83.30.192 at 2014-09-11 19:27:02 +0000
+I, [2014-09-11T19:27:02.958386 #6711]  INFO -- : [37e2f86b-f4f6-4008-a6a3-ea9914ce4776] Processing by UsersController#index as HTML
+I, [2014-09-11T19:27:03.017157 #6711]  INFO -- : [37e2f86b-f4f6-4008-a6a3-ea9914ce4776]   Rendered users/index.html.erb within layouts/application (56.0ms)
+I, [2014-09-11T19:27:03.019781 #6711]  INFO -- : [37e2f86b-f4f6-4008-a6a3-ea9914ce4776] Completed 200 OK in 61ms (Views: 26.5ms | ActiveRecord: 33.5ms)
+I, [2014-09-11T19:27:06.704744 #6711]  INFO -- : [5865c23a-ea58-4471-8f51-cdcbfcb67193] Started GET "/rules" for 198.83.30.192 at 2014-09-11 19:27:06 +0000
+I, [2014-09-11T19:27:06.707086 #6711]  INFO -- : [5865c23a-ea58-4471-8f51-cdcbfcb67193] Processing by RulesController#index as HTML
+I, [2014-09-11T19:27:06.713389 #6711]  INFO -- : [5865c23a-ea58-4471-8f51-cdcbfcb67193]   Rendered rules/index.html.erb within layouts/application (2.8ms)
+I, [2014-09-11T19:27:06.715841 #6711]  INFO -- : [5865c23a-ea58-4471-8f51-cdcbfcb67193] Completed 200 OK in 9ms (Views: 6.5ms | ActiveRecord: 0.8ms)
+I, [2014-09-11T19:27:08.665212 #6711]  INFO -- : [5f13796e-46bd-4456-bad4-8240930f63fc] Started GET "/interactions" for 198.83.30.192 at 2014-09-11 19:27:08 +0000
+I, [2014-09-11T19:27:08.668266 #6711]  INFO -- : [5f13796e-46bd-4456-bad4-8240930f63fc] Processing by InteractionsController#index as HTML
+I, [2014-09-11T19:27:08.679775 #6711]  INFO -- : [5f13796e-46bd-4456-bad4-8240930f63fc]   Rendered interactions/index.html.erb within layouts/application (5.6ms)
+I, [2014-09-11T19:27:08.682350 #6711]  INFO -- : [5f13796e-46bd-4456-bad4-8240930f63fc] Completed 200 OK in 14ms (Views: 9.8ms | ActiveRecord: 0.9ms)
+I, [2014-09-11T19:27:17.028685 #6711]  INFO -- : [d4d2bd90-5518-4267-b96e-ea6ce98f3546] Started GET "/answers" for 198.83.30.192 at 2014-09-11 19:27:17 +0000
+I, [2014-09-11T19:27:17.032245 #6711]  INFO -- : [d4d2bd90-5518-4267-b96e-ea6ce98f3546] Processing by AnswersController#index as HTML
+I, [2014-09-11T19:27:17.038363 #6711]  INFO -- : [d4d2bd90-5518-4267-b96e-ea6ce98f3546]   Rendered answers/index.html.erb within layouts/application (2.6ms)
+I, [2014-09-11T19:27:17.040677 #6711]  INFO -- : [d4d2bd90-5518-4267-b96e-ea6ce98f3546] Completed 200 OK in 8ms (Views: 5.5ms | ActiveRecord: 1.1ms)
+I, [2014-09-11T19:27:19.959651 #6711]  INFO -- : [f27a3c05-9b52-4733-81e3-66e3e25b42d8] Started GET "/questions" for 198.83.30.192 at 2014-09-11 19:27:19 +0000
+I, [2014-09-11T19:27:19.961739 #6711]  INFO -- : [f27a3c05-9b52-4733-81e3-66e3e25b42d8] Processing by QuestionsController#index as HTML
+I, [2014-09-11T19:27:19.978934 #6711]  INFO -- : [f27a3c05-9b52-4733-81e3-66e3e25b42d8]   Rendered questions/index.html.erb within layouts/application (14.0ms)
+I, [2014-09-11T19:27:19.981404 #6711]  INFO -- : [f27a3c05-9b52-4733-81e3-66e3e25b42d8] Completed 200 OK in 19ms (Views: 15.6ms | ActiveRecord: 2.4ms)
+I, [2014-09-11T19:27:24.251772 #6711]  INFO -- : [a0cebefc-2c30-4348-9b5a-712bcdaf26b7] Started GET "/interactions" for 198.83.30.192 at 2014-09-11 19:27:24 +0000
+I, [2014-09-11T19:27:24.253962 #6711]  INFO -- : [a0cebefc-2c30-4348-9b5a-712bcdaf26b7] Processing by InteractionsController#index as HTML
+I, [2014-09-11T19:27:24.260554 #6711]  INFO -- : [a0cebefc-2c30-4348-9b5a-712bcdaf26b7]   Rendered interactions/index.html.erb within layouts/application (3.2ms)
+I, [2014-09-11T19:27:24.262940 #6711]  INFO -- : [a0cebefc-2c30-4348-9b5a-712bcdaf26b7] Completed 200 OK in 9ms (Views: 5.9ms | ActiveRecord: 0.8ms)
+I, [2014-09-11T19:27:28.516189 #6711]  INFO -- : [642817a7-7a02-4224-a736-4b9887c943ec] Started GET "/interactions/show/a99c0565-a3cd-4b0d-a1b8-bc3b50b345dc" for 198.83.30.192 at 2014-09-11 19:27:28 +0000
+I, [2014-09-11T19:27:28.518714 #6711]  INFO -- : [642817a7-7a02-4224-a736-4b9887c943ec] Processing by InteractionsController#show as HTML
+I, [2014-09-11T19:27:28.518810 #6711]  INFO -- : [642817a7-7a02-4224-a736-4b9887c943ec]   Parameters: {"id"=>"a99c0565-a3cd-4b0d-a1b8-bc3b50b345dc"}
+I, [2014-09-11T19:27:28.553915 #6711]  INFO -- : [642817a7-7a02-4224-a736-4b9887c943ec]   Rendered interactions/show.html.erb within layouts/application (16.0ms)
+I, [2014-09-11T19:27:28.554272 #6711]  INFO -- : [642817a7-7a02-4224-a736-4b9887c943ec] Completed 500 Internal Server Error in 35ms
+F, [2014-09-11T19:27:28.556899 #6711] FATAL -- : [642817a7-7a02-4224-a736-4b9887c943ec] 
+ActionView::Template::Error (undefined method `user_id' for nil:NilClass):
+    1: <h1>Welcome to the list of Interactions for User: <%= @interactions.first.user_id %></h1>
+    2: 
+    3: <table class="table table-hover">
+    4:   <tr>
+  app/views/interactions/show.html.erb:1:in `_app_views_interactions_show_html_erb___3387443126348862280_44396180'
+
+
+I, [2014-09-11T19:27:49.935311 #6711]  INFO -- : [9aab8155-751c-4c21-b482-2d7501ed9ad8] Started GET "/interactions/show/a99c0565-a3cd-4b0d-a1b8-bc3b50b345dc" for 198.83.30.192 at 2014-09-11 19:27:49 +0000
+I, [2014-09-11T19:27:49.950822 #6711]  INFO -- : [9aab8155-751c-4c21-b482-2d7501ed9ad8] Processing by InteractionsController#show as HTML
+I, [2014-09-11T19:27:49.950913 #6711]  INFO -- : [9aab8155-751c-4c21-b482-2d7501ed9ad8]   Parameters: {"id"=>"a99c0565-a3cd-4b0d-a1b8-bc3b50b345dc"}
+I, [2014-09-11T19:27:49.956490 #6711]  INFO -- : [9aab8155-751c-4c21-b482-2d7501ed9ad8]   Rendered interactions/show.html.erb within layouts/application (3.4ms)
+I, [2014-09-11T19:27:49.956677 #6711]  INFO -- : [9aab8155-751c-4c21-b482-2d7501ed9ad8] Completed 500 Internal Server Error in 6ms
+F, [2014-09-11T19:27:49.959011 #6711] FATAL -- : [9aab8155-751c-4c21-b482-2d7501ed9ad8] 
+ActionView::Template::Error (undefined method `user_id' for nil:NilClass):
+    1: <h1>Welcome to the list of Interactions for User: <%= @interactions.first.user_id %></h1>
+    2: 
+    3: <table class="table table-hover">
+    4:   <tr>
+  app/views/interactions/show.html.erb:1:in `_app_views_interactions_show_html_erb___3387443126348862280_44273520'
+
+
+I, [2014-09-11T19:28:01.783938 #6711]  INFO -- : [4e4c36de-912d-428e-91d3-e360f400c214] Started GET "/interactions/show/a99c0565-a3cd-4b0d-a1b8-bc3b50b345dc" for 198.83.30.192 at 2014-09-11 19:28:01 +0000
+I, [2014-09-11T19:28:01.792549 #6711]  INFO -- : [4e4c36de-912d-428e-91d3-e360f400c214] Processing by InteractionsController#show as HTML
+I, [2014-09-11T19:28:01.792680 #6711]  INFO -- : [4e4c36de-912d-428e-91d3-e360f400c214]   Parameters: {"id"=>"a99c0565-a3cd-4b0d-a1b8-bc3b50b345dc"}
+I, [2014-09-11T19:28:01.796868 #6711]  INFO -- : [4e4c36de-912d-428e-91d3-e360f400c214]   Rendered interactions/show.html.erb within layouts/application (2.4ms)
+I, [2014-09-11T19:28:01.797038 #6711]  INFO -- : [4e4c36de-912d-428e-91d3-e360f400c214] Completed 500 Internal Server Error in 4ms
+F, [2014-09-11T19:28:01.799348 #6711] FATAL -- : [4e4c36de-912d-428e-91d3-e360f400c214] 
+ActionView::Template::Error (undefined method `user_id' for nil:NilClass):
+    1: <h1>Welcome to the list of Interactions for User: <%= @interactions.first.user_id %></h1>
+    2: 
+    3: <table class="table table-hover">
+    4:   <tr>
+  app/views/interactions/show.html.erb:1:in `_app_views_interactions_show_html_erb___3387443126348862280_44273520'
+
+
+I, [2014-09-11T19:28:08.134950 #6711]  INFO -- : [a7b95061-0d54-4af5-9e73-83c4549b50ea] Started GET "/interactions" for 198.83.30.192 at 2014-09-11 19:28:08 +0000
+I, [2014-09-11T19:28:08.136843 #6711]  INFO -- : [a7b95061-0d54-4af5-9e73-83c4549b50ea] Processing by InteractionsController#index as HTML
+I, [2014-09-11T19:28:08.142893 #6711]  INFO -- : [a7b95061-0d54-4af5-9e73-83c4549b50ea]   Rendered interactions/index.html.erb within layouts/application (3.1ms)
+I, [2014-09-11T19:28:08.145262 #6711]  INFO -- : [a7b95061-0d54-4af5-9e73-83c4549b50ea] Completed 200 OK in 8ms (Views: 5.8ms | ActiveRecord: 0.8ms)
+I, [2014-09-11T19:28:08.394707 #6711]  INFO -- : [d3042d8e-3932-4860-870c-7f065a33d339] Started GET "/assets/application-1b74e4f9c48eb0176a3f5d006bb2237f.css" for 198.83.30.192 at 2014-09-11 19:28:08 +0000
+I, [2014-09-11T19:28:08.430790 #6711]  INFO -- : [d3d981b5-717a-4796-bc68-3fbb89eb1a84] Started GET "/assets/jquery-415bd65e29d683defe015f37d1cedfd8.js" for 198.83.30.192 at 2014-09-11 19:28:08 +0000
+I, [2014-09-11T19:28:32.787172 #6711]  INFO -- : [2ff37f9a-f708-4494-b856-92eaa55581fc] Started GET "/interactions/show/461f5f44-2919-4cac-ab45-3ec4d73c2c15" for 198.83.30.192 at 2014-09-11 19:28:32 +0000
+I, [2014-09-11T19:28:32.789129 #6711]  INFO -- : [2ff37f9a-f708-4494-b856-92eaa55581fc] Processing by InteractionsController#show as HTML
+I, [2014-09-11T19:28:32.789223 #6711]  INFO -- : [2ff37f9a-f708-4494-b856-92eaa55581fc]   Parameters: {"id"=>"461f5f44-2919-4cac-ab45-3ec4d73c2c15"}
+I, [2014-09-11T19:28:32.797203 #6711]  INFO -- : [2ff37f9a-f708-4494-b856-92eaa55581fc]   Rendered interactions/show.html.erb within layouts/application (6.4ms)
+I, [2014-09-11T19:28:32.799525 #6711]  INFO -- : [2ff37f9a-f708-4494-b856-92eaa55581fc] Completed 200 OK in 10ms (Views: 7.5ms | ActiveRecord: 1.5ms)
+I, [2014-09-11T19:28:33.069905 #6711]  INFO -- : [20d33c32-1f3a-49a1-bf4e-9a9b38f99ab8] Started GET "/assets/application-1b74e4f9c48eb0176a3f5d006bb2237f.css" for 198.83.30.192 at 2014-09-11 19:28:33 +0000
+I, [2014-09-11T19:28:33.083431 #6711]  INFO -- : [ae6454f5-309c-4ffb-95bf-687d34e166a7] Started GET "/assets/application-fa216c9a9493b033972be1597aa9de19.js" for 198.83.30.192 at 2014-09-11 19:28:33 +0000
+I, [2014-09-11T19:37:40.302704 #6711]  INFO -- : [21e701cf-73e4-480f-bd9e-fce41f37514c] Started GET "/" for 198.83.30.192 at 2014-09-11 19:37:40 +0000
+I, [2014-09-11T19:37:40.304761 #6711]  INFO -- : [21e701cf-73e4-480f-bd9e-fce41f37514c] Processing by PagesController#index as HTML
+I, [2014-09-11T19:37:40.307796 #6711]  INFO -- : [21e701cf-73e4-480f-bd9e-fce41f37514c]   Rendered pages/index.html.erb within layouts/application (1.3ms)
+I, [2014-09-11T19:37:40.310193 #6711]  INFO -- : [21e701cf-73e4-480f-bd9e-fce41f37514c] Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.0ms)
+I, [2014-09-11T19:37:41.742225 #6711]  INFO -- : [1bce7df6-6f3f-404d-b2a5-82387c5fde05] Started GET "/assets/application-1b74e4f9c48eb0176a3f5d006bb2237f.css" for 198.83.30.192 at 2014-09-11 19:37:41 +0000
+I, [2014-09-11T19:37:46.018370 #6711]  INFO -- : [56a44101-b60c-4b18-a31a-70d124e3ebc4] Started GET "/assets/application-fa216c9a9493b033972be1597aa9de19.js" for 198.83.30.192 at 2014-09-11 19:37:46 +0000
+I, [2014-09-11T19:38:20.090211 #6711]  INFO -- : [96adaf1d-93d7-4e8e-b554-bbf3973e7a14] Started GET "/" for 198.83.30.192 at 2014-09-11 19:38:20 +0000
+I, [2014-09-11T19:38:20.092180 #6711]  INFO -- : [96adaf1d-93d7-4e8e-b554-bbf3973e7a14] Processing by PagesController#index as HTML
+I, [2014-09-11T19:38:20.093994 #6711]  INFO -- : [96adaf1d-93d7-4e8e-b554-bbf3973e7a14]   Rendered pages/index.html.erb within layouts/application (0.5ms)
+I, [2014-09-11T19:38:20.095728 #6711]  INFO -- : [96adaf1d-93d7-4e8e-b554-bbf3973e7a14] Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.0ms)
+I, [2014-09-11T19:38:20.165840 #6711]  INFO -- : [d9f311b9-6d35-4758-b2dd-33132e5ad76c] Started GET "/assets/application-1b74e4f9c48eb0176a3f5d006bb2237f.css" for 198.83.30.192 at 2014-09-11 19:38:20 +0000
+I, [2014-09-11T19:38:20.209460 #6711]  INFO -- : [5f4e3aa5-6672-4a08-80b4-21f6391f4328] Started GET "/assets/jquery-415bd65e29d683defe015f37d1cedfd8.js" for 198.83.30.192 at 2014-09-11 19:38:20 +0000
+I, [2014-09-11T19:38:30.760997 #6711]  INFO -- : [36579ad1-2de1-4346-8cd3-4286829add4c] Started GET "/login" for 198.83.30.192 at 2014-09-11 19:38:30 +0000
+I, [2014-09-11T19:38:30.764381 #6711]  INFO -- : [36579ad1-2de1-4346-8cd3-4286829add4c] Processing by SessionsController#new as HTML
+I, [2014-09-11T19:38:30.769677 #6711]  INFO -- : [36579ad1-2de1-4346-8cd3-4286829add4c]   Rendered sessions/new.html.erb within layouts/application (2.6ms)
+I, [2014-09-11T19:38:30.771486 #6711]  INFO -- : [36579ad1-2de1-4346-8cd3-4286829add4c] Completed 200 OK in 7ms (Views: 6.1ms | ActiveRecord: 0.0ms)
+I, [2014-09-11T19:38:30.874792 #6711]  INFO -- : [0e3eb2ff-14aa-45d8-98e1-962656962164] Started GET "/assets/application-1b74e4f9c48eb0176a3f5d006bb2237f.css" for 198.83.30.192 at 2014-09-11 19:38:30 +0000
+I, [2014-09-11T19:38:30.926192 #6711]  INFO -- : [b8f53bbd-ea79-4984-a718-c6990f7c39ee] Started GET "/assets/jquery-415bd65e29d683defe015f37d1cedfd8.js" for 198.83.30.192 at 2014-09-11 19:38:30 +0000
+I, [2014-09-11T19:45:51.226086 #6711]  INFO -- : [258c4119-f11d-4ba2-902c-680bee31a197] Started POST "/login" for 198.83.30.195 at 2014-09-11 19:45:51 +0000
+I, [2014-09-11T19:45:51.228303 #6711]  INFO -- : [258c4119-f11d-4ba2-902c-680bee31a197] Processing by SessionsController#create as HTML
+I, [2014-09-11T19:45:51.228430 #6711]  INFO -- : [258c4119-f11d-4ba2-902c-680bee31a197]   Parameters: {"utf8"=>"✓", "authenticity_token"=>"cTx2+I6vkuTJEBb+35HIbDP5JODV9g7rrimSH6znpx4=", "name"=>"carlos", "password"=>"[FILTERED]", "commit"=>"Login"}
+I, [2014-09-11T19:45:51.234635 #6711]  INFO -- : [258c4119-f11d-4ba2-902c-680bee31a197] Redirected to https://bagezio.com/login
+I, [2014-09-11T19:45:51.234867 #6711]  INFO -- : [258c4119-f11d-4ba2-902c-680bee31a197] Completed 302 Found in 6ms (ActiveRecord: 2.9ms)
+I, [2014-09-11T19:45:51.284169 #6711]  INFO -- : [3f1dd57a-fecc-436c-b186-d9bfb3187449] Started GET "/login" for 198.83.30.195 at 2014-09-11 19:45:51 +0000
+I, [2014-09-11T19:45:51.285753 #6711]  INFO -- : [3f1dd57a-fecc-436c-b186-d9bfb3187449] Processing by SessionsController#new as HTML
+I, [2014-09-11T19:45:51.288445 #6711]  INFO -- : [3f1dd57a-fecc-436c-b186-d9bfb3187449]   Rendered sessions/new.html.erb within layouts/application (1.5ms)
+I, [2014-09-11T19:45:51.290971 #6711]  INFO -- : [3f1dd57a-fecc-436c-b186-d9bfb3187449] Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.0ms)
+I, [2014-09-11T19:45:51.439252 #6711]  INFO -- : [8b7269d9-7896-4c10-ac13-1bbab776320f] Started GET "/assets/application-1b74e4f9c48eb0176a3f5d006bb2237f.css" for 198.83.30.195 at 2014-09-11 19:45:51 +0000
+I, [2014-09-11T19:45:51.470173 #6711]  INFO -- : [d2fe72e8-ed18-4640-84a8-ea872d9e13d8] Started GET "/assets/jquery-415bd65e29d683defe015f37d1cedfd8.js" for 198.83.30.195 at 2014-09-11 19:45:51 +0000
+I, [2014-09-11T19:46:14.339749 #6711]  INFO -- : [91e7439d-854a-44a0-a047-afd2ef274259] Started GET "/assets/application-fa216c9a9493b033972be1597aa9de19.js" for 198.83.30.195 at 2014-09-11 19:46:14 +0000
+I, [2014-09-11T19:46:49.483129 #6711]  INFO -- : [025d15ce-96b7-45bc-adcf-985df9b77857] Started GET "/admins/new" for 198.83.30.195 at 2014-09-11 19:46:49 +0000
+I, [2014-09-11T19:46:49.486737 #6711]  INFO -- : [025d15ce-96b7-45bc-adcf-985df9b77857] Processing by AdminsController#new as HTML
+I, [2014-09-11T19:46:49.511049 #6711]  INFO -- : [025d15ce-96b7-45bc-adcf-985df9b77857]   Rendered admins/_form.html.erb (18.4ms)
+I, [2014-09-11T19:46:49.511388 #6711]  INFO -- : [025d15ce-96b7-45bc-adcf-985df9b77857]   Rendered admins/new.html.erb within layouts/application (20.4ms)
+I, [2014-09-11T19:46:49.513384 #6711]  INFO -- : [025d15ce-96b7-45bc-adcf-985df9b77857] Completed 200 OK in 26ms (Views: 24.1ms | ActiveRecord: 0.6ms)
+I, [2014-09-11T19:50:38.804792 #6711]  INFO -- : [531e2a14-7498-4da8-8d85-e97de2c9bbc4] Started POST "/admins" for 198.83.30.195 at 2014-09-11 19:50:38 +0000
+I, [2014-09-11T19:50:38.807290 #6711]  INFO -- : [531e2a14-7498-4da8-8d85-e97de2c9bbc4] Processing by AdminsController#create as HTML
+I, [2014-09-11T19:50:38.807403 #6711]  INFO -- : [531e2a14-7498-4da8-8d85-e97de2c9bbc4]   Parameters: {"utf8"=>"✓", "authenticity_token"=>"cTx2+I6vkuTJEBb+35HIbDP5JODV9g7rrimSH6znpx4=", "admin"=>{"name"=>"carlos", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create Account"}
+I, [2014-09-11T19:50:38.986588 #6711]  INFO -- : [531e2a14-7498-4da8-8d85-e97de2c9bbc4] Redirected to https://bagezio.com/admins
+I, [2014-09-11T19:50:38.986998 #6711]  INFO -- : [531e2a14-7498-4da8-8d85-e97de2c9bbc4] Completed 302 Found in 179ms (ActiveRecord: 41.8ms)
+I, [2014-09-11T19:50:39.042762 #6711]  INFO -- : [4b08278a-dff2-4627-8d67-5f4a847c4979] Started GET "/admins" for 198.83.30.195 at 2014-09-11 19:50:39 +0000
+I, [2014-09-11T19:50:39.044867 #6711]  INFO -- : [4b08278a-dff2-4627-8d67-5f4a847c4979] Processing by AdminsController#index as HTML
+I, [2014-09-11T19:50:39.050585 #6711]  INFO -- : [4b08278a-dff2-4627-8d67-5f4a847c4979]   Rendered admins/index.html.erb within layouts/application (3.5ms)
+I, [2014-09-11T19:50:39.052460 #6711]  INFO -- : [4b08278a-dff2-4627-8d67-5f4a847c4979] Completed 200 OK in 7ms (Views: 5.6ms | ActiveRecord: 0.8ms)
+I, [2014-09-11T19:50:39.199246 #6711]  INFO -- : [d13d3afe-c3f2-43e1-87f1-40f1ef07332b] Started GET "/assets/application-1b74e4f9c48eb0176a3f5d006bb2237f.css" for 198.83.30.195 at 2014-09-11 19:50:39 +0000
+I, [2014-09-11T19:50:39.211977 #6711]  INFO -- : [c2ff2c2e-c9fe-4284-bda3-de6473ff4dc4] Started GET "/assets/jquery-415bd65e29d683defe015f37d1cedfd8.js" for 198.83.30.195 at 2014-09-11 19:50:39 +0000
+I, [2014-09-11T19:50:39.219627 #6711]  INFO -- : [ad640537-1cd8-4e19-927e-c918a4251892] Started GET "/assets/application-fa216c9a9493b033972be1597aa9de19.js" for 198.83.30.195 at 2014-09-11 19:50:39 +0000
+I, [2014-09-11T19:50:41.625546 #6711]  INFO -- : [02a8aad5-c8b9-4474-907f-117c66b18ace] Started GET "/login" for 198.83.30.195 at 2014-09-11 19:50:41 +0000
+I, [2014-09-11T19:50:41.627693 #6711]  INFO -- : [02a8aad5-c8b9-4474-907f-117c66b18ace] Processing by SessionsController#new as HTML
+I, [2014-09-11T19:50:41.631952 #6711]  INFO -- : [02a8aad5-c8b9-4474-907f-117c66b18ace]   Rendered sessions/new.html.erb within layouts/application (2.2ms)
+I, [2014-09-11T19:50:41.633792 #6711]  INFO -- : [02a8aad5-c8b9-4474-907f-117c66b18ace] Completed 200 OK in 6ms (Views: 5.2ms | ActiveRecord: 0.0ms)
+I, [2014-09-11T19:50:43.180583 #6711]  INFO -- : [9fd9b81b-2173-4902-bb74-350a413d404d] Started POST "/login" for 198.83.30.195 at 2014-09-11 19:50:43 +0000
+I, [2014-09-11T19:50:43.182633 #6711]  INFO -- : [9fd9b81b-2173-4902-bb74-350a413d404d] Processing by SessionsController#create as HTML
+I, [2014-09-11T19:50:43.182734 #6711]  INFO -- : [9fd9b81b-2173-4902-bb74-350a413d404d]   Parameters: {"utf8"=>"✓", "authenticity_token"=>"cTx2+I6vkuTJEBb+35HIbDP5JODV9g7rrimSH6znpx4=", "name"=>"carlos", "password"=>"[FILTERED]", "commit"=>"Login"}
+I, [2014-09-11T19:50:43.310907 #6711]  INFO -- : [9fd9b81b-2173-4902-bb74-350a413d404d] Redirected to https://bagezio.com/
+I, [2014-09-11T19:50:43.311124 #6711]  INFO -- : [9fd9b81b-2173-4902-bb74-350a413d404d] Completed 302 Found in 128ms (ActiveRecord: 0.8ms)
+I, [2014-09-11T19:50:43.349116 #6711]  INFO -- : [bee17839-e086-4461-8e82-95698ead888d] Started GET "/" for 198.83.30.195 at 2014-09-11 19:50:43 +0000
+I, [2014-09-11T19:50:43.350628 #6711]  INFO -- : [bee17839-e086-4461-8e82-95698ead888d] Processing by PagesController#index as HTML
+I, [2014-09-11T19:50:43.352356 #6711]  INFO -- : [bee17839-e086-4461-8e82-95698ead888d]   Rendered pages/index.html.erb within layouts/application (0.5ms)
+I, [2014-09-11T19:50:43.354568 #6711]  INFO -- : [bee17839-e086-4461-8e82-95698ead888d] Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+I, [2014-09-11T19:50:43.439280 #6711]  INFO -- : [0f65572d-c6ae-429d-b743-6f7eae55f7ac] Started GET "/assets/jquery-415bd65e29d683defe015f37d1cedfd8.js" for 198.83.30.195 at 2014-09-11 19:50:43 +0000
+I, [2014-09-11T19:50:43.442633 #6711]  INFO -- : [fe2190a1-6a91-4bbd-af12-b3462b6607a2] Started GET "/assets/application-fa216c9a9493b033972be1597aa9de19.js" for 198.83.30.195 at 2014-09-11 19:50:43 +0000
+I, [2014-09-11T19:50:43.453173 #6711]  INFO -- : [e6f7ca8d-d7a3-49d4-ba56-0be256cea262] Started GET "/assets/application-1b74e4f9c48eb0176a3f5d006bb2237f.css" for 198.83.30.195 at 2014-09-11 19:50:43 +0000
+I, [2014-09-11T19:50:46.085977 #6711]  INFO -- : [9ba7f6f8-12ae-497c-9ae8-7ffcc24fdc03] Started GET "/users" for 198.83.30.195 at 2014-09-11 19:50:46 +0000
+I, [2014-09-11T19:50:46.088020 #6711]  INFO -- : [9ba7f6f8-12ae-497c-9ae8-7ffcc24fdc03] Processing by UsersController#index as HTML
+I, [2014-09-11T19:50:46.129463 #6711]  INFO -- : [9ba7f6f8-12ae-497c-9ae8-7ffcc24fdc03]   Rendered users/index.html.erb within layouts/application (39.6ms)
+I, [2014-09-11T19:50:46.131799 #6711]  INFO -- : [9ba7f6f8-12ae-497c-9ae8-7ffcc24fdc03] Completed 200 OK in 44ms (Views: 24.0ms | ActiveRecord: 18.4ms)
+I, [2014-09-11T19:52:32.222930 #6711]  INFO -- : [63c0d50e-c4e2-4d38-ba11-2d62c1a07eac] Started GET "/interactions" for 198.83.30.195 at 2014-09-11 19:52:32 +0000
+I, [2014-09-11T19:52:32.225087 #6711]  INFO -- : [63c0d50e-c4e2-4d38-ba11-2d62c1a07eac] Processing by InteractionsController#index as HTML
+I, [2014-09-11T19:52:32.231539 #6711]  INFO -- : [63c0d50e-c4e2-4d38-ba11-2d62c1a07eac]   Rendered interactions/index.html.erb within layouts/application (3.1ms)
+I, [2014-09-11T19:52:32.233860 #6711]  INFO -- : [63c0d50e-c4e2-4d38-ba11-2d62c1a07eac] Completed 200 OK in 9ms (Views: 5.8ms | ActiveRecord: 0.8ms)
+I, [2014-09-11T19:55:52.226176 #6711]  INFO -- : [www] [2c4f3180-0a0a-4526-83db-8ea8e6448e6a] Started POST "/interactions.json" for 67.83.12.173 at 2014-09-11 19:55:52 +0000
+I, [2014-09-11T19:55:52.228586 #6711]  INFO -- : [www] [2c4f3180-0a0a-4526-83db-8ea8e6448e6a] Processing by InteractionsController#create as JSON
+I, [2014-09-11T19:55:52.228870 #6711]  INFO -- : [www] [2c4f3180-0a0a-4526-83db-8ea8e6448e6a]   Parameters: {"localtime"=>"2014-09-11 15:56:25 -0400", "interaction"=>[{"peer_id"=>"1a21b085-7c6e-4071-b015-81d9001a8f16", "duration"=>90229, "time"=>"2014-09-10 10:00:23 -0400", "user_id"=>"e4b0b9c5-e289-44a3-b134-3a9f0207becd", "rssi"=>206}, {"peer_id"=>"a99c0565-a3cd-4b0d-a1b8-bc3b50b345dc", "duration"=>43937, "time"=>"2014-09-10 23:49:00 -0400", "user_id"=>"e4b0b9c5-e289-44a3-b134-3a9f0207becd", "rssi"=>210}, {"peer_id"=>"461f5f44-2919-4cac-ab45-3ec4d73c2c15", "duration"=>30812, "time"=>"2014-09-11 00:15:30 -0400", "user_id"=>"e4b0b9c5-e289-44a3-b134-3a9f0207becd", "rssi"=>202}, {"peer_id"=>"21d9a2b6-b541-4148-91cd-1d893750bda1", "duration"=>23296, "time"=>"2014-09-11 03:46:35 -0400", "user_id"=>"e4b0b9c5-e289-44a3-b134-3a9f0207becd", "rssi"=>212}, {"peer_id"=>"461f5f44-2919-4cac-ab45-3ec4d73c2c15", "duration"=>10060, "time"=>"2014-09-11 08:51:04 -0400", "user_id"=>"e4b0b9c5-e289-44a3-b134-3a9f0207becd", "rssi"=>202}, {"peer_id"=>"1a21b085-7c6e-4071-b015-81d9001a8f16", "duration"=>6100, "time"=>"2014-09-11 11:06:09 -0400", "user_id"=>"e4b0b9c5-e289-44a3-b134-3a9f0207becd", "rssi"=>208}, {"peer_id"=>"a99c0565-a3cd-4b0d-a1b8-bc3b50b345dc", "duration"=>481, "time"=>"2014-09-11 12:03:19 -0400", "user_id"=>"e4b0b9c5-e289-44a3-b134-3a9f0207becd", "rssi"=>212}]}
+I, [2014-09-11T19:55:52.428020 #6711]  INFO -- : [www] [2c4f3180-0a0a-4526-83db-8ea8e6448e6a]   Rendered text template (0.0ms)
+I, [2014-09-11T19:55:52.428288 #6711]  INFO -- : [www] [2c4f3180-0a0a-4526-83db-8ea8e6448e6a] Completed 200 OK in 199ms (Views: 0.5ms | ActiveRecord: 185.6ms)
+I, [2014-09-11T19:56:19.509715 #6711]  INFO -- : [www] [48d52045-f937-4ecd-afcd-b4326982271c] Started GET "/questions.json?max=14" for 67.83.12.173 at 2014-09-11 19:56:19 +0000
+I, [2014-09-11T19:56:19.511919 #6711]  INFO -- : [www] [48d52045-f937-4ecd-afcd-b4326982271c] Processing by QuestionsController#index as JSON
+I, [2014-09-11T19:56:19.512011 #6711]  INFO -- : [www] [48d52045-f937-4ecd-afcd-b4326982271c]   Parameters: {"max"=>"14"}
+I, [2014-09-11T19:56:19.516781 #6711]  INFO -- : [www] [48d52045-f937-4ecd-afcd-b4326982271c] Completed 200 OK in 5ms (Views: 1.7ms | ActiveRecord: 1.5ms)
+I, [2014-09-11T19:56:19.707383 #6711]  INFO -- : [www] [c5ac380f-7fbb-426b-8961-af26d45091be] Started GET "/rules/e4b0b9c5-e289-44a3-b134-3a9f0207becd?max=0" for 67.83.12.173 at 2014-09-11 19:56:19 +0000
+I, [2014-09-11T19:56:19.709456 #6711]  INFO -- : [www] [c5ac380f-7fbb-426b-8961-af26d45091be] Processing by RulesController#get_rules_by_user as HTML
+I, [2014-09-11T19:56:19.709584 #6711]  INFO -- : [www] [c5ac380f-7fbb-426b-8961-af26d45091be]   Parameters: {"max"=>"0", "user"=>"e4b0b9c5-e289-44a3-b134-3a9f0207becd"}
+I, [2014-09-11T19:56:19.713174 #6711]  INFO -- : [www] [c5ac380f-7fbb-426b-8961-af26d45091be] Completed 200 OK in 3ms (Views: 0.6ms | ActiveRecord: 1.6ms)
+I, [2014-09-11T19:56:19.872743 #6711]  INFO -- : [www] [ca358639-dde9-4af4-8e4c-117960c84b94] Started GET "/schedules/e4b0b9c5-e289-44a3-b134-3a9f0207becd?max=356" for 67.83.12.173 at 2014-09-11 19:56:19 +0000
+I, [2014-09-11T19:56:19.874330 #6711]  INFO -- : [www] [ca358639-dde9-4af4-8e4c-117960c84b94] Processing by SchedulesController#get_schedule_by_user as HTML
+I, [2014-09-11T19:56:19.874422 #6711]  INFO -- : [www] [ca358639-dde9-4af4-8e4c-117960c84b94]   Parameters: {"max"=>"356", "user"=>"e4b0b9c5-e289-44a3-b134-3a9f0207becd"}
+I, [2014-09-11T19:56:19.876867 #6711]  INFO -- : [www] [ca358639-dde9-4af4-8e4c-117960c84b94] Completed 200 OK in 2ms (Views: 0.5ms | ActiveRecord: 0.9ms)
+I, [2014-09-11T20:03:22.264729 #6711]  INFO -- : [750178d6-6114-425b-b06e-f3055875bbd0] Started GET "/interactions" for 198.83.30.195 at 2014-09-11 20:03:22 +0000
+I, [2014-09-11T20:03:22.266806 #6711]  INFO -- : [750178d6-6114-425b-b06e-f3055875bbd0] Processing by InteractionsController#index as HTML
+I, [2014-09-11T20:03:22.280891 #6711]  INFO -- : [750178d6-6114-425b-b06e-f3055875bbd0]   Rendered interactions/index.html.erb within layouts/application (9.2ms)
+I, [2014-09-11T20:03:22.283150 #6711]  INFO -- : [750178d6-6114-425b-b06e-f3055875bbd0] Completed 200 OK in 16ms (Views: 11.7ms | ActiveRecord: 2.0ms)
+I, [2014-09-11T20:03:22.390674 #6711]  INFO -- : [80d501a4-8aa3-49aa-9269-7309082009c7] Started GET "/assets/application-1b74e4f9c48eb0176a3f5d006bb2237f.css" for 198.83.30.195 at 2014-09-11 20:03:22 +0000
+I, [2014-09-11T20:03:22.475718 #6711]  INFO -- : [d8d1078f-13f0-4d39-bfa5-71cf45669931] Started GET "/assets/jquery-415bd65e29d683defe015f37d1cedfd8.js" for 198.83.30.195 at 2014-09-11 20:03:22 +0000
+I, [2014-09-11T20:03:22.489535 #6711]  INFO -- : [3d16bc69-6874-4476-aa84-90e566c9225e] Started GET "/assets/application-fa216c9a9493b033972be1597aa9de19.js" for 198.83.30.195 at 2014-09-11 20:03:22 +0000
+I, [2014-09-11T20:10:59.459565 #6711]  INFO -- : [www] [e6a96e4a-85cf-419c-801e-c5892dd14a2c] Started POST "/interactions.json" for 146.111.34.245 at 2014-09-11 20:10:59 +0000
+I, [2014-09-11T20:10:59.465255 #6711]  INFO -- : [www] [e6a96e4a-85cf-419c-801e-c5892dd14a2c] Processing by InteractionsController#create as JSON
+I, [2014-09-11T20:10:59.466117 #6711]  INFO -- : [www] [e6a96e4a-85cf-419c-801e-c5892dd14a2c]   Parameters: {"localtime"=>"2014-09-11 16:11:19 -0400", "interaction"=>[{"peer_id"=>"37d0a47d-a4b5-4ce9-a88c-295fef1e6e2f", "duration"=>97, "time"=>"2014-09-11 14:36:21 -0400", "user_id"=>"f492d29b-a204-42d2-a959-9dfa0113495b", "rssi"=>204}, {"peer_id"=>"a4e825d4-659c-4d72-b53a-f660f5bfec39", "duration"=>97, "time"=>"2014-09-11 14:36:21 -0400", "user_id"=>"f492d29b-a204-42d2-a959-9dfa0113495b", "rssi"=>221}, {"peer_id"=>"3729b2b0-5587-481b-b807-51b4b94224e8", "duration"=>1613, "time"=>"2014-09-11 14:37:58 -0400", "user_id"=>"f492d29b-a204-42d2-a959-9dfa0113495b", "rssi"=>220}, {"peer_id"=>"27038a96-beff-4d2b-aac9-23e4c6cdb10e", "duration"=>1619, "time"=>"2014-09-11 14:39:53 -0400", "user_id"=>"f492d29b-a204-42d2-a959-9dfa0113495b", "rssi"=>203}, {"peer_id"=>"59635f94-cf69-4a78-aafc-cc32ed170016", "duration"=>1749, "time"=>"2014-09-11 14:39:53 -0400", "user_id"=>"f492d29b-a204-42d2-a959-9dfa0113495b", "rssi"=>230}, {"peer_id"=>"a4e825d4-659c-4d72-b53a-f660f5bfec39", "duration"=>1619, "time"=>"2014-09-11 14:39:53 -0400", "user_id"=>"f492d29b-a204-42d2-a959-9dfa0113495b", "rssi"=>220}, {"peer_id"=>"d65d05c0-f082-4f79-8419-ef57ffa6b1f6", "duration"=>1619, "time"=>"2014-09-11 14:39:53 -0400", "user_id"=>"f492d29b-a204-42d2-a959-9dfa0113495b", "rssi"=>197}, {"peer_id"=>"37d0a47d-a4b5-4ce9-a88c-295fef1e6e2f", "duration"=>125, "time"=>"2014-09-11 14:41:58 -0400", "user_id"=>"f492d29b-a204-42d2-a959-9dfa0113495b", "rssi"=>221}, {"peer_id"=>"64a48f45-833c-48af-a52f-ccfb4911cc2f", "duration"=>1494, "time"=>"2014-09-11 14:41:58 -0400", "user_id"=>"f492d29b-a204-42d2-a959-9dfa0113495b", "rssi"=>200}, {"peer_id"=>"9a243eee-c91e-49eb-afc8-d874670297f0", "duration"=>125, "time"=>"2014-09-11 14:41:58 -0400", "user_id"=>"f492d29b-a204-42d2-a959-9dfa0113495b", "rssi"=>195}, {"peer_id"=>"06ab0e13-e2db-4167-90ca-cc1360f101e5", "duration"=>1248, "time"=>"2014-09-11 14:44:03 -0400", "user_id"=>"f492d29b-a204-42d2-a959-9dfa0113495b", "rssi"=>223}, {"peer_id"=>"14b31936-631f-4ba8-b2de-7052ad1b1759", "duration"=>1248, "time"=>"2014-09-11 14:44:03 -0400", "user_id"=>"f492d29b-a204-42d2-a959-9dfa0113495b", "rssi"=>206}, {"peer_id"=>"219444cf-5401-489b-8fe9-47db79b77dd6", "duration"=>1369, "time"=>"2014-09-11 14:44:03 -0400", "user_id"=>"f492d29b-a204-42d2-a959-9dfa0113495b", "rssi"=>198}, {"peer_id"=>"297af968-216e-4814-8689-9a3960b846a9", "duration"=>1248, "time"=>"2014-09-11 14:44:03 -0400", "user_id"=>"f492d29b-a204-42d2-a959-9dfa0113495b", "rssi"=>207}, {"peer_id"=>"48857c01-52a9-49ba-a1b0-579b40091c81", "duration"=>1248, "time"=>"2014-09-11 14:44:03 -0400", "user_id"=>"f492d29b-a204-42d2-a959-9dfa0113495b", "rssi"=>213}, {"peer_id"=>"528cbffb-6d58-4bb2-b0bd-d37461a54f8a", "duration"=>1248, "time"=>"2014-09-11 14:44:03 -0400", "user_id"=>"f492d29b-a204-42d2-a959-9dfa0113495b", "rssi"=>218}, {"peer_id"=>"7345a120-8f86-432f-9d00-c3e8a8643ace", "duration"=>1248, "time"=>"2014-09-11 14:44:03 -0400", "user_id"=>"f492d29b-a204-42d2-a959-9dfa0113495b", "rssi"=>215}, {"peer_id"=>"ab9a0285-7c74-4466-95ed-0146142a5d6c", "duration"=>1248, "time"=>"2014-09-11 14:44:03 -0400", "user_id"=>"f492d29b-a204-42d2-a959-9dfa0113495b", "rssi"=>208}, {"peer_id"=>"2fe27190-b749-4739-bd51-b9059ab4bb32", "duration"=>871, "time"=>"2014-09-11 14:46:09 -0400", "user_id"=>"f492d29b-a204-42d2-a959-9dfa0113495b", "rssi"=>213}, {"peer_id"=>"37d0a47d-a4b5-4ce9-a88c-295fef1e6e2f", "duration"=>1500, "time"=>"2014-09-11 14:46:09 -0400", "user_id"=>"f492d29b-a204-42d2-a959-9dfa0113495b", "rssi"=>196}, {"peer_id"=>"b403a0e5-a055-4477-9fe9-6aad50f18ddf", "duration"=>1243, "time"=>"2014-09-11 14:46:09 -0400", "user_id"=>"f492d29b-a204-42d2-a959-9dfa0113495b", "rssi"=>202}, {"peer_id"=>"9a243eee-c91e-49eb-afc8-d874670297f0", "duration"=>996, "time"=>"2014-09-11 14:48:15 -0400", "user_id"=>"f492d29b-a204-42d2-a959-9dfa0113495b", "rssi"=>219}, {"peer_id"=>"2fe27190-b749-4739-bd51-b9059ab4bb32", "duration"=>127, "time"=>"2014-09-11 15:02:44 -0400", "user_id"=>"f492d29b-a204-42d2-a959-9dfa0113495b", "rssi"=>204}, {"peer_id"=>"528cbffb-6d58-4bb2-b0bd-d37461a54f8a", "duration"=>130, "time"=>"2014-09-11 15:06:52 -0400", "user_id"=>"f492d29b-a204-42d2-a959-9dfa0113495b", "rssi"=>195}, {"peer_id"=>"27038a96-beff-4d2b-aac9-23e4c6cdb10e", "duration"=>889, "time"=>"2014-09-11 15:13:21 -0400", "user_id"=>"f492d29b-a204-42d2-a959-9dfa0113495b", "rssi"=>195}, {"peer_id"=>"37d0a47d-a4b5-4ce9-a88c-295fef1e6e2f", "duration"=>388, "time"=>"2014-09-11 15:13:21 -0400", "user_id"=>"f492d29b-a204-42d2-a959-9dfa0113495b", "rssi"=>204}, {"peer_id"=>"59635f94-cf69-4a78-aafc-cc32ed170016", "duration"=>384, "time"=>"2014-09-11 15:15:32 -0400", "user_id"=>"f492d29b-a204-42d2-a959-9dfa0113495b", "rssi"=>198}, {"peer_id"=>"a4e825d4-659c-4d72-b53a-f660f5bfec39", "duration"=>133, "time"=>"2014-09-11 15:17:36 -0400", "user_id"=>"f492d29b-a204-42d2-a959-9dfa0113495b", "rssi"=>195}, {"peer_id"=>"a4e825d4-659c-4d72-b53a-f660f5bfec39", "duration"=>127, "time"=>"2014-09-11 15:21:56 -0400", "user_id"=>"f492d29b-a204-42d2-a959-9dfa0113495b", "rssi"=>195}, {"peer_id"=>"d65d05c0-f082-4f79-8419-ef57ffa6b1f6", "duration"=>127, "time"=>"2014-09-11 15:21:56 -0400", "user_id"=>"f492d29b-a204-42d2-a959-9dfa0113495b", "rssi"=>200}, {"peer_id"=>"37d0a47d-a4b5-4ce9-a88c-295fef1e6e2f", "duration"=>245, "time"=>"2014-09-11 15:26:07 -0400", "user_id"=>"f492d29b-a204-42d2-a959-9dfa0113495b", "rssi"=>203}, {"peer_id"=>"59635f94-cf69-4a78-aafc-cc32ed170016", "duration"=>245, "time"=>"2014-09-11 15:26:07 -0400", "user_id"=>"f492d29b-a204-42d2-a959-9dfa0113495b", "rssi"=>195}, {"peer_id"=>"3729b2b0-5587-481b-b807-51b4b94224e8", "duration"=>122, "time"=>"2014-09-11 15:30:13 -0400", "user_id"=>"f492d29b-a204-42d2-a959-9dfa0113495b", "rssi"=>195}, {"peer_id"=>"27038a96-beff-4d2b-aac9-23e4c6cdb10e", "duration"=>127, "time"=>"2014-09-11 15:32:16 -0400", "user_id"=>"f492d29b-a204-42d2-a959-9dfa0113495b", "rssi"=>198}, {"peer_id"=>"37d0a47d-a4b5-4ce9-a88c-295fef1e6e2f", "duration"=>503, "time"=>"2014-09-11 15:32:16 -0400", "user_id"=>"f492d29b-a204-42d2-a959-9dfa0113495b", "rssi"=>204}, {"peer_id"=>"59635f94-cf69-4a78-aafc-cc32ed170016", "duration"=>503, "time"=>"2014-09-11 15:32:16 -0400", "user_id"=>"f492d29b-a204-42d2-a959-9dfa0113495b", "rssi"=>198}, {"peer_id"=>"27038a96-beff-4d2b-aac9-23e4c6cdb10e", "duration"=>124, "time"=>"2014-09-11 15:36:26 -0400", "user_id"=>"f492d29b-a204-42d2-a959-9dfa0113495b", "rssi"=>196}, {"peer_id"=>"d65d05c0-f082-4f79-8419-ef57ffa6b1f6", "duration"=>261, "time"=>"2014-09-11 15:38:30 -0400", "user_id"=>"f492d29b-a204-42d2-a959-9dfa0113495b", "rssi"=>198}, {"peer_id"=>"37d0a47d-a4b5-4ce9-a88c-295fef1e6e2f", "duration"=>389, "time"=>"2014-09-11 15:42:51 -0400", "user_id"=>"f492d29b-a204-42d2-a959-9dfa0113495b", "rssi"=>203}, {"peer_id"=>"59635f94-cf69-4a78-aafc-cc32ed170016", "duration"=>258, "time"=>"2014-09-11 15:42:51 -0400", "user_id"=>"f492d29b-a204-42d2-a959-9dfa0113495b", "rssi"=>200}, {"peer_id"=>"27038a96-beff-4d2b-aac9-23e4c6cdb10e", "duration"=>129, "time"=>"2014-09-11 15:45:00 -0400", "user_id"=>"f492d29b-a204-42d2-a959-9dfa0113495b", "rssi"=>195}, {"peer_id"=>"3729b2b0-5587-481b-b807-51b4b94224e8", "duration"=>129, "time"=>"2014-09-11 15:45:00 -0400", "user_id"=>"f492d29b-a204-42d2-a959-9dfa0113495b", "rssi"=>195}, {"peer_id"=>"37d0a47d-a4b5-4ce9-a88c-295fef1e6e2f", "duration"=>123, "time"=>"2014-09-11 15:57:51 -0400", "user_id"=>"f492d29b-a204-42d2-a959-9dfa0113495b", "rssi"=>197}, {"peer_id"=>"27038a96-beff-4d2b-aac9-23e4c6cdb10e", "duration"=>124, "time"=>"2014-09-11 16:01:56 -0400", "user_id"=>"f492d29b-a204-42d2-a959-9dfa0113495b", "rssi"=>195}, {"peer_id"=>"a4e825d4-659c-4d72-b53a-f660f5bfec39", "duration"=>496, "time"=>"2014-09-11 16:01:56 -0400", "user_id"=>"f492d29b-a204-42d2-a959-9dfa0113495b", "rssi"=>209}, {"peer_id"=>"37d0a47d-a4b5-4ce9-a88c-295fef1e6e2f", "duration"=>120, "time"=>"2014-09-11 16:04:00 -0400", "user_id"=>"f492d29b-a204-42d2-a959-9dfa0113495b", "rssi"=>195}, {"peer_id"=>"d65d05c0-f082-4f79-8419-ef57ffa6b1f6", "duration"=>127, "time"=>"2014-09-11 16:06:00 -0400", "user_id"=>"f492d29b-a204-42d2-a959-9dfa0113495b", "rssi"=>200}]}
+I, [2014-09-11T20:11:01.022981 #6711]  INFO -- : [www] [e6a96e4a-85cf-419c-801e-c5892dd14a2c]   Rendered text template (0.0ms)
+I, [2014-09-11T20:11:01.023429 #6711]  INFO -- : [www] [e6a96e4a-85cf-419c-801e-c5892dd14a2c] Completed 200 OK in 1557ms (Views: 0.6ms | ActiveRecord: 1467.2ms)
+I, [2014-09-11T20:11:01.025749 #6711]  INFO -- : [www] [b4b78720-fa50-4ba6-a697-7332514a6f82] Started POST "/interactions.json" for 146.111.34.211 at 2014-09-11 20:11:01 +0000
+I, [2014-09-11T20:11:01.028785 #6711]  INFO -- : [www] [b4b78720-fa50-4ba6-a697-7332514a6f82] Processing by InteractionsController#create as JSON
+I, [2014-09-11T20:11:01.037708 #6711]  INFO -- : [www] [b4b78720-fa50-4ba6-a697-7332514a6f82]   Parameters: {"localtime"=>"2014-09-11 16:11:19 -0400", "interaction"=>[{"peer_id"=>"06ab0e13-e2db-4167-90ca-cc1360f101e5", "duration"=>98, "time"=>"2014-09-11 14:52:19 -0400", "user_id"=>"ab9a0285-7c74-4466-95ed-0146142a5d6c", "rssi"=>214}, {"peer_id"=>"3729b2b0-5587-481b-b807-51b4b94224e8", "duration"=>98, "time"=>"2014-09-11 14:52:19 -0400", "user_id"=>"ab9a0285-7c74-4466-95ed-0146142a5d6c", "rssi"=>216}, {"peer_id"=>"528cbffb-6d58-4bb2-b0bd-d37461a54f8a", "duration"=>98, "time"=>"2014-09-11 14:52:19 -0400", "user_id"=>"ab9a0285-7c74-4466-95ed-0146142a5d6c", "rssi"=>196}, {"peer_id"=>"59635f94-cf69-4a78-aafc-cc32ed170016", "duration"=>720, "time"=>"2014-09-11 14:52:19 -0400", "user_id"=>"ab9a0285-7c74-4466-95ed-0146142a5d6c", "rssi"=>212}, {"peer_id"=>"a4e825d4-659c-4d72-b53a-f660f5bfec39", "duration"=>598, "time"=>"2014-09-11 14:52:19 -0400", "user_id"=>"ab9a0285-7c74-4466-95ed-0146142a5d6c", "rssi"=>198}, {"peer_id"=>"b403a0e5-a055-4477-9fe9-6aad50f18ddf", "duration"=>98, "time"=>"2014-09-11 14:52:19 -0400", "user_id"=>"ab9a0285-7c74-4466-95ed-0146142a5d6c", "rssi"=>198}, {"peer_id"=>"f492d29b-a204-42d2-a959-9dfa0113495b", "duration"=>848, "time"=>"2014-09-11 14:52:19 -0400", "user_id"=>"ab9a0285-7c74-4466-95ed-0146142a5d6c", "rssi"=>199}, {"peer_id"=>"14b31936-631f-4ba8-b2de-7052ad1b1759", "duration"=>116, "time"=>"2014-09-11 14:53:57 -0400", "user_id"=>"ab9a0285-7c74-4466-95ed-0146142a5d6c", "rssi"=>203}, {"peer_id"=>"27038a96-beff-4d2b-aac9-23e4c6cdb10e", "duration"=>374, "time"=>"2014-09-11 14:53:57 -0400", "user_id"=>"ab9a0285-7c74-4466-95ed-0146142a5d6c", "rssi"=>214}, {"peer_id"=>"2fe27190-b749-4739-bd51-b9059ab4bb32", "duration"=>1011, "time"=>"2014-09-11 14:53:57 -0400", "user_id"=>"ab9a0285-7c74-4466-95ed-0146142a5d6c", "rssi"=>229}, {"peer_id"=>"64a48f45-833c-48af-a52f-ccfb4911cc2f", "duration"=>750, "time"=>"2014-09-11 14:53:57 -0400", "user_id"=>"ab9a0285-7c74-4466-95ed-0146142a5d6c", "rssi"=>207}, {"peer_id"=>"06ab0e13-e2db-4167-90ca-cc1360f101e5", "duration"=>506, "time"=>"2014-09-11 14:55:53 -0400", "user_id"=>"ab9a0285-7c74-4466-95ed-0146142a5d6c", "rssi"=>218}, {"peer_id"=>"219444cf-5401-489b-8fe9-47db79b77dd6", "duration"=>506, "time"=>"2014-09-11 14:55:53 -0400", "user_id"=>"ab9a0285-7c74-4466-95ed-0146142a5d6c", "rssi"=>197}, {"peer_id"=>"37d0a47d-a4b5-4ce9-a88c-295fef1e6e2f", "duration"=>634, "time"=>"2014-09-11 14:55:53 -0400", "user_id"=>"ab9a0285-7c74-4466-95ed-0146142a5d6c", "rssi"=>196}, {"peer_id"=>"528cbffb-6d58-4bb2-b0bd-d37461a54f8a", "duration"=>258, "time"=>"2014-09-11 14:55:53 -0400", "user_id"=>"ab9a0285-7c74-4466-95ed-0146142a5d6c", "rssi"=>207}, {"peer_id"=>"7345a120-8f86-432f-9d00-c3e8a8643ace", "duration"=>766, "time"=>"2014-09-11 14:55:53 -0400", "user_id"=>"ab9a0285-7c74-4466-95ed-0146142a5d6c", "rssi"=>232}, {"peer_id"=>"9a243eee-c91e-49eb-afc8-d874670297f0", "duration"=>258, "time"=>"2014-09-11 14:55:53 -0400", "user_id"=>"ab9a0285-7c74-4466-95ed-0146142a5d6c", "rssi"=>198}, {"peer_id"=>"b403a0e5-a055-4477-9fe9-6aad50f18ddf", "duration"=>258, "time"=>"2014-09-11 14:55:53 -0400", "user_id"=>"ab9a0285-7c74-4466-95ed-0146142a5d6c", "rssi"=>206}, {"peer_id"=>"d65d05c0-f082-4f79-8419-ef57ffa6b1f6", "duration"=>506, "time"=>"2014-09-11 14:55:53 -0400", "user_id"=>"ab9a0285-7c74-4466-95ed-0146142a5d6c", "rssi"=>206}, {"peer_id"=>"14b31936-631f-4ba8-b2de-7052ad1b1759", "duration"=>632, "time"=>"2014-09-11 14:58:07 -0400", "user_id"=>"ab9a0285-7c74-4466-95ed-0146142a5d6c", "rssi"=>197}, {"peer_id"=>"3729b2b0-5587-481b-b807-51b4b94224e8", "duration"=>124, "time"=>"2014-09-11 14:58:07 -0400", "user_id"=>"ab9a0285-7c74-4466-95ed-0146142a5d6c", "rssi"=>207}, {"peer_id"=>"48857c01-52a9-49ba-a1b0-579b40091c81", "duration"=>124, "time"=>"2014-09-11 14:58:07 -0400", "user_id"=>"ab9a0285-7c74-4466-95ed-0146142a5d6c", "rssi"=>195}, {"peer_id"=>"27038a96-beff-4d2b-aac9-23e4c6cdb10e", "duration"=>122, "time"=>"2014-09-11 15:02:17 -0400", "user_id"=>"ab9a0285-7c74-4466-95ed-0146142a5d6c", "rssi"=>204}, {"peer_id"=>"3729b2b0-5587-481b-b807-51b4b94224e8", "duration"=>250, "time"=>"2014-09-11 15:02:17 -0400", "user_id"=>"ab9a0285-7c74-4466-95ed-0146142a5d6c", "rssi"=>197}, {"peer_id"=>"9a243eee-c91e-49eb-afc8-d874670297f0", "duration"=>250, "time"=>"2014-09-11 15:02:17 -0400", "user_id"=>"ab9a0285-7c74-4466-95ed-0146142a5d6c", "rssi"=>210}, {"peer_id"=>"b403a0e5-a055-4477-9fe9-6aad50f18ddf", "duration"=>260, "time"=>"2014-09-11 15:04:19 -0400", "user_id"=>"ab9a0285-7c74-4466-95ed-0146142a5d6c", "rssi"=>215}, {"peer_id"=>"219444cf-5401-489b-8fe9-47db79b77dd6", "duration"=>261, "time"=>"2014-09-11 15:06:27 -0400", "user_id"=>"ab9a0285-7c74-4466-95ed-0146142a5d6c", "rssi"=>197}, {"peer_id"=>"48857c01-52a9-49ba-a1b0-579b40091c81", "duration"=>261, "time"=>"2014-09-11 15:06:27 -0400", "user_id"=>"ab9a0285-7c74-4466-95ed-0146142a5d6c", "rssi"=>198}, {"peer_id"=>"528cbffb-6d58-4bb2-b0bd-d37461a54f8a", "duration"=>132, "time"=>"2014-09-11 15:06:27 -0400", "user_id"=>"ab9a0285-7c74-4466-95ed-0146142a5d6c", "rssi"=>215}, {"peer_id"=>"b403a0e5-a055-4477-9fe9-6aad50f18ddf", "duration"=>1024, "time"=>"2014-09-11 15:12:52 -0400", "user_id"=>"ab9a0285-7c74-4466-95ed-0146142a5d6c", "rssi"=>198}, {"peer_id"=>"297af968-216e-4814-8689-9a3960b846a9", "duration"=>128, "time"=>"2014-09-11 15:14:59 -0400", "user_id"=>"ab9a0285-7c74-4466-95ed-0146142a5d6c", "rssi"=>198}, {"peer_id"=>"9a243eee-c91e-49eb-afc8-d874670297f0", "duration"=>514, "time"=>"2014-09-11 15:17:07 -0400", "user_id"=>"ab9a0285-7c74-4466-95ed-0146142a5d6c", "rssi"=>197}, {"peer_id"=>"219444cf-5401-489b-8fe9-47db79b77dd6", "duration"=>125, "time"=>"2014-09-11 15:25:41 -0400", "user_id"=>"ab9a0285-7c74-4466-95ed-0146142a5d6c", "rssi"=>195}, {"peer_id"=>"9a243eee-c91e-49eb-afc8-d874670297f0", "duration"=>241, "time"=>"2014-09-11 15:31:59 -0400", "user_id"=>"ab9a0285-7c74-4466-95ed-0146142a5d6c", "rssi"=>196}, {"peer_id"=>"b403a0e5-a055-4477-9fe9-6aad50f18ddf", "duration"=>241, "time"=>"2014-09-11 15:31:59 -0400", "user_id"=>"ab9a0285-7c74-4466-95ed-0146142a5d6c", "rssi"=>198}, {"peer_id"=>"297af968-216e-4814-8689-9a3960b846a9", "duration"=>129, "time"=>"2014-09-11 15:36:00 -0400", "user_id"=>"ab9a0285-7c74-4466-95ed-0146142a5d6c", "rssi"=>195}, {"peer_id"=>"b403a0e5-a055-4477-9fe9-6aad50f18ddf", "duration"=>129, "time"=>"2014-09-11 15:42:30 -0400", "user_id"=>"ab9a0285-7c74-4466-95ed-0146142a5d6c", "rssi"=>198}, {"peer_id"=>"b403a0e5-a055-4477-9fe9-6aad50f18ddf", "duration"=>127, "time"=>"2014-09-11 15:48:56 -0400", "user_id"=>"ab9a0285-7c74-4466-95ed-0146142a5d6c", "rssi"=>195}, {"peer_id"=>"219444cf-5401-489b-8fe9-47db79b77dd6", "duration"=>132, "time"=>"2014-09-11 15:51:03 -0400", "user_id"=>"ab9a0285-7c74-4466-95ed-0146142a5d6c", "rssi"=>196}, {"peer_id"=>"9a243eee-c91e-49eb-afc8-d874670297f0", "duration"=>263, "time"=>"2014-09-11 15:53:15 -0400", "user_id"=>"ab9a0285-7c74-4466-95ed-0146142a5d6c", "rssi"=>195}, {"peer_id"=>"b403a0e5-a055-4477-9fe9-6aad50f18ddf", "duration"=>381, "time"=>"2014-09-11 15:55:23 -0400", "user_id"=>"ab9a0285-7c74-4466-95ed-0146142a5d6c", "rssi"=>195}, {"peer_id"=>"9a243eee-c91e-49eb-afc8-d874670297f0", "duration"=>125, "time"=>"2014-09-11 16:05:56 -0400", "user_id"=>"ab9a0285-7c74-4466-95ed-0146142a5d6c", "rssi"=>196}, {"peer_id"=>"b403a0e5-a055-4477-9fe9-6aad50f18ddf", "duration"=>125, "time"=>"2014-09-11 16:05:56 -0400", "user_id"=>"ab9a0285-7c74-4466-95ed-0146142a5d6c", "rssi"=>196}]}
+I, [2014-09-11T20:11:02.255224 #6711]  INFO -- : [www] [b4b78720-fa50-4ba6-a697-7332514a6f82]   Rendered text template (0.0ms)
+I, [2014-09-11T20:11:02.255530 #6711]  INFO -- : [www] [b4b78720-fa50-4ba6-a697-7332514a6f82] Completed 200 OK in 1218ms (Views: 0.5ms | ActiveRecord: 1121.3ms)
+I, [2014-09-11T20:11:06.220853 #6711]  INFO -- : [www] [05af8283-b2a4-4aed-8c4e-1255c823a8ed] Started GET "/questions.json?max=2" for 146.111.34.245 at 2014-09-11 20:11:06 +0000
+I, [2014-09-11T20:11:06.223165 #6711]  INFO -- : [www] [05af8283-b2a4-4aed-8c4e-1255c823a8ed] Processing by QuestionsController#index as JSON
+I, [2014-09-11T20:11:06.223257 #6711]  INFO -- : [www] [05af8283-b2a4-4aed-8c4e-1255c823a8ed]   Parameters: {"max"=>"2"}
+I, [2014-09-11T20:11:06.227231 #6711]  INFO -- : [www] [05af8283-b2a4-4aed-8c4e-1255c823a8ed] Completed 200 OK in 4ms (Views: 0.9ms | ActiveRecord: 1.6ms)
+I, [2014-09-11T20:11:13.102427 #6711]  INFO -- : [www] [4e263aa0-62b8-4afd-9a9d-6d64db8ae4a0] Started GET "/rules/f492d29b-a204-42d2-a959-9dfa0113495b?max=0" for 146.111.34.245 at 2014-09-11 20:11:13 +0000
+I, [2014-09-11T20:11:13.104647 #6711]  INFO -- : [www] [4e263aa0-62b8-4afd-9a9d-6d64db8ae4a0] Processing by RulesController#get_rules_by_user as HTML
+I, [2014-09-11T20:11:13.104742 #6711]  INFO -- : [www] [4e263aa0-62b8-4afd-9a9d-6d64db8ae4a0]   Parameters: {"max"=>"0", "user"=>"f492d29b-a204-42d2-a959-9dfa0113495b"}
+I, [2014-09-11T20:11:13.107881 #6711]  INFO -- : [www] [4e263aa0-62b8-4afd-9a9d-6d64db8ae4a0] Completed 200 OK in 3ms (Views: 0.6ms | ActiveRecord: 1.0ms)
+I, [2014-09-11T20:11:18.463543 #6711]  INFO -- : [www] [8f4348c0-1bbf-4982-86a1-d174d975919d] Started GET "/schedules/f492d29b-a204-42d2-a959-9dfa0113495b?max=33" for 146.111.34.245 at 2014-09-11 20:11:18 +0000
+I, [2014-09-11T20:11:18.465603 #6711]  INFO -- : [www] [8f4348c0-1bbf-4982-86a1-d174d975919d] Processing by SchedulesController#get_schedule_by_user as HTML
+I, [2014-09-11T20:11:18.465701 #6711]  INFO -- : [www] [8f4348c0-1bbf-4982-86a1-d174d975919d]   Parameters: {"max"=>"33", "user"=>"f492d29b-a204-42d2-a959-9dfa0113495b"}
+I, [2014-09-11T20:11:18.468561 #6711]  INFO -- : [www] [8f4348c0-1bbf-4982-86a1-d174d975919d] Completed 200 OK in 3ms (Views: 0.6ms | ActiveRecord: 0.9ms)
+I, [2014-09-11T20:11:23.377219 #6711]  INFO -- : [www] [12c579fc-9abe-4cd0-abeb-dce3192e0c74] Started POST "/answers.json" for 146.111.34.245 at 2014-09-11 20:11:23 +0000
+I, [2014-09-11T20:11:23.380113 #6711]  INFO -- : [www] [12c579fc-9abe-4cd0-abeb-dce3192e0c74] Processing by AnswersController#create as JSON
+I, [2014-09-11T20:11:23.380427 #6711]  INFO -- : [www] [12c579fc-9abe-4cd0-abeb-dce3192e0c74]   Parameters: {"answer"=>[{"question_id"=>1, "time"=>"2014-09-11 14:35:00 -0400", "user_id"=>"f492d29b-a204-42d2-a959-9dfa0113495b", "choice_id"=>-1}, {"question_id"=>2, "time"=>"2014-09-11 14:34:57 -0400", "user_id"=>"f492d29b-a204-42d2-a959-9dfa0113495b", "choice_id"=>3}], "localtime"=>"2014-09-11 16:11:53 -0400"}
+I, [2014-09-11T20:11:23.515134 #6711]  INFO -- : [www] [12c579fc-9abe-4cd0-abeb-dce3192e0c74]   Rendered text template (0.0ms)
+I, [2014-09-11T20:11:23.515459 #6711]  INFO -- : [www] [12c579fc-9abe-4cd0-abeb-dce3192e0c74] Completed 200 OK in 125ms (Views: 0.6ms | ActiveRecord: 112.9ms)
+I, [2014-09-11T20:11:24.806497 #6711]  INFO -- : [www] [b5e681f7-78d1-414f-95d8-e2e1df56eaab] Started GET "/questions.json?max=2" for 146.111.34.211 at 2014-09-11 20:11:24 +0000
+I, [2014-09-11T20:11:24.809826 #6711]  INFO -- : [www] [b5e681f7-78d1-414f-95d8-e2e1df56eaab] Processing by QuestionsController#index as JSON
+I, [2014-09-11T20:11:24.809918 #6711]  INFO -- : [www] [b5e681f7-78d1-414f-95d8-e2e1df56eaab]   Parameters: {"max"=>"2"}
+I, [2014-09-11T20:11:24.813878 #6711]  INFO -- : [www] [b5e681f7-78d1-414f-95d8-e2e1df56eaab] Completed 200 OK in 4ms (Views: 0.9ms | ActiveRecord: 1.5ms)
+I, [2014-09-11T20:11:40.251172 #6711]  INFO -- : [www] [ee0eac99-3d39-483a-82c3-76eee74381ef] Started GET "/rules/ab9a0285-7c74-4466-95ed-0146142a5d6c?max=0" for 146.111.34.211 at 2014-09-11 20:11:40 +0000
+I, [2014-09-11T20:11:40.253336 #6711]  INFO -- : [www] [ee0eac99-3d39-483a-82c3-76eee74381ef] Processing by RulesController#get_rules_by_user as HTML
+I, [2014-09-11T20:11:40.253435 #6711]  INFO -- : [www] [ee0eac99-3d39-483a-82c3-76eee74381ef]   Parameters: {"max"=>"0", "user"=>"ab9a0285-7c74-4466-95ed-0146142a5d6c"}
+I, [2014-09-11T20:11:40.256385 #6711]  INFO -- : [www] [ee0eac99-3d39-483a-82c3-76eee74381ef] Completed 200 OK in 3ms (Views: 0.6ms | ActiveRecord: 0.9ms)
+I, [2014-09-11T20:11:46.428039 #6711]  INFO -- : [www] [a46ef29a-58be-4697-afde-a849baa94618] Started GET "/schedules/ab9a0285-7c74-4466-95ed-0146142a5d6c?max=0" for 146.111.34.211 at 2014-09-11 20:11:46 +0000
+I, [2014-09-11T20:11:46.430353 #6711]  INFO -- : [www] [a46ef29a-58be-4697-afde-a849baa94618] Processing by SchedulesController#get_schedule_by_user as HTML
+I, [2014-09-11T20:11:46.430451 #6711]  INFO -- : [www] [a46ef29a-58be-4697-afde-a849baa94618]   Parameters: {"max"=>"0", "user"=>"ab9a0285-7c74-4466-95ed-0146142a5d6c"}
+I, [2014-09-11T20:11:46.433875 #6711]  INFO -- : [www] [a46ef29a-58be-4697-afde-a849baa94618] Completed 200 OK in 3ms (Views: 1.1ms | ActiveRecord: 1.0ms)
+I, [2014-09-11T20:13:57.551704 #6711]  INFO -- : [www] [88d25c2c-c693-429c-bfa2-72d66db78124] Started POST "/interactions.json" for 146.111.34.203 at 2014-09-11 20:13:57 +0000
+I, [2014-09-11T20:13:57.555141 #6711]  INFO -- : [www] [88d25c2c-c693-429c-bfa2-72d66db78124] Processing by InteractionsController#create as JSON
+I, [2014-09-11T20:13:57.555882 #6711]  INFO -- : [www] [88d25c2c-c693-429c-bfa2-72d66db78124]   Parameters: {"localtime"=>"2014-09-11 16:14:26 -0400", "interaction"=>[{"peer_id"=>"ab9a0285-7c74-4466-95ed-0146142a5d6c", "duration"=>1721, "time"=>"2014-09-11 14:41:09 -0400", "user_id"=>"7345a120-8f86-432f-9d00-c3e8a8643ace", "rssi"=>231}, {"peer_id"=>"14b31936-631f-4ba8-b2de-7052ad1b1759", "duration"=>124, "time"=>"2014-09-11 14:43:04 -0400", "user_id"=>"7345a120-8f86-432f-9d00-c3e8a8643ace", "rssi"=>195}, {"peer_id"=>"219444cf-5401-489b-8fe9-47db79b77dd6", "duration"=>124, "time"=>"2014-09-11 14:43:04 -0400", "user_id"=>"7345a120-8f86-432f-9d00-c3e8a8643ace", "rssi"=>199}, {"peer_id"=>"9a243eee-c91e-49eb-afc8-d874670297f0", "duration"=>492, "time"=>"2014-09-11 14:43:04 -0400", "user_id"=>"7345a120-8f86-432f-9d00-c3e8a8643ace", "rssi"=>201}, {"peer_id"=>"b403a0e5-a055-4477-9fe9-6aad50f18ddf", "duration"=>124, "time"=>"2014-09-11 14:43:04 -0400", "user_id"=>"7345a120-8f86-432f-9d00-c3e8a8643ace", "rssi"=>202}, {"peer_id"=>"2fe27190-b749-4739-bd51-b9059ab4bb32", "duration"=>1482, "time"=>"2014-09-11 14:45:08 -0400", "user_id"=>"7345a120-8f86-432f-9d00-c3e8a8643ace", "rssi"=>206}, {"peer_id"=>"3729b2b0-5587-481b-b807-51b4b94224e8", "duration"=>1361, "time"=>"2014-09-11 14:45:08 -0400", "user_id"=>"7345a120-8f86-432f-9d00-c3e8a8643ace", "rssi"=>201}, {"peer_id"=>"37d0a47d-a4b5-4ce9-a88c-295fef1e6e2f", "duration"=>1235, "time"=>"2014-09-11 14:45:08 -0400", "user_id"=>"7345a120-8f86-432f-9d00-c3e8a8643ace", "rssi"=>214}, {"peer_id"=>"528cbffb-6d58-4bb2-b0bd-d37461a54f8a", "duration"=>1482, "time"=>"2014-09-11 14:45:08 -0400", "user_id"=>"7345a120-8f86-432f-9d00-c3e8a8643ace", "rssi"=>201}, {"peer_id"=>"59635f94-cf69-4a78-aafc-cc32ed170016", "duration"=>742, "time"=>"2014-09-11 14:45:08 -0400", "user_id"=>"7345a120-8f86-432f-9d00-c3e8a8643ace", "rssi"=>213}, {"peer_id"=>"64a48f45-833c-48af-a52f-ccfb4911cc2f", "duration"=>981, "time"=>"2014-09-11 14:45:08 -0400", "user_id"=>"7345a120-8f86-432f-9d00-c3e8a8643ace", "rssi"=>212}, {"peer_id"=>"a4e825d4-659c-4d72-b53a-f660f5bfec39", "duration"=>1235, "time"=>"2014-09-11 14:45:08 -0400", "user_id"=>"7345a120-8f86-432f-9d00-c3e8a8643ace", "rssi"=>203}, {"peer_id"=>"d65d05c0-f082-4f79-8419-ef57ffa6b1f6", "duration"=>1235, "time"=>"2014-09-11 14:45:08 -0400", "user_id"=>"7345a120-8f86-432f-9d00-c3e8a8643ace", "rssi"=>212}, {"peer_id"=>"f492d29b-a204-42d2-a959-9dfa0113495b", "duration"=>1235, "time"=>"2014-09-11 14:45:08 -0400", "user_id"=>"7345a120-8f86-432f-9d00-c3e8a8643ace", "rssi"=>215}, {"peer_id"=>"06ab0e13-e2db-4167-90ca-cc1360f101e5", "duration"=>1111, "time"=>"2014-09-11 14:47:12 -0400", "user_id"=>"7345a120-8f86-432f-9d00-c3e8a8643ace", "rssi"=>209}, {"peer_id"=>"219444cf-5401-489b-8fe9-47db79b77dd6", "duration"=>1358, "time"=>"2014-09-11 14:47:12 -0400", "user_id"=>"7345a120-8f86-432f-9d00-c3e8a8643ace", "rssi"=>206}, {"peer_id"=>"27038a96-beff-4d2b-aac9-23e4c6cdb10e", "duration"=>1111, "time"=>"2014-09-11 14:47:12 -0400", "user_id"=>"7345a120-8f86-432f-9d00-c3e8a8643ace", "rssi"=>197}, {"peer_id"=>"297af968-216e-4814-8689-9a3960b846a9", "duration"=>125, "time"=>"2014-09-11 14:47:12 -0400", "user_id"=>"7345a120-8f86-432f-9d00-c3e8a8643ace", "rssi"=>196}, {"peer_id"=>"48857c01-52a9-49ba-a1b0-579b40091c81", "duration"=>367, "time"=>"2014-09-11 14:47:12 -0400", "user_id"=>"7345a120-8f86-432f-9d00-c3e8a8643ace", "rssi"=>198}, {"peer_id"=>"b403a0e5-a055-4477-9fe9-6aad50f18ddf", "duration"=>1358, "time"=>"2014-09-11 14:47:12 -0400", "user_id"=>"7345a120-8f86-432f-9d00-c3e8a8643ace", "rssi"=>196}, {"peer_id"=>"14b31936-631f-4ba8-b2de-7052ad1b1759", "duration"=>1233, "time"=>"2014-09-11 14:49:17 -0400", "user_id"=>"7345a120-8f86-432f-9d00-c3e8a8643ace", "rssi"=>195}, {"peer_id"=>"9a243eee-c91e-49eb-afc8-d874670297f0", "duration"=>373, "time"=>"2014-09-11 14:53:19 -0400", "user_id"=>"7345a120-8f86-432f-9d00-c3e8a8643ace", "rssi"=>209}, {"peer_id"=>"297af968-216e-4814-8689-9a3960b846a9", "duration"=>249, "time"=>"2014-09-11 14:55:23 -0400", "user_id"=>"7345a120-8f86-432f-9d00-c3e8a8643ace", "rssi"=>195}, {"peer_id"=>"48857c01-52a9-49ba-a1b0-579b40091c81", "duration"=>867, "time"=>"2014-09-11 14:55:23 -0400", "user_id"=>"7345a120-8f86-432f-9d00-c3e8a8643ace", "rssi"=>198}, {"peer_id"=>"59635f94-cf69-4a78-aafc-cc32ed170016", "duration"=>370, "time"=>"2014-09-11 14:59:33 -0400", "user_id"=>"7345a120-8f86-432f-9d00-c3e8a8643ace", "rssi"=>215}, {"peer_id"=>"297af968-216e-4814-8689-9a3960b846a9", "duration"=>254, "time"=>"2014-09-11 15:01:29 -0400", "user_id"=>"7345a120-8f86-432f-9d00-c3e8a8643ace", "rssi"=>199}, {"peer_id"=>"9a243eee-c91e-49eb-afc8-d874670297f0", "duration"=>501, "time"=>"2014-09-11 15:01:29 -0400", "user_id"=>"7345a120-8f86-432f-9d00-c3e8a8643ace", "rssi"=>199}, {"peer_id"=>"64a48f45-833c-48af-a52f-ccfb4911cc2f", "duration"=>127, "time"=>"2014-09-11 15:03:36 -0400", "user_id"=>"7345a120-8f86-432f-9d00-c3e8a8643ace", "rssi"=>208}, {"peer_id"=>"219444cf-5401-489b-8fe9-47db79b77dd6", "duration"=>125, "time"=>"2014-09-11 15:11:53 -0400", "user_id"=>"7345a120-8f86-432f-9d00-c3e8a8643ace", "rssi"=>199}, {"peer_id"=>"64a48f45-833c-48af-a52f-ccfb4911cc2f", "duration"=>127, "time"=>"2014-09-11 15:43:12 -0400", "user_id"=>"7345a120-8f86-432f-9d00-c3e8a8643ace", "rssi"=>196}, {"peer_id"=>"219444cf-5401-489b-8fe9-47db79b77dd6", "duration"=>123, "time"=>"2014-09-11 15:45:19 -0400", "user_id"=>"7345a120-8f86-432f-9d00-c3e8a8643ace", "rssi"=>198}, {"peer_id"=>"a4e825d4-659c-4d72-b53a-f660f5bfec39", "duration"=>124, "time"=>"2014-09-11 15:51:59 -0400", "user_id"=>"7345a120-8f86-432f-9d00-c3e8a8643ace", "rssi"=>195}, {"peer_id"=>"3729b2b0-5587-481b-b807-51b4b94224e8", "duration"=>146, "time"=>"2014-09-11 15:54:03 -0400", "user_id"=>"7345a120-8f86-432f-9d00-c3e8a8643ace", "rssi"=>196}, {"peer_id"=>"64a48f45-833c-48af-a52f-ccfb4911cc2f", "duration"=>513, "time"=>"2014-09-11 15:56:29 -0400", "user_id"=>"7345a120-8f86-432f-9d00-c3e8a8643ace", "rssi"=>201}, {"peer_id"=>"d65d05c0-f082-4f79-8419-ef57ffa6b1f6", "duration"=>258, "time"=>"2014-09-11 15:56:29 -0400", "user_id"=>"7345a120-8f86-432f-9d00-c3e8a8643ace", "rssi"=>195}, {"peer_id"=>"3729b2b0-5587-481b-b807-51b4b94224e8", "duration"=>388, "time"=>"2014-09-11 15:58:34 -0400", "user_id"=>"7345a120-8f86-432f-9d00-c3e8a8643ace", "rssi"=>197}]}
+I, [2014-09-11T20:13:58.623026 #6711]  INFO -- : [www] [88d25c2c-c693-429c-bfa2-72d66db78124]   Rendered text template (0.0ms)
+I, [2014-09-11T20:13:58.623378 #6711]  INFO -- : [www] [88d25c2c-c693-429c-bfa2-72d66db78124] Completed 200 OK in 1067ms (Views: 0.7ms | ActiveRecord: 987.7ms)
+I, [2014-09-11T20:14:42.451089 #6711]  INFO -- : [9c68790b-cb2e-40f1-a3bd-e858b9536b4f] Started GET "/users" for 198.83.30.195 at 2014-09-11 20:14:42 +0000
+I, [2014-09-11T20:14:42.453243 #6711]  INFO -- : [9c68790b-cb2e-40f1-a3bd-e858b9536b4f] Processing by UsersController#index as HTML
+I, [2014-09-11T20:14:42.499895 #6711]  INFO -- : [9c68790b-cb2e-40f1-a3bd-e858b9536b4f]   Rendered users/index.html.erb within layouts/application (44.5ms)
+I, [2014-09-11T20:14:42.502668 #6711]  INFO -- : [9c68790b-cb2e-40f1-a3bd-e858b9536b4f] Completed 200 OK in 49ms (Views: 25.9ms | ActiveRecord: 21.8ms)
+I, [2014-09-11T20:14:58.476232 #6711]  INFO -- : [www] [e26c5dbc-71af-42db-88c5-ef39ff5269a1] Started POST "/interactions.json" for 146.111.34.203 at 2014-09-11 20:14:58 +0000
+I, [2014-09-11T20:14:58.478499 #6711]  INFO -- : [www] [e26c5dbc-71af-42db-88c5-ef39ff5269a1] Processing by InteractionsController#create as JSON
+I, [2014-09-11T20:14:58.478645 #6711]  INFO -- : [www] [e26c5dbc-71af-42db-88c5-ef39ff5269a1]   Parameters: {"localtime"=>"2014-09-11 16:15:27 -0400", "interaction"=>[{"peer_id"=>"ab9a0285-7c74-4466-95ed-0146142a5d6c", "duration"=>122, "time"=>"2014-09-11 16:13:21 -0400", "user_id"=>"7345a120-8f86-432f-9d00-c3e8a8643ace", "rssi"=>199}]}
+I, [2014-09-11T20:14:58.508230 #6711]  INFO -- : [www] [e26c5dbc-71af-42db-88c5-ef39ff5269a1]   Rendered text template (0.0ms)
+I, [2014-09-11T20:14:58.508560 #6711]  INFO -- : [www] [e26c5dbc-71af-42db-88c5-ef39ff5269a1] Completed 200 OK in 30ms (Views: 0.6ms | ActiveRecord: 25.2ms)
+I, [2014-09-11T20:15:16.301594 #6711]  INFO -- : [www] [7b2a7314-a3e8-46fd-ace0-72ee9b9588fb] Started GET "/questions.json?max=0" for 146.111.34.203 at 2014-09-11 20:15:16 +0000
+I, [2014-09-11T20:15:16.303775 #6711]  INFO -- : [www] [7b2a7314-a3e8-46fd-ace0-72ee9b9588fb] Processing by QuestionsController#index as JSON
+I, [2014-09-11T20:15:16.303871 #6711]  INFO -- : [www] [7b2a7314-a3e8-46fd-ace0-72ee9b9588fb]   Parameters: {"max"=>"0"}
+I, [2014-09-11T20:15:16.310348 #6711]  INFO -- : [www] [7b2a7314-a3e8-46fd-ace0-72ee9b9588fb] Completed 200 OK in 6ms (Views: 3.2ms | ActiveRecord: 1.6ms)
+I, [2014-09-11T20:16:53.036020 #6711]  INFO -- : [www] [0a8b59fb-358c-4190-8fe0-b7a0235f2bed] Started GET "/questions.json?max=0" for 146.111.34.203 at 2014-09-11 20:16:53 +0000
+I, [2014-09-11T20:16:53.038120 #6711]  INFO -- : [www] [0a8b59fb-358c-4190-8fe0-b7a0235f2bed] Processing by QuestionsController#index as JSON
+I, [2014-09-11T20:16:53.038214 #6711]  INFO -- : [www] [0a8b59fb-358c-4190-8fe0-b7a0235f2bed]   Parameters: {"max"=>"0"}
+I, [2014-09-11T20:16:53.043735 #6711]  INFO -- : [www] [0a8b59fb-358c-4190-8fe0-b7a0235f2bed] Completed 200 OK in 5ms (Views: 2.5ms | ActiveRecord: 1.5ms)
+I, [2014-09-11T20:16:56.020898 #6711]  INFO -- : [www] [cfc40988-2941-4e30-9afa-17a32d3aab66] Started GET "/rules/7345a120-8f86-432f-9d00-c3e8a8643ace?max=0" for 146.111.34.203 at 2014-09-11 20:16:56 +0000
+I, [2014-09-11T20:16:56.022866 #6711]  INFO -- : [www] [cfc40988-2941-4e30-9afa-17a32d3aab66] Processing by RulesController#get_rules_by_user as HTML
+I, [2014-09-11T20:16:56.022962 #6711]  INFO -- : [www] [cfc40988-2941-4e30-9afa-17a32d3aab66]   Parameters: {"max"=>"0", "user"=>"7345a120-8f86-432f-9d00-c3e8a8643ace"}
+I, [2014-09-11T20:16:56.025844 #6711]  INFO -- : [www] [cfc40988-2941-4e30-9afa-17a32d3aab66] Completed 200 OK in 3ms (Views: 0.6ms | ActiveRecord: 0.9ms)
+I, [2014-09-11T20:16:56.351436 #6711]  INFO -- : [a1367bf7-8bda-4bf2-bff9-b68995848c60] Started GET "/interactions" for 198.83.30.195 at 2014-09-11 20:16:56 +0000
+I, [2014-09-11T20:16:56.354268 #6711]  INFO -- : [a1367bf7-8bda-4bf2-bff9-b68995848c60] Processing by InteractionsController#index as HTML
+I, [2014-09-11T20:16:56.492523 #6711]  INFO -- : [a1367bf7-8bda-4bf2-bff9-b68995848c60]   Rendered interactions/index.html.erb within layouts/application (129.3ms)
+I, [2014-09-11T20:16:56.495168 #6711]  INFO -- : [a1367bf7-8bda-4bf2-bff9-b68995848c60] Completed 200 OK in 141ms (Views: 132.2ms | ActiveRecord: 3.0ms)
+I, [2014-09-11T20:16:56.879535 #6711]  INFO -- : [www] [c6197f11-2c4c-425f-bd7b-2486116c2508] Started POST "/interactions.json" for 67.83.12.173 at 2014-09-11 20:16:56 +0000
+I, [2014-09-11T20:16:56.881741 #6711]  INFO -- : [www] [c6197f11-2c4c-425f-bd7b-2486116c2508] Processing by InteractionsController#create as JSON
+I, [2014-09-11T20:16:56.881902 #6711]  INFO -- : [www] [c6197f11-2c4c-425f-bd7b-2486116c2508]   Parameters: {"localtime"=>"2014-09-11 16:17:27 -0400", "interaction"=>[{"peer_id"=>"a99c0565-a3cd-4b0d-a1b8-bc3b50b345dc", "duration"=>116524, "time"=>"2014-09-10 06:03:55 -0400", "user_id"=>"9b61c420-a6e4-4c2f-9fad-db003523f132", "rssi"=>221}, {"peer_id"=>"e4b0b9c5-e289-44a3-b134-3a9f0207becd", "duration"=>66717, "time"=>"2014-09-10 15:53:12 -0400", "user_id"=>"9b61c420-a6e4-4c2f-9fad-db003523f132", "rssi"=>221}, {"peer_id"=>"461f5f44-2919-4cac-ab45-3ec4d73c2c15", "duration"=>44939, "time"=>"2014-09-10 22:16:37 -0400", "user_id"=>"9b61c420-a6e4-4c2f-9fad-db003523f132", "rssi"=>206}]}
+I, [2014-09-11T20:16:56.969632 #6711]  INFO -- : [www] [c6197f11-2c4c-425f-bd7b-2486116c2508]   Rendered text template (0.1ms)
+I, [2014-09-11T20:16:56.969957 #6711]  INFO -- : [www] [c6197f11-2c4c-425f-bd7b-2486116c2508] Completed 200 OK in 88ms (Views: 0.6ms | ActiveRecord: 79.8ms)
+I, [2014-09-11T20:16:59.197369 #6711]  INFO -- : [www] [ea50a3e2-b1c8-46e3-aee0-5fe6e79cb253] Started GET "/questions.json?max=14" for 67.83.12.173 at 2014-09-11 20:16:59 +0000
+I, [2014-09-11T20:16:59.199447 #6711]  INFO -- : [www] [ea50a3e2-b1c8-46e3-aee0-5fe6e79cb253] Processing by QuestionsController#index as JSON
+I, [2014-09-11T20:16:59.199588 #6711]  INFO -- : [www] [ea50a3e2-b1c8-46e3-aee0-5fe6e79cb253]   Parameters: {"max"=>"14"}
+I, [2014-09-11T20:16:59.204237 #6711]  INFO -- : [www] [ea50a3e2-b1c8-46e3-aee0-5fe6e79cb253] Completed 200 OK in 4ms (Views: 1.7ms | ActiveRecord: 1.5ms)
+I, [2014-09-11T20:16:59.257211 #6711]  INFO -- : [www] [690a7d62-7747-4fb6-9d08-6aab35fcb58e] Started GET "/schedules/7345a120-8f86-432f-9d00-c3e8a8643ace?max=0" for 146.111.34.203 at 2014-09-11 20:16:59 +0000
+I, [2014-09-11T20:16:59.258659 #6711]  INFO -- : [www] [690a7d62-7747-4fb6-9d08-6aab35fcb58e] Processing by SchedulesController#get_schedule_by_user as HTML
+I, [2014-09-11T20:16:59.258752 #6711]  INFO -- : [www] [690a7d62-7747-4fb6-9d08-6aab35fcb58e]   Parameters: {"max"=>"0", "user"=>"7345a120-8f86-432f-9d00-c3e8a8643ace"}
+I, [2014-09-11T20:16:59.261270 #6711]  INFO -- : [www] [690a7d62-7747-4fb6-9d08-6aab35fcb58e] Completed 200 OK in 2ms (Views: 0.8ms | ActiveRecord: 0.7ms)
+I, [2014-09-11T20:17:05.386194 #6711]  INFO -- : [www] [691bea83-9003-4b5f-84ba-c342cfeb9cbb] Started GET "/rules/9b61c420-a6e4-4c2f-9fad-db003523f132?max=0" for 67.83.12.173 at 2014-09-11 20:17:05 +0000
+I, [2014-09-11T20:17:05.388538 #6711]  INFO -- : [www] [691bea83-9003-4b5f-84ba-c342cfeb9cbb] Processing by RulesController#get_rules_by_user as HTML
+I, [2014-09-11T20:17:05.388636 #6711]  INFO -- : [www] [691bea83-9003-4b5f-84ba-c342cfeb9cbb]   Parameters: {"max"=>"0", "user"=>"9b61c420-a6e4-4c2f-9fad-db003523f132"}
+I, [2014-09-11T20:17:05.391704 #6711]  INFO -- : [www] [691bea83-9003-4b5f-84ba-c342cfeb9cbb] Completed 200 OK in 3ms (Views: 0.6ms | ActiveRecord: 0.9ms)
+I, [2014-09-11T20:17:09.108970 #6711]  INFO -- : [www] [0eb9186e-681a-45a7-bb14-ffcea4624c0d] Started GET "/schedules/9b61c420-a6e4-4c2f-9fad-db003523f132?max=357" for 67.83.12.173 at 2014-09-11 20:17:09 +0000
+I, [2014-09-11T20:17:09.111008 #6711]  INFO -- : [www] [0eb9186e-681a-45a7-bb14-ffcea4624c0d] Processing by SchedulesController#get_schedule_by_user as HTML
+I, [2014-09-11T20:17:09.111123 #6711]  INFO -- : [www] [0eb9186e-681a-45a7-bb14-ffcea4624c0d]   Parameters: {"max"=>"357", "user"=>"9b61c420-a6e4-4c2f-9fad-db003523f132"}
+I, [2014-09-11T20:17:09.113961 #6711]  INFO -- : [www] [0eb9186e-681a-45a7-bb14-ffcea4624c0d] Completed 200 OK in 3ms (Views: 0.6ms | ActiveRecord: 0.9ms)
+I, [2014-09-11T20:20:10.965436 #6711]  INFO -- : [577882f3-ba75-4934-8505-655d193577f8] Started GET "/answers" for 198.83.30.195 at 2014-09-11 20:20:10 +0000
+I, [2014-09-11T20:20:10.967660 #6711]  INFO -- : [577882f3-ba75-4934-8505-655d193577f8] Processing by AnswersController#index as HTML
+I, [2014-09-11T20:20:10.971470 #6711]  INFO -- : [577882f3-ba75-4934-8505-655d193577f8]   Rendered answers/index.html.erb within layouts/application (1.8ms)
+I, [2014-09-11T20:20:10.974223 #6711]  INFO -- : [577882f3-ba75-4934-8505-655d193577f8] Completed 200 OK in 6ms (Views: 4.1ms | ActiveRecord: 0.8ms)
+I, [2014-09-11T20:23:41.372640 #6711]  INFO -- : [55c76122-12b6-4d8d-85cf-fa4342e7d4f0] Started GET "/answers" for 198.83.30.195 at 2014-09-11 20:23:41 +0000
+I, [2014-09-11T20:23:41.374707 #6711]  INFO -- : [55c76122-12b6-4d8d-85cf-fa4342e7d4f0] Processing by AnswersController#index as HTML
+I, [2014-09-11T20:23:41.378162 #6711]  INFO -- : [55c76122-12b6-4d8d-85cf-fa4342e7d4f0]   Rendered answers/index.html.erb within layouts/application (1.6ms)
+I, [2014-09-11T20:23:41.380376 #6711]  INFO -- : [55c76122-12b6-4d8d-85cf-fa4342e7d4f0] Completed 200 OK in 6ms (Views: 3.3ms | ActiveRecord: 0.8ms)
+I, [2014-09-11T20:23:49.737277 #6711]  INFO -- : [6b768267-e027-424e-9ebd-515b0e9994cc] Started GET "/answers" for 198.83.30.195 at 2014-09-11 20:23:49 +0000
+I, [2014-09-11T20:23:49.739292 #6711]  INFO -- : [6b768267-e027-424e-9ebd-515b0e9994cc] Processing by AnswersController#index as HTML
+I, [2014-09-11T20:23:49.742589 #6711]  INFO -- : [6b768267-e027-424e-9ebd-515b0e9994cc]   Rendered answers/index.html.erb within layouts/application (1.5ms)
+I, [2014-09-11T20:23:49.745209 #6711]  INFO -- : [6b768267-e027-424e-9ebd-515b0e9994cc] Completed 200 OK in 6ms (Views: 3.8ms | ActiveRecord: 0.7ms)
+I, [2014-09-11T20:24:25.106490 #6711]  INFO -- : [8b1ae0fc-5bb7-4208-8a8e-1936b54d71ba] Started GET "/interactions" for 198.83.30.195 at 2014-09-11 20:24:25 +0000
+I, [2014-09-11T20:24:25.108539 #6711]  INFO -- : [8b1ae0fc-5bb7-4208-8a8e-1936b54d71ba] Processing by InteractionsController#index as HTML
+I, [2014-09-11T20:24:25.246285 #6711]  INFO -- : [8b1ae0fc-5bb7-4208-8a8e-1936b54d71ba]   Rendered interactions/index.html.erb within layouts/application (129.0ms)
+I, [2014-09-11T20:24:25.248889 #6711]  INFO -- : [8b1ae0fc-5bb7-4208-8a8e-1936b54d71ba] Completed 200 OK in 140ms (Views: 132.0ms | ActiveRecord: 2.8ms)
+I, [2014-09-11T20:24:28.539898 #6711]  INFO -- : [8b75aae4-b797-4297-a263-3838aff5ebe4] Started GET "/answers" for 198.83.30.195 at 2014-09-11 20:24:28 +0000
+I, [2014-09-11T20:24:28.542108 #6711]  INFO -- : [8b75aae4-b797-4297-a263-3838aff5ebe4] Processing by AnswersController#index as HTML
+I, [2014-09-11T20:24:28.545798 #6711]  INFO -- : [8b75aae4-b797-4297-a263-3838aff5ebe4]   Rendered answers/index.html.erb within layouts/application (1.8ms)
+I, [2014-09-11T20:24:28.549124 #6711]  INFO -- : [8b75aae4-b797-4297-a263-3838aff5ebe4] Completed 200 OK in 7ms (Views: 4.6ms | ActiveRecord: 0.9ms)
+I, [2014-09-11T20:24:44.814833 #6711]  INFO -- : [5330a957-0efb-4f97-aff1-576e0f6654da] Started GET "/interactions" for 198.83.30.195 at 2014-09-11 20:24:44 +0000
+I, [2014-09-11T20:24:44.816862 #6711]  INFO -- : [5330a957-0efb-4f97-aff1-576e0f6654da] Processing by InteractionsController#index as HTML
+I, [2014-09-11T20:24:44.950959 #6711]  INFO -- : [5330a957-0efb-4f97-aff1-576e0f6654da]   Rendered interactions/index.html.erb within layouts/application (125.6ms)
+I, [2014-09-11T20:24:44.953866 #6711]  INFO -- : [5330a957-0efb-4f97-aff1-576e0f6654da] Completed 200 OK in 137ms (Views: 128.9ms | ActiveRecord: 2.3ms)
+*********Implemented new Logs @ 5:08 PM UTC -0400*********
+*********Implemented new Logs @ 5:08 PM UTC -0400*********
+*********Implemented new Logs @ 5:08 PM UTC -0400*********
