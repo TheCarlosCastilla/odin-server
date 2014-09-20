@@ -19,7 +19,7 @@
       <td><%= link_to "#{interaction.peer_id}", controller: "interactions", action: "show", id: "#{interaction.peer_id}"  %></td>
       <td><%= interaction.time %></td>
       <td><%= interaction.duration %></td>
-      <td><%= interaction.time + interaction.duration %></td>
+      <td><%= (interaction.time.to_time + interaction.duration.to_i).in_time_zone.to_s %></td>
       <td><%= interaction.rssi %></td>
     </tr>
   <% end %>
@@ -44,7 +44,7 @@
       <td><%= link_to "#{interaction.peer_id}", controller: "interactions", action: "show", id: "#{interaction.peer_id}"  %></td>
       <td><%= interaction.time %></td>
       <td><%= interaction.duration %></td>
-      <td><%= interaction.time + interaction.duration %></td>
+      <td><%= (interaction.time.to_time + interaction.duration.to_i).in_time_zone.to_s %></td>
       <td><%= interaction.rssi %></td>
     </tr>
   <% end %>
