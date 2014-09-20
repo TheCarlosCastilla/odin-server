@@ -5,8 +5,9 @@
     <th>Row ID</th>
     <th>User ID</th>
     <th>Peer ID</th>
-    <th>Time</th>
+    <th>Start Time</th>
     <th>Duration</th>
+    <th>End Time</th>
     <th>RSSI</th>
     <th></th>
   </tr>
@@ -18,6 +19,7 @@
       <td><%= link_to "#{interaction.peer_id}", controller: "interactions", action: "show", id: "#{interaction.peer_id}"  %></td>
       <td><%= interaction.time %></td>
       <td><%= interaction.duration %></td>
+      <td><%= interaction.time + interaction.duration %></td>
       <td><%= interaction.rssi %></td>
       <td><%= link_to "View all between users", { controller: "interactions", action: "compare", id1: "#{interaction.user_id}", id2: "#{interaction.peer_id}" }, class: "btn btn-primary" %></td>    
     </tr>
