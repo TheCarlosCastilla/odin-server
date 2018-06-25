@@ -62,4 +62,4 @@ Here are the available REST API operations:
 
 ### Who do I talk to? ###
 
-* Anyone with questions can email me at ccastilla89@outlook.com
+* Anyone with questions can email me at the.carlos.castilla@gmail.com
