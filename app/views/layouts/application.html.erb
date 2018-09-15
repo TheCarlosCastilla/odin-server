@@ -16,7 +16,6 @@
   <li class="active">
     <%= link_to "Home", "/" %>
   </li>
-  <% if session[:user_id] %>
     <li>
       <%= link_to "Users", "/users" %>
     </li>
@@ -81,14 +80,6 @@
     <li>
       <%= link_to "Logout", logout_path, method: :delete %>
     </li>
-  <% else %>
-    <li>
-      <%= link_to "Login", login_path %>
-    </li>
-    <li>
-      <%= link_to "Register", new_admin_path %>
-    </li>
-  <% end %>
 </ul>
 
 
