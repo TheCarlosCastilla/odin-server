@@ -26,3 +26,10 @@ public/assets/application-25a63130a8256b5b8d1ef5d55794b79d.js
 public/assets/application-25a63130a8256b5b8d1ef5d55794b79d.js.gz
 public/assets/manifest-a050b5900857b614a18b66fb45872645.json
 .idea/
+
+/public/packs
+/public/packs-test
+/node_modules
+/yarn-error.log
+yarn-debug.log*
+.yarn-integrity

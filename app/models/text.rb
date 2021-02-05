@@ -1,4 +1,4 @@
-class Text < ActiveRecord::Base
+class Text < ApplicationRecord
 
 	def self.to_csv
     CSV.generate do |csv|

@@ -1,4 +1,4 @@
-class Call < ActiveRecord::Base
+class Call < ApplicationRecord
 
 	def self.to_csv
     CSV.generate do |csv|

@@ -1,4 +1,4 @@
-class CreateValidUsers < ActiveRecord::Migration
+class CreateValidUsers < ActiveRecord::Migration[4.2]
   def change
     create_table :valid_users do |t|
 

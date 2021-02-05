@@ -1,2 +1,2 @@
-class Rule < ActiveRecord::Base
+class Rule < ApplicationRecord
 end

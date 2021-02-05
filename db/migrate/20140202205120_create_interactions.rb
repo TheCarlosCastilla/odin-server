@@ -1,4 +1,4 @@
-class CreateInteractions < ActiveRecord::Migration
+class CreateInteractions < ActiveRecord::Migration[4.2]
   def change
     create_table :interactions do |t|
       t.string :user_id

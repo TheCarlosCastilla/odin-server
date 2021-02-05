@@ -1,4 +1,4 @@
-class ValidUser < ActiveRecord::Base
+class ValidUser < ApplicationRecord
   has_one :user
 
  

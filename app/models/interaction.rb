@@ -1,4 +1,4 @@
-class Interaction < ActiveRecord::Base
+class Interaction < ApplicationRecord
 
 
   def self.to_csv
